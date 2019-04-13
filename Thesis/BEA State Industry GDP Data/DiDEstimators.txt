@@ -1,0 +1,6 @@
+Incentive,DiD_Year,Treatment_Industries,Treatment_States,Control_Industries,Control_States
+JCTC,2004,52,2,390,30
+ITC,1998,59,2,583,31
+RDC,2000,99,10,321,24
+PTA,2000,33,1,651,28
+CJTS,2001,59,2,375,27

@@ -1,0 +1,1448 @@
+"SAEXP2 Per capita personal consumption expenditures (PCE) by state 1/"
+"(Dollars)" 
+"Bureau of Economic Analysis" 
+"State or DC"
+"GeoFips","GeoName","LineCode","Description","2010","2011","2012","2013","2014","2015","2016","2017"
+"00000","United States","1","Per capita personal consumption expenditures",32901,34114,35026,35762,37085,38275,39456,40878
+"00000","United States","2","  Goods",10698,11258,11557,11770,12094,12188,12337,12740
+"00000","United States","3","    Durable goods",3391,3509,3644,3761,3899,4070,4164,4318
+"00000","United States","4","      Motor vehicles and parts",1114,1172,1263,1320,1388,1476,1496,1530
+"00000","United States","5","      Furnishings and durable household equipment",779,792,809,834,861,897,932,968
+"00000","United States","6","      Recreational goods and vehicles",965,980,993,1017,1040,1070,1105,1161
+"00000","United States","7","      Other durable goods",533,565,579,590,610,626,632,659
+"00000","United States","8","    Nondurable goods",7308,7749,7913,8009,8195,8118,8173,8422
+"00000","United States","9","      Food and beverages purchased for off-premises consumption",2544,2630,2695,2732,2817,2869,2920,2965
+"00000","United States","10","      Clothing and footwear",1024,1067,1099,1108,1124,1141,1153,1166
+"00000","United States","11","      Gasoline and other energy goods",1089,1328,1344,1323,1266,963,850,943
+"00000","United States","12","      Other nondurable goods",2652,2725,2775,2846,2989,3145,3250,3348
+"00000","United States","13","  Services",22202,22856,23469,23992,24990,26087,27119,28139
+"00000","United States","14","    Household consumption expenditures (for services)",21250,21855,22381,22877,23841,24943,25907,26900
+"00000","United States","15","    Housing and utilities",6155,6276,6358,6499,6762,7033,7276,7515
+"00000","United States","16","    Health care",5494,5638,5800,5876,6083,6424,6715,6973
+"00000","United States","17","    Transportation services",986,1054,1086,1138,1203,1244,1292,1342
+"00000","United States","18","    Recreation services",1305,1312,1372,1414,1462,1537,1596,1663
+"00000","United States","19","    Food services and accommodations",2055,2148,2245,2316,2437,2594,2701,2755
+"00000","United States","20","    Financial services and insurance",2439,2560,2612,2714,2852,3000,3058,3255
+"00000","United States","21","    Other services",2816,2866,2908,2920,3041,3111,3270,3397
+"00000","United States","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",952,1001,1088,1115,1149,1143,1213,1238
+"00000","United States","23","  Gross output of nonprofit institutions",3648,3766,3938,4021,4150,4276,4490,4640
+"00000","United States","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2697,2765,2850,2906,3001,3133,3277,3402
+"01000","Alabama","1","Per capita personal consumption expenditures",27339,28177,28827,29290,30123,30870,31572,32489
+"01000","Alabama","2","  Goods",10426,10902,11148,11294,11544,11593,11645,11946
+"01000","Alabama","3","    Durable goods",3010,3120,3237,3329,3430,3568,3667,3789
+"01000","Alabama","4","      Motor vehicles and parts",1187,1255,1340,1388,1436,1520,1551,1579
+"01000","Alabama","5","      Furnishings and durable household equipment",656,662,676,687,702,729,768,800
+"01000","Alabama","6","      Recreational goods and vehicles",736,748,761,779,793,814,841,892
+"01000","Alabama","7","      Other durable goods",430,454,460,476,499,505,507,519
+"01000","Alabama","8","    Nondurable goods",7417,7782,7911,7965,8114,8025,7978,8157
+"01000","Alabama","9","      Food and beverages purchased for off-premises consumption",2352,2425,2458,2457,2521,2564,2621,2633
+"01000","Alabama","10","      Clothing and footwear",903,928,927,930,935,962,978,984
+"01000","Alabama","11","      Gasoline and other energy goods",1164,1423,1441,1425,1334,1008,882,969
+"01000","Alabama","12","      Other nondurable goods",2997,3006,3085,3153,3325,3492,3497,3570
+"01000","Alabama","13","  Services",16913,17275,17679,17995,18579,19277,19927,20543
+"01000","Alabama","14","    Household consumption expenditures (for services)",16473,16815,17192,17494,18036,18752,19348,19954
+"01000","Alabama","15","    Housing and utilities",4395,4485,4578,4697,4916,5056,5290,5440
+"01000","Alabama","16","    Health care",4730,4793,4989,5080,5220,5503,5655,5881
+"01000","Alabama","17","    Transportation services",573,596,602,606,633,654,687,720
+"01000","Alabama","18","    Recreation services",971,967,983,1002,1010,1055,1087,1115
+"01000","Alabama","19","    Food services and accommodations",1602,1654,1717,1767,1837,1952,2035,2069
+"01000","Alabama","20","    Financial services and insurance",2388,2458,2464,2466,2489,2591,2590,2668
+"01000","Alabama","21","    Other services",1814,1862,1859,1877,1932,1941,2002,2060
+"01000","Alabama","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",440,461,487,501,543,524,579,589
+"01000","Alabama","23","  Gross output of nonprofit institutions",2780,2850,2927,3011,3080,3164,3269,3393
+"01000","Alabama","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2340,2389,2440,2510,2537,2640,2690,2804
+"02000","Alaska","1","Per capita personal consumption expenditures",38992,40669,41719,42218,43867,45400,46299,48036
+"02000","Alaska","2","  Goods",12189,12662,12840,12834,13124,12984,12831,13002
+"02000","Alaska","3","    Durable goods",3771,3809,3954,4008,4082,4160,4136,4220
+"02000","Alaska","4","      Motor vehicles and parts",1009,1012,1094,1116,1126,1163,1116,1108
+"02000","Alaska","5","      Furnishings and durable household equipment",916,925,945,949,987,995,981,992
+"02000","Alaska","6","      Recreational goods and vehicles",1340,1344,1379,1407,1422,1439,1468,1534
+"02000","Alaska","7","      Other durable goods",506,527,536,536,547,563,571,586
+"02000","Alaska","8","    Nondurable goods",8417,8853,8886,8825,9041,8823,8695,8782
+"02000","Alaska","9","      Food and beverages purchased for off-premises consumption",3746,3870,3895,3895,3989,3987,3975,3986
+"02000","Alaska","10","      Clothing and footwear",877,908,916,913,941,962,974,976
+"02000","Alaska","11","      Gasoline and other energy goods",1189,1431,1458,1468,1441,1079,920,989
+"02000","Alaska","12","      Other nondurable goods",2606,2645,2616,2550,2671,2795,2827,2832
+"02000","Alaska","13","  Services",26804,28007,28879,29385,30744,32416,33468,35034
+"02000","Alaska","14","    Household consumption expenditures (for services)",24837,25859,26588,27033,28394,30059,31024,32499
+"02000","Alaska","15","    Housing and utilities",6542,6752,6900,6996,7382,7853,8120,8479
+"02000","Alaska","16","    Health care",7495,7859,8235,8413,8928,9628,10077,10859
+"02000","Alaska","17","    Transportation services",1026,1087,1094,1186,1228,1255,1275,1322
+"02000","Alaska","18","    Recreation services",1366,1380,1448,1502,1609,1673,1660,1697
+"02000","Alaska","19","    Food services and accommodations",2885,3048,3144,3203,3428,3633,3625,3572
+"02000","Alaska","20","    Financial services and insurance",2188,2301,2304,2294,2311,2431,2491,2726
+"02000","Alaska","21","    Other services",3335,3432,3462,3439,3508,3587,3776,3845
+"02000","Alaska","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1966,2148,2292,2351,2349,2357,2444,2535
+"02000","Alaska","23","  Gross output of nonprofit institutions",4702,4962,5162,5289,5324,5481,5717,5966
+"02000","Alaska","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2736,2814,2871,2938,2975,3124,3273,3431
+"04000","Arizona","1","Per capita personal consumption expenditures",29125,29988,30467,30910,31863,32594,33256,34548
+"04000","Arizona","2","  Goods",10152,10657,10812,10889,11205,11127,11160,11574
+"04000","Arizona","3","    Durable goods",3198,3358,3461,3558,3672,3794,3845,4002
+"04000","Arizona","4","      Motor vehicles and parts",1021,1101,1214,1285,1344,1436,1450,1498
+"04000","Arizona","5","      Furnishings and durable household equipment",733,775,770,769,801,816,852,900
+"04000","Arizona","6","      Recreational goods and vehicles",858,872,867,892,909,926,920,950
+"04000","Arizona","7","      Other durable goods",585,610,610,612,618,615,623,653
+"04000","Arizona","8","    Nondurable goods",6955,7299,7351,7331,7534,7333,7315,7572
+"04000","Arizona","9","      Food and beverages purchased for off-premises consumption",2547,2564,2573,2566,2673,2700,2737,2789
+"04000","Arizona","10","      Clothing and footwear",974,999,1015,1027,1031,1045,1044,1061
+"04000","Arizona","11","      Gasoline and other energy goods",1011,1237,1279,1263,1205,925,808,908
+"04000","Arizona","12","      Other nondurable goods",2423,2498,2484,2475,2625,2663,2726,2814
+"04000","Arizona","13","  Services",18973,19331,19656,20021,20658,21467,22096,22975
+"04000","Arizona","14","    Household consumption expenditures (for services)",18480,18814,19107,19449,20076,20901,21492,22366
+"04000","Arizona","15","    Housing and utilities",5748,5834,5871,5986,6212,6492,6695,6837
+"04000","Arizona","16","    Health care",4722,4801,4914,4962,4993,5211,5391,5681
+"04000","Arizona","17","    Transportation services",894,984,1023,1047,1100,1125,1153,1214
+"04000","Arizona","18","    Recreation services",1131,1091,1124,1150,1196,1238,1267,1341
+"04000","Arizona","19","    Food services and accommodations",2127,2198,2267,2339,2454,2611,2667,2795
+"04000","Arizona","20","    Financial services and insurance",1722,1727,1703,1762,1850,1945,1951,2049
+"04000","Arizona","21","    Other services",2136,2179,2205,2203,2271,2280,2368,2448
+"04000","Arizona","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",492,517,549,573,582,565,604,608
+"04000","Arizona","23","  Gross output of nonprofit institutions",2592,2654,2730,2797,2878,2938,3066,3143
+"04000","Arizona","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2100,2136,2181,2224,2296,2372,2462,2535
+"05000","Arkansas","1","Per capita personal consumption expenditures",26356,27438,28212,28846,29824,30649,31695,32875
+"05000","Arkansas","2","  Goods",10033,10595,10846,11110,11390,11431,11732,12082
+"05000","Arkansas","3","    Durable goods",3147,3213,3311,3448,3588,3722,3836,3932
+"05000","Arkansas","4","      Motor vehicles and parts",1171,1224,1320,1390,1462,1551,1594,1586
+"05000","Arkansas","5","      Furnishings and durable household equipment",698,702,714,733,754,785,825,864
+"05000","Arkansas","6","      Recreational goods and vehicles",792,791,781,812,833,836,857,902
+"05000","Arkansas","7","      Other durable goods",486,496,496,514,539,549,559,580
+"05000","Arkansas","8","    Nondurable goods",6885,7382,7535,7662,7801,7709,7896,8150
+"05000","Arkansas","9","      Food and beverages purchased for off-premises consumption",2090,2186,2239,2314,2397,2503,2615,2642
+"05000","Arkansas","10","      Clothing and footwear",883,915,945,949,968,990,1017,1038
+"05000","Arkansas","11","      Gasoline and other energy goods",1367,1675,1713,1706,1550,1169,1041,1126
+"05000","Arkansas","12","      Other nondurable goods",2545,2607,2639,2693,2887,3046,3224,3344
+"05000","Arkansas","13","  Services",16323,16843,17367,17736,18434,19218,19963,20794
+"05000","Arkansas","14","    Household consumption expenditures (for services)",15734,16219,16710,17049,17732,18520,19213,20028
+"05000","Arkansas","15","    Housing and utilities",4256,4347,4440,4567,4728,4895,4971,5122
+"05000","Arkansas","16","    Health care",4661,4767,4922,4914,5147,5431,5796,6117
+"05000","Arkansas","17","    Transportation services",536,558,563,572,594,613,629,652
+"05000","Arkansas","18","    Recreation services",909,912,920,950,968,996,1013,1037
+"05000","Arkansas","19","    Food services and accommodations",1495,1554,1619,1646,1723,1844,1935,1971
+"05000","Arkansas","20","    Financial services and insurance",1949,2123,2291,2442,2600,2741,2807,3033
+"05000","Arkansas","21","    Other services",1927,1960,1955,1959,1973,2000,2063,2097
+"05000","Arkansas","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",590,623,657,687,702,698,750,765
+"05000","Arkansas","23","  Gross output of nonprofit institutions",2647,2752,2868,2933,2996,3094,3259,3375
+"05000","Arkansas","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2057,2128,2212,2245,2294,2396,2509,2609
+"06000","California","1","Per capita personal consumption expenditures",34268,35585,36701,37419,38952,40719,42528,44366
+"06000","California","2","  Goods",10161,10720,11097,11194,11541,11798,12017,12440
+"06000","California","3","    Durable goods",3413,3533,3697,3754,3890,4129,4240,4401
+"06000","California","4","      Motor vehicles and parts",917,986,1092,1151,1213,1317,1360,1417
+"06000","California","5","      Furnishings and durable household equipment",762,773,775,775,800,832,834,863
+"06000","California","6","      Recreational goods and vehicles",1214,1218,1241,1237,1263,1348,1409,1459
+"06000","California","7","      Other durable goods",520,557,589,591,615,632,637,661
+"06000","California","8","    Nondurable goods",6747,7187,7399,7440,7650,7669,7777,8040
+"06000","California","9","      Food and beverages purchased for off-premises consumption",2493,2587,2654,2678,2771,2822,2857,2872
+"06000","California","10","      Clothing and footwear",1086,1155,1219,1214,1252,1291,1313,1348
+"06000","California","11","      Gasoline and other energy goods",854,1066,1088,1046,996,759,701,810
+"06000","California","12","      Other nondurable goods",2314,2378,2438,2502,2631,2795,2907,3010
+"06000","California","13","  Services",24107,24865,25604,26225,27412,28921,30511,31926
+"06000","California","14","    Household consumption expenditures (for services)",23188,23895,24524,25097,26249,27763,29249,30638
+"06000","California","15","    Housing and utilities",7859,8022,8153,8304,8620,9026,9380,9657
+"06000","California","16","    Health care",5397,5581,5698,5798,5999,6419,6867,7203
+"06000","California","17","    Transportation services",1175,1250,1316,1397,1480,1539,1650,1765
+"06000","California","18","    Recreation services",1307,1306,1366,1394,1447,1535,1605,1712
+"06000","California","19","    Food services and accommodations",2269,2361,2465,2558,2750,2990,3208,3295
+"06000","California","20","    Financial services and insurance",2381,2486,2533,2650,2789,2958,3038,3280
+"06000","California","21","    Other services",2799,2889,2992,2995,3164,3295,3501,3727
+"06000","California","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",920,970,1079,1128,1163,1158,1261,1288
+"06000","California","23","  Gross output of nonprofit institutions",3820,4025,4348,4454,4577,4730,5030,5204
+"06000","California","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2900,3056,3268,3326,3414,3573,3768,3916
+"08000","Colorado","1","Per capita personal consumption expenditures",34232,35215,35938,36617,38049,39341,40638,42239
+"08000","Colorado","2","  Goods",10590,11003,11272,11431,11769,11889,12145,12706
+"08000","Colorado","3","    Durable goods",3574,3610,3704,3847,4001,4154,4255,4490
+"08000","Colorado","4","      Motor vehicles and parts",1049,1051,1117,1177,1250,1330,1329,1377
+"08000","Colorado","5","      Furnishings and durable household equipment",885,901,920,962,1010,1057,1110,1173
+"08000","Colorado","6","      Recreational goods and vehicles",1060,1060,1067,1093,1101,1107,1136,1208
+"08000","Colorado","7","      Other durable goods",581,597,601,615,640,660,680,732
+"08000","Colorado","8","    Nondurable goods",7016,7393,7567,7584,7768,7735,7890,8216
+"08000","Colorado","9","      Food and beverages purchased for off-premises consumption",2693,2782,2885,2899,3014,3077,3163,3203
+"08000","Colorado","10","      Clothing and footwear",1013,1059,1073,1085,1097,1126,1147,1162
+"08000","Colorado","11","      Gasoline and other energy goods",981,1177,1182,1141,1068,803,703,782
+"08000","Colorado","12","      Other nondurable goods",2329,2375,2428,2460,2590,2729,2877,3070
+"08000","Colorado","13","  Services",23642,24213,24666,25185,26280,27452,28493,29532
+"08000","Colorado","14","    Household consumption expenditures (for services)",22929,23439,23806,24305,25354,26551,27561,28591
+"08000","Colorado","15","    Housing and utilities",6969,7049,7096,7192,7445,7762,8074,8418
+"08000","Colorado","16","    Health care",5067,5161,5244,5345,5655,6074,6378,6500
+"08000","Colorado","17","    Transportation services",1261,1336,1407,1453,1514,1546,1607,1677
+"08000","Colorado","18","    Recreation services",1750,1736,1813,1896,1987,2080,2124,2205
+"08000","Colorado","19","    Food services and accommodations",2457,2599,2695,2795,2958,3163,3273,3387
+"08000","Colorado","20","    Financial services and insurance",2258,2368,2362,2434,2468,2534,2527,2698
+"08000","Colorado","21","    Other services",3167,3188,3188,3190,3328,3394,3577,3705
+"08000","Colorado","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",713,774,860,880,926,901,932,942
+"08000","Colorado","23","  Gross output of nonprofit institutions",3417,3549,3709,3758,3908,4057,4271,4385
+"08000","Colorado","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2705,2775,2849,2878,2982,3156,3339,3443
+"09000","Connecticut","1","Per capita personal consumption expenditures",41640,42864,43786,44899,46656,47983,49160,50720
+"09000","Connecticut","2","  Goods",12465,12962,13152,13552,14032,14176,14347,14768
+"09000","Connecticut","3","    Durable goods",3859,3956,4049,4209,4373,4474,4570,4724
+"09000","Connecticut","4","      Motor vehicles and parts",1220,1273,1333,1381,1438,1475,1497,1520
+"09000","Connecticut","5","      Furnishings and durable household equipment",936,943,959,1011,1047,1063,1094,1124
+"09000","Connecticut","6","      Recreational goods and vehicles",1066,1080,1082,1140,1191,1227,1267,1341
+"09000","Connecticut","7","      Other durable goods",637,661,675,678,696,708,712,740
+"09000","Connecticut","8","    Nondurable goods",8605,9006,9102,9343,9659,9702,9777,10044
+"09000","Connecticut","9","      Food and beverages purchased for off-premises consumption",2851,2961,3034,3079,3181,3262,3308,3357
+"09000","Connecticut","10","      Clothing and footwear",1200,1206,1242,1242,1258,1282,1300,1301
+"09000","Connecticut","11","      Gasoline and other energy goods",1156,1364,1303,1291,1268,969,803,867
+"09000","Connecticut","12","      Other nondurable goods",3399,3475,3524,3731,3953,4189,4366,4519
+"09000","Connecticut","13","  Services",29175,29902,30634,31347,32623,33807,34814,35952
+"09000","Connecticut","14","    Household consumption expenditures (for services)",27785,28470,29056,29719,30939,32113,33036,34123
+"09000","Connecticut","15","    Housing and utilities",8480,8579,8671,8829,9220,9647,9946,10280
+"09000","Connecticut","16","    Health care",6502,6673,6855,6986,7226,7317,7522,7667
+"09000","Connecticut","17","    Transportation services",1413,1500,1515,1609,1684,1749,1769,1773
+"09000","Connecticut","18","    Recreation services",1616,1622,1646,1703,1752,1835,1890,1944
+"09000","Connecticut","19","    Food services and accommodations",2066,2133,2228,2282,2397,2531,2628,2663
+"09000","Connecticut","20","    Financial services and insurance",3653,3836,3953,4108,4251,4472,4449,4790
+"09000","Connecticut","21","    Other services",4054,4128,4188,4202,4409,4563,4833,5006
+"09000","Connecticut","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1390,1432,1578,1628,1684,1694,1777,1828
+"09000","Connecticut","23","  Gross output of nonprofit institutions",5456,5622,5899,6030,6251,6231,6440,6703
+"09000","Connecticut","24","  Less: Receipts from sales of goods and services by nonprofit institutions",4066,4190,4321,4401,4567,4537,4663,4874
+"10000","Delaware","1","Per capita personal consumption expenditures",35569,36835,37479,38174,39410,40504,41307,42351
+"10000","Delaware","2","  Goods",11595,12124,12248,12477,12719,12744,12807,12921
+"10000","Delaware","3","    Durable goods",4213,4380,4476,4558,4697,4830,4913,4956
+"10000","Delaware","4","      Motor vehicles and parts",1493,1586,1660,1704,1793,1863,1873,1878
+"10000","Delaware","5","      Furnishings and durable household equipment",628,630,645,663,675,709,740,750
+"10000","Delaware","6","      Recreational goods and vehicles",1373,1390,1385,1398,1412,1418,1451,1479
+"10000","Delaware","7","      Other durable goods",720,773,786,793,816,841,848,849
+"10000","Delaware","8","    Nondurable goods",7382,7744,7773,7918,8022,7913,7895,7965
+"10000","Delaware","9","      Food and beverages purchased for off-premises consumption",3131,3151,3155,3226,3293,3301,3284,3280
+"10000","Delaware","10","      Clothing and footwear",1036,1109,1146,1141,1140,1144,1151,1148
+"10000","Delaware","11","      Gasoline and other energy goods",1076,1300,1278,1263,1192,938,843,920
+"10000","Delaware","12","      Other nondurable goods",2139,2184,2193,2289,2397,2531,2617,2617
+"10000","Delaware","13","  Services",23974,24711,25230,25698,26692,27760,28500,29430
+"10000","Delaware","14","    Household consumption expenditures (for services)",22852,23551,24023,24440,25413,26488,27183,28090
+"10000","Delaware","15","    Housing and utilities",6385,6525,6666,6791,7060,7370,7575,7806
+"10000","Delaware","16","    Health care",6696,6957,7086,7210,7550,7936,8212,8481
+"10000","Delaware","17","    Transportation services",856,889,898,937,975,994,1022,1063
+"10000","Delaware","18","    Recreation services",1154,1164,1171,1206,1232,1243,1236,1266
+"10000","Delaware","19","    Food services and accommodations",2368,2407,2449,2487,2581,2758,2789,2808
+"10000","Delaware","20","    Financial services and insurance",2146,2311,2390,2475,2659,2821,2909,3112
+"10000","Delaware","21","    Other services",3246,3298,3364,3333,3355,3366,3439,3554
+"10000","Delaware","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1121,1160,1207,1257,1279,1272,1317,1340
+"10000","Delaware","23","  Gross output of nonprofit institutions",4125,4239,4367,4493,4721,4903,5109,5267
+"10000","Delaware","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3004,3079,3160,3236,3443,3631,3792,3927
+"11000","District of Columbia","1","Per capita personal consumption expenditures",51644,52699,53294,54126,55729,57849,59094,60914
+"11000","District of Columbia","2","  Goods",11518,11849,12057,12447,12750,13210,13523,14157
+"11000","District of Columbia","3","    Durable goods",3704,3835,3894,4033,4152,4329,4444,4564
+"11000","District of Columbia","4","      Motor vehicles and parts",1178,1211,1285,1287,1314,1394,1387,1390
+"11000","District of Columbia","5","      Furnishings and durable household equipment",858,915,927,997,1054,1077,1122,1133
+"11000","District of Columbia","6","      Recreational goods and vehicles",936,947,931,968,975,995,1029,1081
+"11000","District of Columbia","7","      Other durable goods",731,763,751,781,808,863,905,959
+"11000","District of Columbia","8","    Nondurable goods",7815,8014,8163,8414,8599,8881,9080,9593
+"11000","District of Columbia","9","      Food and beverages purchased for off-premises consumption",3384,3441,3535,3695,3961,4267,4345,4577
+"11000","District of Columbia","10","      Clothing and footwear",1401,1453,1426,1413,1432,1480,1491,1512
+"11000","District of Columbia","11","      Gasoline and other energy goods",803,892,1009,1040,840,624,549,591
+"11000","District of Columbia","12","      Other nondurable goods",2227,2227,2193,2265,2366,2510,2695,2913
+"11000","District of Columbia","13","  Services",40125,40850,41237,41679,42979,44638,45571,46757
+"11000","District of Columbia","14","    Household consumption expenditures (for services)",39031,39842,39850,40566,41686,43530,44494,45677
+"11000","District of Columbia","15","    Housing and utilities",8034,8312,8476,8835,9508,10275,10650,11161
+"11000","District of Columbia","16","    Health care",9177,9637,9555,9402,9479,9706,9831,10036
+"11000","District of Columbia","17","    Transportation services",1518,1533,1586,1644,1715,1796,1890,1988
+"11000","District of Columbia","18","    Recreation services",2061,1938,1937,1867,1830,1933,1933,2067
+"11000","District of Columbia","19","    Food services and accommodations",3181,3270,3301,3444,3585,3819,3877,3891
+"11000","District of Columbia","20","    Financial services and insurance",3617,3721,3834,4047,4195,4374,4315,4389
+"11000","District of Columbia","21","    Other services",11444,11433,11161,11327,11374,11626,11996,12144
+"11000","District of Columbia","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1094,1008,1387,1113,1293,1108,1077,1080
+"11000","District of Columbia","23","  Gross output of nonprofit institutions",5895,5867,6245,6158,6478,6549,6722,6900
+"11000","District of Columbia","24","  Less: Receipts from sales of goods and services by nonprofit institutions",4801,4858,4858,5045,5186,5441,5645,5821
+"12000","Florida","1","Per capita personal consumption expenditures",32351,33494,34396,34918,36332,37650,38441,39525
+"12000","Florida","2","  Goods",10627,11147,11471,11750,12202,12438,12502,12833
+"12000","Florida","3","    Durable goods",3596,3754,3917,4126,4343,4577,4673,4849
+"12000","Florida","4","      Motor vehicles and parts",1174,1233,1330,1422,1515,1648,1656,1694
+"12000","Florida","5","      Furnishings and durable household equipment",905,933,974,1030,1093,1147,1187,1235
+"12000","Florida","6","      Recreational goods and vehicles",1064,1106,1117,1165,1202,1234,1279,1365
+"12000","Florida","7","      Other durable goods",452,483,495,509,532,548,550,555
+"12000","Florida","8","    Nondurable goods",7032,7393,7554,7624,7859,7862,7830,7984
+"12000","Florida","9","      Food and beverages purchased for off-premises consumption",2679,2753,2797,2854,2946,3019,3059,3087
+"12000","Florida","10","      Clothing and footwear",904,948,997,1006,1023,1035,1025,1027
+"12000","Florida","11","      Gasoline and other energy goods",845,1023,1065,1039,985,740,640,709
+"12000","Florida","12","      Other nondurable goods",2604,2669,2695,2724,2905,3067,3106,3160
+"12000","Florida","13","  Services",21723,22347,22925,23168,24130,25212,25939,26692
+"12000","Florida","14","    Household consumption expenditures (for services)",21566,22192,22745,23001,23954,25054,25784,26544
+"12000","Florida","15","    Housing and utilities",6339,6441,6516,6568,6792,7034,7263,7448
+"12000","Florida","16","    Health care",5462,5566,5748,5747,6009,6401,6601,6787
+"12000","Florida","17","    Transportation services",784,841,869,913,983,1034,1074,1106
+"12000","Florida","18","    Recreation services",1077,1072,1105,1118,1183,1254,1299,1350
+"12000","Florida","19","    Food services and accommodations",2437,2577,2725,2847,3004,3185,3265,3253
+"12000","Florida","20","    Financial services and insurance",2810,3002,3061,3118,3184,3324,3341,3566
+"12000","Florida","21","    Other services",2657,2694,2720,2691,2800,2822,2941,3035
+"12000","Florida","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",157,154,181,167,176,158,155,148
+"12000","Florida","23","  Gross output of nonprofit institutions",2198,2225,2284,2295,2380,2461,2572,2636
+"12000","Florida","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2041,2071,2103,2129,2203,2303,2417,2488
+"13000","Georgia","1","Per capita personal consumption expenditures",28485,29552,30234,30922,32071,32879,33851,35028
+"13000","Georgia","2","  Goods",10081,10591,10849,11061,11422,11477,11561,12010
+"13000","Georgia","3","    Durable goods",3104,3181,3314,3436,3592,3822,3968,4132
+"13000","Georgia","4","      Motor vehicles and parts",1103,1156,1239,1307,1363,1465,1514,1532
+"13000","Georgia","5","      Furnishings and durable household equipment",760,756,768,811,859,898,945,999
+"13000","Georgia","6","      Recreational goods and vehicles",749,750,780,776,800,856,896,957
+"13000","Georgia","7","      Other durable goods",493,520,527,542,570,603,613,643
+"13000","Georgia","8","    Nondurable goods",6976,7410,7536,7625,7830,7655,7593,7878
+"13000","Georgia","9","      Food and beverages purchased for off-premises consumption",2448,2558,2642,2672,2778,2795,2828,2872
+"13000","Georgia","10","      Clothing and footwear",977,997,1009,1032,1055,1077,1085,1092
+"13000","Georgia","11","      Gasoline and other energy goods",1134,1386,1377,1345,1283,968,827,920
+"13000","Georgia","12","      Other nondurable goods",2417,2470,2508,2575,2713,2814,2853,2995
+"13000","Georgia","13","  Services",18404,18961,19385,19861,20649,21402,22290,23018
+"13000","Georgia","14","    Household consumption expenditures (for services)",18143,18673,19065,19519,20293,21079,21952,22683
+"13000","Georgia","15","    Housing and utilities",5285,5358,5353,5423,5621,5797,6076,6303
+"13000","Georgia","16","    Health care",4348,4457,4668,4807,4978,5325,5611,5802
+"13000","Georgia","17","    Transportation services",657,719,723,758,814,856,877,904
+"13000","Georgia","18","    Recreation services",999,1019,1076,1117,1150,1186,1228,1286
+"13000","Georgia","19","    Food services and accommodations",1958,2028,2097,2166,2288,2337,2418,2462
+"13000","Georgia","20","    Financial services and insurance",2138,2215,2202,2235,2303,2413,2443,2499
+"13000","Georgia","21","    Other services",2758,2877,2946,3013,3140,3165,3299,3426
+"13000","Georgia","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",262,288,319,342,356,322,338,335
+"13000","Georgia","23","  Gross output of nonprofit institutions",2695,2744,2809,2907,2987,3118,3321,3418
+"13000","Georgia","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2433,2456,2490,2565,2631,2796,2982,3084
+"15000","Hawaii","1","Per capita personal consumption expenditures",35340,36722,38078,38973,40727,42148,43961,46071
+"15000","Hawaii","2","  Goods",11388,11820,12104,12377,12780,12948,13396,14057
+"15000","Hawaii","3","    Durable goods",3539,3673,3850,3975,4121,4277,4424,4677
+"15000","Hawaii","4","      Motor vehicles and parts",907,964,1029,1091,1145,1220,1249,1282
+"15000","Hawaii","5","      Furnishings and durable household equipment",818,822,835,854,884,912,954,1007
+"15000","Hawaii","6","      Recreational goods and vehicles",1303,1302,1370,1405,1449,1490,1568,1673
+"15000","Hawaii","7","      Other durable goods",511,584,616,625,643,654,653,715
+"15000","Hawaii","8","    Nondurable goods",7849,8147,8254,8402,8660,8672,8972,9380
+"15000","Hawaii","9","      Food and beverages purchased for off-premises consumption",3338,3453,3446,3562,3675,3751,3903,4081
+"15000","Hawaii","10","      Clothing and footwear",733,795,844,828,833,833,851,896
+"15000","Hawaii","11","      Gasoline and other energy goods",735,844,828,778,716,521,497,549
+"15000","Hawaii","12","      Other nondurable goods",3043,3055,3135,3234,3436,3567,3722,3854
+"15000","Hawaii","13","  Services",23952,24902,25974,26596,27947,29200,30565,32014
+"15000","Hawaii","14","    Household consumption expenditures (for services)",22391,23309,24235,24874,26118,27373,28581,29963
+"15000","Hawaii","15","    Housing and utilities",7395,7786,8053,8289,8727,9126,9495,9847
+"15000","Hawaii","16","    Health care",5100,5113,5335,5391,5630,6029,6471,6905
+"15000","Hawaii","17","    Transportation services",1008,1125,1192,1265,1308,1326,1361,1431
+"15000","Hawaii","18","    Recreation services",1133,1141,1293,1364,1405,1429,1427,1474
+"15000","Hawaii","19","    Food services and accommodations",1726,1849,1999,2081,2196,2317,2447,2556
+"15000","Hawaii","20","    Financial services and insurance",2760,2932,2923,2992,3204,3382,3500,3696
+"15000","Hawaii","21","    Other services",3268,3363,3440,3493,3649,3764,3879,4054
+"15000","Hawaii","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1561,1593,1739,1721,1828,1827,1985,2051
+"15000","Hawaii","23","  Gross output of nonprofit institutions",4340,4481,4771,4827,5112,5310,5704,5942
+"15000","Hawaii","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2779,2888,3032,3106,3284,3483,3719,3892
+"16000","Idaho","1","Per capita personal consumption expenditures",27051,28104,29015,30120,31302,32523,33792,35339
+"16000","Idaho","2","  Goods",9979,10408,10760,11246,11651,11936,12257,12845
+"16000","Idaho","3","    Durable goods",3338,3395,3544,3749,3897,4164,4295,4522
+"16000","Idaho","4","      Motor vehicles and parts",1137,1159,1248,1332,1417,1553,1597,1696
+"16000","Idaho","5","      Furnishings and durable household equipment",746,736,759,808,835,883,916,951
+"16000","Idaho","6","      Recreational goods and vehicles",965,996,1016,1066,1096,1153,1200,1256
+"16000","Idaho","7","      Other durable goods",490,504,520,543,549,575,582,618
+"16000","Idaho","8","    Nondurable goods",6641,7013,7216,7497,7753,7773,7963,8323
+"16000","Idaho","9","      Food and beverages purchased for off-premises consumption",2490,2557,2677,2853,3026,3197,3380,3531
+"16000","Idaho","10","      Clothing and footwear",736,745,786,797,794,809,833,838
+"16000","Idaho","11","      Gasoline and other energy goods",1351,1592,1595,1599,1539,1168,1010,1136
+"16000","Idaho","12","      Other nondurable goods",2065,2119,2158,2248,2394,2598,2740,2819
+"16000","Idaho","13","  Services",17072,17696,18255,18874,19652,20587,21534,22494
+"16000","Idaho","14","    Household consumption expenditures (for services)",16706,17346,17866,18492,19289,20272,21208,22176
+"16000","Idaho","15","    Housing and utilities",4915,5152,5372,5643,5808,6072,6202,6328
+"16000","Idaho","16","    Health care",4493,4717,4879,4997,5261,5620,5954,6213
+"16000","Idaho","17","    Transportation services",718,731,730,787,836,869,913,970
+"16000","Idaho","18","    Recreation services",1025,1014,1062,1093,1128,1170,1245,1334
+"16000","Idaho","19","    Food services and accommodations",1621,1683,1755,1788,1909,2038,2163,2219
+"16000","Idaho","20","    Financial services and insurance",2248,2381,2415,2542,2670,2795,2944,3267
+"16000","Idaho","21","    Other services",1687,1667,1654,1641,1677,1709,1786,1845
+"16000","Idaho","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",365,350,389,382,362,315,327,318
+"16000","Idaho","23","  Gross output of nonprofit institutions",2724,2803,2943,3012,3161,3330,3558,3624
+"16000","Idaho","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2359,2453,2554,2630,2799,3015,3232,3306
+"17000","Illinois","1","Per capita personal consumption expenditures",34335,35491,36252,36891,38398,39873,41247,42927
+"17000","Illinois","2","  Goods",10380,10950,11129,11272,11510,11741,11942,12448
+"17000","Illinois","3","    Durable goods",3408,3550,3631,3741,3842,4047,4151,4327
+"17000","Illinois","4","      Motor vehicles and parts",1119,1176,1233,1269,1337,1434,1445,1456
+"17000","Illinois","5","      Furnishings and durable household equipment",743,752,768,798,817,870,921,964
+"17000","Illinois","6","      Recreational goods and vehicles",942,974,979,1001,994,1018,1047,1123
+"17000","Illinois","7","      Other durable goods",604,648,652,674,695,725,738,783
+"17000","Illinois","8","    Nondurable goods",6972,7400,7498,7531,7668,7694,7791,8121
+"17000","Illinois","9","      Food and beverages purchased for off-premises consumption",2355,2434,2453,2480,2546,2606,2651,2715
+"17000","Illinois","10","      Clothing and footwear",1091,1142,1163,1170,1189,1217,1239,1250
+"17000","Illinois","11","      Gasoline and other energy goods",889,1091,1116,1072,1022,775,684,768
+"17000","Illinois","12","      Other nondurable goods",2637,2732,2766,2810,2911,3095,3217,3389
+"17000","Illinois","13","  Services",23955,24541,25123,25619,26888,28133,29305,30479
+"17000","Illinois","14","    Household consumption expenditures (for services)",22490,23028,23440,23945,25122,26371,27406,28516
+"17000","Illinois","15","    Housing and utilities",6417,6480,6463,6561,6890,7075,7340,7636
+"17000","Illinois","16","    Health care",5572,5672,5824,5949,6226,6560,6864,7129
+"17000","Illinois","17","    Transportation services",1127,1228,1249,1305,1400,1472,1535,1586
+"17000","Illinois","18","    Recreation services",1422,1440,1497,1531,1581,1684,1756,1837
+"17000","Illinois","19","    Food services and accommodations",2091,2174,2257,2308,2396,2604,2718,2782
+"17000","Illinois","20","    Financial services and insurance",2355,2466,2569,2674,2843,3085,3175,3377
+"17000","Illinois","21","    Other services",3506,3567,3582,3618,3785,3890,4017,4170
+"17000","Illinois","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1465,1514,1682,1673,1766,1761,1899,1963
+"17000","Illinois","23","  Gross output of nonprofit institutions",4680,4804,5061,5140,5385,5546,5875,6132
+"17000","Illinois","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3215,3290,3379,3466,3619,3784,3977,4169
+"18000","Indiana","1","Per capita personal consumption expenditures",29423,30545,31630,32142,32947,33790,34870,36305
+"18000","Indiana","2","  Goods",10236,10776,11086,11205,11360,11298,11441,11848
+"18000","Indiana","3","    Durable goods",3066,3166,3286,3354,3470,3606,3703,3868
+"18000","Indiana","4","      Motor vehicles and parts",1063,1106,1161,1191,1267,1343,1373,1413
+"18000","Indiana","5","      Furnishings and durable household equipment",696,713,743,758,771,813,857,903
+"18000","Indiana","6","      Recreational goods and vehicles",848,863,891,909,923,928,949,999
+"18000","Indiana","7","      Other durable goods",459,484,492,496,509,522,524,553
+"18000","Indiana","8","    Nondurable goods",7170,7610,7800,7851,7890,7692,7738,7980
+"18000","Indiana","9","      Food and beverages purchased for off-premises consumption",2409,2474,2525,2538,2575,2628,2684,2702
+"18000","Indiana","10","      Clothing and footwear",862,889,903,893,893,908,937,961
+"18000","Indiana","11","      Gasoline and other energy goods",1334,1600,1633,1607,1501,1133,1007,1118
+"18000","Indiana","12","      Other nondurable goods",2565,2648,2740,2813,2920,3024,3110,3199
+"18000","Indiana","13","  Services",19187,19769,20544,20937,21587,22492,23429,24458
+"18000","Indiana","14","    Household consumption expenditures (for services)",18218,18760,19464,19833,20456,21347,22206,23203
+"18000","Indiana","15","    Housing and utilities",5022,5121,5168,5282,5460,5589,5704,5885
+"18000","Indiana","16","    Health care",5559,5765,6220,6316,6477,6888,7308,7773
+"18000","Indiana","17","    Transportation services",821,875,902,938,996,1030,1101,1135
+"18000","Indiana","18","    Recreation services",1268,1272,1323,1365,1378,1428,1476,1528
+"18000","Indiana","19","    Food services and accommodations",1782,1853,1930,1958,2019,2158,2220,2241
+"18000","Indiana","20","    Financial services and insurance",1543,1609,1625,1678,1764,1869,1929,2109
+"18000","Indiana","21","    Other services",2224,2265,2297,2296,2363,2385,2468,2532
+"18000","Indiana","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",968,1009,1080,1105,1131,1146,1223,1254
+"18000","Indiana","23","  Gross output of nonprofit institutions",3270,3375,3528,3598,3645,3783,4037,4182
+"18000","Indiana","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2302,2366,2448,2494,2514,2637,2814,2928
+"19000","Iowa","1","Per capita personal consumption expenditures",30575,31875,32727,33397,34550,35419,36483,37652
+"19000","Iowa","2","  Goods",11158,11954,12244,12451,12749,12668,12860,13253
+"19000","Iowa","3","    Durable goods",3545,3686,3827,3967,4067,4177,4249,4354
+"19000","Iowa","4","      Motor vehicles and parts",1331,1380,1469,1524,1590,1691,1719,1746
+"19000","Iowa","5","      Furnishings and durable household equipment",722,743,769,789,798,814,852,883
+"19000","Iowa","6","      Recreational goods and vehicles",971,1029,1044,1092,1101,1091,1095,1120
+"19000","Iowa","7","      Other durable goods",520,534,546,562,578,581,583,605
+"19000","Iowa","8","    Nondurable goods",7613,8268,8417,8484,8682,8492,8611,8898
+"19000","Iowa","9","      Food and beverages purchased for off-premises consumption",2448,2597,2666,2710,2825,2913,3018,3053
+"19000","Iowa","10","      Clothing and footwear",874,872,882,879,881,888,903,909
+"19000","Iowa","11","      Gasoline and other energy goods",1615,1992,1996,1983,1915,1534,1380,1537
+"19000","Iowa","12","      Other nondurable goods",2676,2808,2873,2913,3061,3157,3309,3399
+"19000","Iowa","13","  Services",19417,19921,20483,20946,21801,22751,23623,24400
+"19000","Iowa","14","    Household consumption expenditures (for services)",18261,18712,19205,19648,20476,21407,22220,22959
+"19000","Iowa","15","    Housing and utilities",4816,4914,5044,5232,5432,5599,5830,6058
+"19000","Iowa","16","    Health care",5224,5352,5484,5539,5801,6126,6352,6502
+"19000","Iowa","17","    Transportation services",806,828,842,873,930,946,961,992
+"19000","Iowa","18","    Recreation services",1263,1249,1297,1332,1356,1439,1525,1554
+"19000","Iowa","19","    Food services and accommodations",1661,1729,1815,1871,1939,2037,2111,2117
+"19000","Iowa","20","    Financial services and insurance",1962,2110,2205,2295,2472,2682,2819,3036
+"19000","Iowa","21","    Other services",2529,2530,2518,2506,2547,2578,2623,2701
+"19000","Iowa","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1156,1209,1277,1298,1325,1344,1403,1441
+"19000","Iowa","23","  Gross output of nonprofit institutions",3509,3626,3758,3817,3872,3992,4161,4311
+"19000","Iowa","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2353,2416,2481,2519,2547,2648,2759,2871
+"20000","Kansas","1","Per capita personal consumption expenditures",29898,31090,31927,32505,33600,34488,35451,36534
+"20000","Kansas","2","  Goods",10496,11076,11461,11610,11869,11861,12019,12187
+"20000","Kansas","3","    Durable goods",3404,3458,3660,3738,3847,3987,4128,4181
+"20000","Kansas","4","      Motor vehicles and parts",1190,1219,1348,1357,1396,1451,1472,1481
+"20000","Kansas","5","      Furnishings and durable household equipment",820,826,858,876,928,963,1028,1047
+"20000","Kansas","6","      Recreational goods and vehicles",919,910,931,975,989,1025,1080,1092
+"20000","Kansas","7","      Other durable goods",475,504,522,529,533,547,548,561
+"20000","Kansas","8","    Nondurable goods",7092,7618,7801,7872,8023,7875,7891,8006
+"20000","Kansas","9","      Food and beverages purchased for off-premises consumption",2614,2749,2784,2793,2865,2924,2980,2998
+"20000","Kansas","10","      Clothing and footwear",853,880,901,901,903,913,925,933
+"20000","Kansas","11","      Gasoline and other energy goods",1095,1363,1376,1402,1365,1071,956,1033
+"20000","Kansas","12","      Other nondurable goods",2530,2626,2740,2776,2890,2966,3030,3042
+"20000","Kansas","13","  Services",19403,20014,20466,20896,21731,22627,23432,24347
+"20000","Kansas","14","    Household consumption expenditures (for services)",18631,19170,19548,19984,20798,21713,22460,23351
+"20000","Kansas","15","    Housing and utilities",5077,5181,5257,5409,5641,5852,6110,6419
+"20000","Kansas","16","    Health care",5282,5490,5705,5746,5866,6111,6222,6418
+"20000","Kansas","17","    Transportation services",798,821,828,847,887,912,940,957
+"20000","Kansas","18","    Recreation services",1125,1107,1127,1185,1231,1268,1291,1313
+"20000","Kansas","19","    Food services and accommodations",1716,1779,1855,1892,1975,2099,2146,2167
+"20000","Kansas","20","    Financial services and insurance",2281,2378,2377,2484,2656,2881,3036,3256
+"20000","Kansas","21","    Other services",2353,2414,2399,2421,2541,2590,2715,2822
+"20000","Kansas","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",771,844,918,911,934,914,972,996
+"20000","Kansas","23","  Gross output of nonprofit institutions",3215,3362,3502,3546,3672,3807,4038,4196
+"20000","Kansas","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2444,2518,2584,2635,2738,2893,3066,3200
+"21000","Kentucky","1","Per capita personal consumption expenditures",27555,28668,29348,29844,30803,31753,32824,33785
+"21000","Kentucky","2","  Goods",10404,10980,11240,11295,11482,11524,11764,12083
+"21000","Kentucky","3","    Durable goods",2809,2900,3068,3135,3243,3445,3574,3686
+"21000","Kentucky","4","      Motor vehicles and parts",1042,1075,1157,1184,1228,1347,1364,1374
+"21000","Kentucky","5","      Furnishings and durable household equipment",635,637,673,683,697,717,761,799
+"21000","Kentucky","6","      Recreational goods and vehicles",720,748,787,808,833,866,928,976
+"21000","Kentucky","7","      Other durable goods",413,441,452,460,484,515,522,537
+"21000","Kentucky","8","    Nondurable goods",7594,8080,8172,8160,8240,8079,8190,8397
+"21000","Kentucky","9","      Food and beverages purchased for off-premises consumption",2668,2756,2830,2856,2895,2973,3085,3127
+"21000","Kentucky","10","      Clothing and footwear",768,792,797,788,808,838,868,879
+"21000","Kentucky","11","      Gasoline and other energy goods",1303,1585,1574,1523,1420,1060,925,1012
+"21000","Kentucky","12","      Other nondurable goods",2856,2947,2970,2993,3118,3208,3312,3379
+"21000","Kentucky","13","  Services",17151,17688,18108,18549,19320,20230,21060,21702
+"21000","Kentucky","14","    Household consumption expenditures (for services)",16279,16761,17143,17537,18292,19176,19953,20567
+"21000","Kentucky","15","    Housing and utilities",4353,4447,4585,4721,4925,5075,5283,5438
+"21000","Kentucky","16","    Health care",5106,5295,5369,5462,5663,6061,6352,6524
+"21000","Kentucky","17","    Transportation services",553,588,585,590,607,628,659,687
+"21000","Kentucky","18","    Recreation services",1105,1092,1136,1155,1179,1230,1258,1302
+"21000","Kentucky","19","    Food services and accommodations",1761,1825,1905,1933,2029,2161,2252,2286
+"21000","Kentucky","20","    Financial services and insurance",1524,1624,1686,1785,1957,2097,2166,2284
+"21000","Kentucky","21","    Other services",1877,1890,1877,1890,1931,1924,1983,2046
+"21000","Kentucky","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",872,927,965,1012,1029,1054,1106,1135
+"21000","Kentucky","23","  Gross output of nonprofit institutions",3010,3113,3211,3300,3345,3534,3715,3852
+"21000","Kentucky","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2138,2186,2246,2288,2316,2480,2609,2717
+"22000","Louisiana","1","Per capita personal consumption expenditures",28916,29786,30419,31098,32114,33036,33694,34539
+"22000","Louisiana","2","  Goods",10843,11444,11770,11869,12013,12035,12030,12280
+"22000","Louisiana","3","    Durable goods",3324,3474,3635,3744,3837,3996,3995,4067
+"22000","Louisiana","4","      Motor vehicles and parts",1290,1379,1511,1593,1637,1720,1671,1652
+"22000","Louisiana","5","      Furnishings and durable household equipment",782,794,812,829,843,873,900,936
+"22000","Louisiana","6","      Recreational goods and vehicles",838,864,868,873,893,921,937,975
+"22000","Louisiana","7","      Other durable goods",414,437,444,450,464,482,487,504
+"22000","Louisiana","8","    Nondurable goods",7518,7970,8135,8125,8176,8039,8036,8213
+"22000","Louisiana","9","      Food and beverages purchased for off-premises consumption",2457,2535,2597,2623,2685,2748,2757,2788
+"22000","Louisiana","10","      Clothing and footwear",958,982,989,996,1007,1020,1027,1029
+"22000","Louisiana","11","      Gasoline and other energy goods",1291,1576,1603,1558,1443,1071,952,1035
+"22000","Louisiana","12","      Other nondurable goods",2813,2877,2945,2947,3041,3200,3300,3361
+"22000","Louisiana","13","  Services",18074,18342,18648,19229,20101,21001,21663,22259
+"22000","Louisiana","14","    Household consumption expenditures (for services)",17471,17709,17963,18539,19382,20280,20885,21459
+"22000","Louisiana","15","    Housing and utilities",4622,4692,4722,4942,5161,5388,5575,5819
+"22000","Louisiana","16","    Health care",5293,5274,5331,5469,5747,6134,6384,6485
+"22000","Louisiana","17","    Transportation services",641,674,698,744,769,775,777,793
+"22000","Louisiana","18","    Recreation services",1045,1024,1067,1136,1194,1218,1270,1281
+"22000","Louisiana","19","    Food services and accommodations",2137,2215,2278,2348,2477,2625,2645,2644
+"22000","Louisiana","20","    Financial services and insurance",1988,2068,2076,2111,2189,2255,2267,2365
+"22000","Louisiana","21","    Other services",1744,1762,1791,1788,1845,1885,1967,2073
+"22000","Louisiana","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",603,633,685,690,719,721,778,800
+"22000","Louisiana","23","  Gross output of nonprofit institutions",2268,2324,2415,2456,2669,2801,2964,3087
+"22000","Louisiana","24","  Less: Receipts from sales of goods and services by nonprofit institutions",1665,1691,1730,1766,1950,2081,2186,2286
+"23000","Maine","1","Per capita personal consumption expenditures",36170,37327,37947,38675,39882,40887,41977,43364
+"23000","Maine","2","  Goods",13254,13774,13826,14102,14566,14445,14630,15172
+"23000","Maine","3","    Durable goods",3847,3909,3963,4072,4225,4411,4509,4671
+"23000","Maine","4","      Motor vehicles and parts",1312,1354,1415,1456,1557,1681,1697,1727
+"23000","Maine","5","      Furnishings and durable household equipment",830,827,832,861,882,900,936,970
+"23000","Maine","6","      Recreational goods and vehicles",1108,1131,1130,1147,1159,1190,1219,1286
+"23000","Maine","7","      Other durable goods",596,597,587,608,628,639,657,689
+"23000","Maine","8","    Nondurable goods",9407,9865,9863,10030,10341,10034,10121,10501
+"23000","Maine","9","      Food and beverages purchased for off-premises consumption",3398,3451,3548,3639,3818,3861,3984,4115
+"23000","Maine","10","      Clothing and footwear",945,934,931,941,951,957,964,962
+"23000","Maine","11","      Gasoline and other energy goods",2012,2382,2267,2209,2171,1660,1402,1577
+"23000","Maine","12","      Other nondurable goods",3052,3097,3117,3240,3401,3556,3771,3847
+"23000","Maine","13","  Services",22917,23553,24121,24573,25316,26442,27347,28192
+"23000","Maine","14","    Household consumption expenditures (for services)",21259,21795,22294,22731,23440,24552,25381,26168
+"23000","Maine","15","    Housing and utilities",5694,5849,6000,6173,6404,6748,6921,7062
+"23000","Maine","16","    Health care",6288,6524,6686,6695,6854,7229,7457,7712
+"23000","Maine","17","    Transportation services",743,748,755,811,848,888,930,962
+"23000","Maine","18","    Recreation services",1320,1326,1394,1455,1463,1511,1598,1656
+"23000","Maine","19","    Food services and accommodations",2137,2201,2277,2373,2507,2663,2808,2932
+"23000","Maine","20","    Financial services and insurance",2383,2480,2506,2558,2656,2773,2779,2846
+"23000","Maine","21","    Other services",2695,2667,2674,2667,2708,2741,2888,2996
+"23000","Maine","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1657,1758,1827,1842,1876,1890,1967,2024
+"23000","Maine","23","  Gross output of nonprofit institutions",4240,4432,4591,4656,4789,4938,5060,5245
+"23000","Maine","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2582,2674,2764,2815,2913,3049,3093,3220
+"24000","Maryland","1","Per capita personal consumption expenditures",37109,38055,38890,39555,40855,42156,43498,45034
+"24000","Maryland","2","  Goods",11309,11715,12016,12128,12360,12458,12646,13019
+"24000","Maryland","3","    Durable goods",3718,3812,3970,4007,4094,4228,4309,4430
+"24000","Maryland","4","      Motor vehicles and parts",1293,1332,1439,1462,1511,1590,1623,1640
+"24000","Maryland","5","      Furnishings and durable household equipment",882,883,899,906,923,951,972,1002
+"24000","Maryland","6","      Recreational goods and vehicles",992,1019,1042,1050,1059,1063,1081,1120
+"24000","Maryland","7","      Other durable goods",551,578,590,588,601,624,633,668
+"24000","Maryland","8","    Nondurable goods",7591,7903,8046,8121,8266,8230,8337,8589
+"24000","Maryland","9","      Food and beverages purchased for off-premises consumption",2595,2673,2680,2707,2785,2800,2840,2880
+"24000","Maryland","10","      Clothing and footwear",1114,1146,1179,1169,1180,1202,1208,1225
+"24000","Maryland","11","      Gasoline and other energy goods",987,1139,1203,1193,1124,853,752,811
+"24000","Maryland","12","      Other nondurable goods",2894,2946,2984,3053,3176,3375,3537,3673
+"24000","Maryland","13","  Services",25800,26340,26875,27428,28496,29698,30852,32015
+"24000","Maryland","14","    Household consumption expenditures (for services)",24759,25217,25639,26180,27194,28414,29474,30608
+"24000","Maryland","15","    Housing and utilities",7935,8052,8252,8562,8981,9462,9885,10255
+"24000","Maryland","16","    Health care",6016,6165,6294,6328,6576,6995,7251,7501
+"24000","Maryland","17","    Transportation services",1072,1115,1128,1177,1222,1269,1334,1402
+"24000","Maryland","18","    Recreation services",1508,1495,1500,1536,1536,1577,1627,1672
+"24000","Maryland","19","    Food services and accommodations",2176,2247,2346,2407,2495,2651,2750,2888
+"24000","Maryland","20","    Financial services and insurance",2332,2418,2407,2463,2543,2588,2546,2694
+"24000","Maryland","21","    Other services",3719,3726,3712,3707,3841,3871,4081,4196
+"24000","Maryland","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1041,1123,1235,1247,1302,1284,1378,1407
+"24000","Maryland","23","  Gross output of nonprofit institutions",4767,4938,5129,5202,5330,5491,5724,5931
+"24000","Maryland","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3726,3815,3894,3955,4028,4207,4346,4524
+"25000","Massachusetts","1","Per capita personal consumption expenditures",43062,44285,45342,46271,48007,49783,51373,53267
+"25000","Massachusetts","2","  Goods",12776,13260,13482,13733,14174,14380,14668,15302
+"25000","Massachusetts","3","    Durable goods",4308,4410,4504,4597,4745,4945,5084,5272
+"25000","Massachusetts","4","      Motor vehicles and parts",1192,1228,1268,1334,1405,1512,1516,1564
+"25000","Massachusetts","5","      Furnishings and durable household equipment",902,914,930,959,985,1021,1070,1097
+"25000","Massachusetts","6","      Recreational goods and vehicles",1417,1450,1463,1451,1482,1515,1576,1641
+"25000","Massachusetts","7","      Other durable goods",798,817,843,854,873,897,922,970
+"25000","Massachusetts","8","    Nondurable goods",8468,8851,8978,9137,9428,9435,9584,10030
+"25000","Massachusetts","9","      Food and beverages purchased for off-premises consumption",2973,3108,3201,3248,3374,3443,3547,3682
+"25000","Massachusetts","10","      Clothing and footwear",1279,1276,1306,1306,1316,1339,1371,1375
+"25000","Massachusetts","11","      Gasoline and other energy goods",1118,1291,1247,1246,1211,931,818,900
+"25000","Massachusetts","12","      Other nondurable goods",3098,3176,3224,3337,3527,3723,3848,4072
+"25000","Massachusetts","13","  Services",30286,31025,31860,32537,33833,35403,36705,37966
+"25000","Massachusetts","14","    Household consumption expenditures (for services)",28787,29425,30077,30679,31910,33464,34673,35881
+"25000","Massachusetts","15","    Housing and utilities",8216,8322,8391,8508,8839,9252,9475,9778
+"25000","Massachusetts","16","    Health care",7746,7854,7981,8025,8179,8569,8948,9234
+"25000","Massachusetts","17","    Transportation services",1262,1355,1399,1491,1602,1677,1744,1796
+"25000","Massachusetts","18","    Recreation services",1730,1755,1855,1921,1995,2143,2303,2441
+"25000","Massachusetts","19","    Food services and accommodations",2579,2692,2802,2902,3039,3239,3416,3505
+"25000","Massachusetts","20","    Financial services and insurance",3313,3451,3515,3655,3841,4003,3899,3963
+"25000","Massachusetts","21","    Other services",3941,3998,4135,4177,4415,4581,4888,5165
+"25000","Massachusetts","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1499,1600,1783,1859,1923,1939,2032,2084
+"25000","Massachusetts","23","  Gross output of nonprofit institutions",5073,5246,5563,5713,5975,6111,6397,6624
+"25000","Massachusetts","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3574,3646,3780,3855,4052,4172,4365,4540
+"26000","Michigan","1","Per capita personal consumption expenditures",31713,32946,33648,34323,35579,36693,37983,39237
+"26000","Michigan","2","  Goods",10016,10614,10861,11068,11437,11579,11921,12436
+"26000","Michigan","3","    Durable goods",3068,3207,3351,3429,3598,3786,3953,4101
+"26000","Michigan","4","      Motor vehicles and parts",843,918,990,1031,1128,1185,1218,1251
+"26000","Michigan","5","      Furnishings and durable household equipment",665,683,716,736,753,803,858,904
+"26000","Michigan","6","      Recreational goods and vehicles",910,917,938,944,974,1018,1074,1092
+"26000","Michigan","7","      Other durable goods",650,689,707,718,743,779,804,854
+"26000","Michigan","8","    Nondurable goods",6949,7407,7510,7639,7839,7793,7968,8335
+"26000","Michigan","9","      Food and beverages purchased for off-premises consumption",2454,2536,2609,2619,2706,2761,2867,2961
+"26000","Michigan","10","      Clothing and footwear",884,900,924,926,931,945,958,958
+"26000","Michigan","11","      Gasoline and other energy goods",1105,1368,1327,1362,1325,1033,930,1068
+"26000","Michigan","12","      Other nondurable goods",2505,2602,2650,2732,2877,3054,3213,3348
+"26000","Michigan","13","  Services",21697,22332,22787,23255,24142,25114,26062,26801
+"26000","Michigan","14","    Household consumption expenditures (for services)",20056,20596,20941,21351,22191,23135,23981,24658
+"26000","Michigan","15","    Housing and utilities",5965,6020,6000,6054,6198,6302,6473,6674
+"26000","Michigan","16","    Health care",5528,5720,5869,5885,6048,6407,6717,6869
+"26000","Michigan","17","    Transportation services",1265,1388,1420,1468,1592,1640,1738,1771
+"26000","Michigan","18","    Recreation services",1329,1338,1390,1482,1558,1643,1734,1849
+"26000","Michigan","19","    Food services and accommodations",1630,1745,1846,1893,1980,2129,2229,2288
+"26000","Michigan","20","    Financial services and insurance",2114,2151,2159,2293,2468,2633,2624,2660
+"26000","Michigan","21","    Other services",2226,2234,2257,2275,2347,2382,2466,2548
+"26000","Michigan","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1640,1735,1846,1904,1951,1979,2081,2143
+"26000","Michigan","23","  Gross output of nonprofit institutions",4615,4755,4914,5042,5188,5391,5654,5868
+"26000","Michigan","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2974,3020,3068,3138,3238,3412,3573,3725
+"27000","Minnesota","1","Per capita personal consumption expenditures",35984,37448,38353,39252,40627,41957,43473,45354
+"27000","Minnesota","2","  Goods",11446,12113,12433,12646,12866,13005,13365,13970
+"27000","Minnesota","3","    Durable goods",4104,4260,4400,4503,4627,4836,4971,5224
+"27000","Minnesota","4","      Motor vehicles and parts",1113,1189,1280,1322,1393,1483,1495,1568
+"27000","Minnesota","5","      Furnishings and durable household equipment",817,835,861,896,923,982,1027,1064
+"27000","Minnesota","6","      Recreational goods and vehicles",1250,1262,1267,1279,1277,1295,1333,1426
+"27000","Minnesota","7","      Other durable goods",924,974,993,1006,1033,1077,1116,1166
+"27000","Minnesota","8","    Nondurable goods",7342,7853,8033,8143,8239,8169,8394,8746
+"27000","Minnesota","9","      Food and beverages purchased for off-premises consumption",2490,2597,2719,2757,2795,2861,2976,3077
+"27000","Minnesota","10","      Clothing and footwear",1028,1054,1076,1086,1101,1133,1153,1156
+"27000","Minnesota","11","      Gasoline and other energy goods",1309,1625,1625,1599,1555,1204,1085,1214
+"27000","Minnesota","12","      Other nondurable goods",2515,2577,2614,2700,2788,2971,3180,3299
+"27000","Minnesota","13","  Services",24539,25335,25920,26607,27762,28952,30107,31384
+"27000","Minnesota","14","    Household consumption expenditures (for services)",23103,23847,24357,25004,26117,27298,28384,29625
+"27000","Minnesota","15","    Housing and utilities",6303,6448,6574,6772,7062,7252,7528,7802
+"27000","Minnesota","16","    Health care",6352,6488,6653,6815,7078,7520,7885,8277
+"27000","Minnesota","17","    Transportation services",1166,1274,1309,1381,1481,1527,1551,1595
+"27000","Minnesota","18","    Recreation services",1815,1847,1922,1998,2088,2207,2333,2456
+"27000","Minnesota","19","    Food services and accommodations",1974,2075,2147,2194,2296,2479,2593,2646
+"27000","Minnesota","20","    Financial services and insurance",2441,2598,2621,2708,2866,3009,3032,3180
+"27000","Minnesota","21","    Other services",3051,3117,3131,3137,3247,3303,3463,3668
+"27000","Minnesota","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1436,1488,1562,1602,1644,1655,1723,1759
+"27000","Minnesota","23","  Gross output of nonprofit institutions",4653,4782,4958,5069,5228,5408,5657,5834
+"27000","Minnesota","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3217,3294,3396,3466,3584,3754,3934,4075
+"28000","Mississippi","1","Per capita personal consumption expenditures",25137,26126,26785,27256,27900,28497,29197,30027
+"28000","Mississippi","2","  Goods",9540,10077,10364,10538,10668,10664,10771,11038
+"28000","Mississippi","3","    Durable goods",2585,2678,2805,2940,3027,3171,3271,3370
+"28000","Mississippi","4","      Motor vehicles and parts",957,1017,1101,1189,1232,1325,1356,1359
+"28000","Mississippi","5","      Furnishings and durable household equipment",588,597,618,628,635,651,682,701
+"28000","Mississippi","6","      Recreational goods and vehicles",642,649,662,683,699,720,749,802
+"28000","Mississippi","7","      Other durable goods",397,415,423,440,461,475,484,507
+"28000","Mississippi","8","    Nondurable goods",6956,7399,7559,7598,7641,7493,7500,7669
+"28000","Mississippi","9","      Food and beverages purchased for off-premises consumption",2366,2445,2489,2514,2555,2598,2641,2658
+"28000","Mississippi","10","      Clothing and footwear",843,863,873,873,905,924,957,970
+"28000","Mississippi","11","      Gasoline and other energy goods",1325,1608,1627,1588,1466,1102,943,1029
+"28000","Mississippi","12","      Other nondurable goods",2422,2483,2571,2624,2715,2869,2959,3012
+"28000","Mississippi","13","  Services",15596,16049,16421,16718,17232,17833,18425,18989
+"28000","Mississippi","14","    Household consumption expenditures (for services)",15022,15445,15787,16053,16560,17163,17708,18253
+"28000","Mississippi","15","    Housing and utilities",4275,4336,4369,4492,4670,4840,4996,5155
+"28000","Mississippi","16","    Health care",5047,5205,5359,5395,5521,5688,5852,6038
+"28000","Mississippi","17","    Transportation services",481,497,517,546,555,564,590,599
+"28000","Mississippi","18","    Recreation services",479,489,508,526,532,547,549,553
+"28000","Mississippi","19","    Food services and accommodations",1583,1645,1699,1732,1796,1887,1952,1973
+"28000","Mississippi","20","    Financial services and insurance",1620,1721,1787,1836,1943,2091,2176,2322
+"28000","Mississippi","21","    Other services",1538,1551,1547,1526,1544,1545,1591,1612
+"28000","Mississippi","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",574,604,634,665,672,670,718,736
+"28000","Mississippi","23","  Gross output of nonprofit institutions",2659,2731,2804,2870,2900,3007,3126,3255
+"28000","Mississippi","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2085,2127,2170,2205,2228,2337,2408,2519
+"29000","Missouri","1","Per capita personal consumption expenditures",31708,33082,34081,34595,35414,36431,37351,38619
+"29000","Missouri","2","  Goods",11114,11717,12025,12100,12227,12207,12301,12693
+"29000","Missouri","3","    Durable goods",3311,3395,3500,3566,3651,3821,3891,4007
+"29000","Missouri","4","      Motor vehicles and parts",1223,1270,1357,1382,1445,1544,1558,1580
+"29000","Missouri","5","      Furnishings and durable household equipment",688,711,728,733,745,771,813,856
+"29000","Missouri","6","      Recreational goods and vehicles",960,951,946,979,980,1003,1011,1048
+"29000","Missouri","7","      Other durable goods",440,463,469,472,481,503,510,524
+"29000","Missouri","8","    Nondurable goods",7803,8322,8525,8534,8576,8386,8410,8685
+"29000","Missouri","9","      Food and beverages purchased for off-premises consumption",2464,2527,2569,2576,2597,2613,2668,2697
+"29000","Missouri","10","      Clothing and footwear",853,888,907,905,911,921,925,927
+"29000","Missouri","11","      Gasoline and other energy goods",1499,1812,1877,1847,1751,1346,1201,1332
+"29000","Missouri","12","      Other nondurable goods",2987,3095,3172,3207,3316,3505,3616,3730
+"29000","Missouri","13","  Services",20594,21365,22056,22495,23187,24224,25050,25926
+"29000","Missouri","14","    Household consumption expenditures (for services)",19738,20436,21045,21450,22127,23156,23933,24780
+"29000","Missouri","15","    Housing and utilities",5065,5210,5302,5440,5641,5862,6037,6249
+"29000","Missouri","16","    Health care",5577,5823,6019,6069,6149,6520,6792,7086
+"29000","Missouri","17","    Transportation services",827,862,882,901,941,963,1017,1045
+"29000","Missouri","18","    Recreation services",1404,1427,1544,1591,1630,1731,1785,1832
+"29000","Missouri","19","    Food services and accommodations",1999,2047,2093,2137,2233,2409,2486,2547
+"29000","Missouri","20","    Financial services and insurance",2339,2497,2605,2708,2870,2971,3008,3181
+"29000","Missouri","21","    Other services",2526,2569,2600,2604,2664,2701,2808,2841
+"29000","Missouri","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",856,929,1011,1045,1060,1067,1118,1146
+"29000","Missouri","23","  Gross output of nonprofit institutions",3188,3313,3461,3542,3584,3735,3922,4068
+"29000","Missouri","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2332,2383,2450,2498,2523,2667,2805,2922
+"30000","Montana","1","Per capita personal consumption expenditures",32064,33449,34692,35727,36964,38250,39320,40955
+"30000","Montana","2","  Goods",12424,12973,13365,13757,14365,14426,14528,15066
+"30000","Montana","3","    Durable goods",4421,4499,4662,4998,5320,5545,5679,5933
+"30000","Montana","4","      Motor vehicles and parts",1402,1443,1566,1662,1762,1842,1843,1893
+"30000","Montana","5","      Furnishings and durable household equipment",988,975,1006,1074,1138,1198,1254,1295
+"30000","Montana","6","      Recreational goods and vehicles",1345,1383,1391,1527,1644,1693,1744,1859
+"30000","Montana","7","      Other durable goods",687,698,698,734,777,812,838,887
+"30000","Montana","8","    Nondurable goods",8003,8474,8703,8759,9045,8880,8849,9132
+"30000","Montana","9","      Food and beverages purchased for off-premises consumption",2934,3051,3150,3203,3381,3471,3522,3560
+"30000","Montana","10","      Clothing and footwear",835,856,873,876,890,908,915,929
+"30000","Montana","11","      Gasoline and other energy goods",1727,2012,2067,1984,1955,1519,1336,1484
+"30000","Montana","12","      Other nondurable goods",2507,2554,2614,2695,2818,2983,3077,3159
+"30000","Montana","13","  Services",19639,20476,21327,21970,22599,23825,24792,25889
+"30000","Montana","14","    Household consumption expenditures (for services)",18566,19312,20055,20683,21287,22503,23406,24477
+"30000","Montana","15","    Housing and utilities",4981,5199,5439,5588,5732,6005,6154,6388
+"30000","Montana","16","    Health care",5431,5652,5873,6087,6211,6629,7020,7449
+"30000","Montana","17","    Transportation services",733,790,820,864,924,967,983,1035
+"30000","Montana","18","    Recreation services",1058,1079,1125,1171,1220,1300,1356,1416
+"30000","Montana","19","    Food services and accommodations",2198,2303,2420,2525,2646,2839,2941,2966
+"30000","Montana","20","    Financial services and insurance",2068,2201,2276,2349,2437,2595,2690,2862
+"30000","Montana","21","    Other services",2098,2087,2103,2099,2117,2167,2263,2363
+"30000","Montana","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1073,1164,1272,1287,1312,1322,1385,1412
+"30000","Montana","23","  Gross output of nonprofit institutions",3399,3579,3807,3886,4013,4184,4393,4521
+"30000","Montana","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2326,2415,2535,2599,2701,2862,3008,3109
+"31000","Nebraska","1","Per capita personal consumption expenditures",32516,33777,34752,35521,36588,37584,38859,40160
+"31000","Nebraska","2","  Goods",11498,12104,12469,12781,13102,13049,13338,13727
+"31000","Nebraska","3","    Durable goods",3809,3872,4059,4229,4389,4570,4682,4832
+"31000","Nebraska","4","      Motor vehicles and parts",1509,1585,1694,1741,1828,1929,1942,1990
+"31000","Nebraska","5","      Furnishings and durable household equipment",865,828,874,921,957,999,1041,1086
+"31000","Nebraska","6","      Recreational goods and vehicles",855,861,887,940,950,976,1023,1060
+"31000","Nebraska","7","      Other durable goods",581,598,604,627,653,667,675,695
+"31000","Nebraska","8","    Nondurable goods",7689,8232,8410,8552,8713,8479,8656,8895
+"31000","Nebraska","9","      Food and beverages purchased for off-premises consumption",2439,2495,2549,2572,2712,2790,2870,2894
+"31000","Nebraska","10","      Clothing and footwear",880,907,915,920,945,966,989,1005
+"31000","Nebraska","11","      Gasoline and other energy goods",1777,2172,2187,2190,2082,1598,1506,1665
+"31000","Nebraska","12","      Other nondurable goods",2593,2658,2759,2871,2974,3124,3291,3332
+"31000","Nebraska","13","  Services",21018,21672,22283,22740,23486,24535,25520,26434
+"31000","Nebraska","14","    Household consumption expenditures (for services)",20061,20653,21134,21562,22270,23315,24231,25114
+"31000","Nebraska","15","    Housing and utilities",4962,5086,5168,5386,5614,5813,5987,6212
+"31000","Nebraska","16","    Health care",5731,5899,6031,6054,6192,6606,6963,7230
+"31000","Nebraska","17","    Transportation services",849,889,910,945,997,1017,1041,1063
+"31000","Nebraska","18","    Recreation services",1241,1242,1295,1335,1368,1430,1484,1566
+"31000","Nebraska","19","    Food services and accommodations",1776,1831,1904,1944,2030,2160,2268,2280
+"31000","Nebraska","20","    Financial services and insurance",3013,3198,3338,3406,3534,3671,3766,3960
+"31000","Nebraska","21","    Other services",2489,2508,2488,2493,2535,2619,2723,2805
+"31000","Nebraska","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",957,1019,1149,1178,1216,1219,1289,1319
+"31000","Nebraska","23","  Gross output of nonprofit institutions",3440,3570,3796,3887,3975,4130,4353,4502
+"31000","Nebraska","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2483,2551,2647,2709,2759,2911,3064,3183
+"32000","Nevada","1","Per capita personal consumption expenditures",33146,34428,35199,35912,37182,38146,38946,39806
+"32000","Nevada","2","  Goods",10647,11224,11498,11724,12084,12133,12173,12484
+"32000","Nevada","3","    Durable goods",3397,3558,3711,3915,4081,4213,4317,4492
+"32000","Nevada","4","      Motor vehicles and parts",944,1011,1145,1244,1302,1401,1417,1454
+"32000","Nevada","5","      Furnishings and durable household equipment",829,832,840,877,916,946,1000,1054
+"32000","Nevada","6","      Recreational goods and vehicles",960,985,975,1018,1053,1047,1081,1149
+"32000","Nevada","7","      Other durable goods",664,730,751,775,810,819,819,834
+"32000","Nevada","8","    Nondurable goods",7250,7667,7786,7809,8004,7920,7855,7992
+"32000","Nevada","9","      Food and beverages purchased for off-premises consumption",2631,2699,2737,2750,2841,2882,2877,2874
+"32000","Nevada","10","      Clothing and footwear",1000,1075,1110,1120,1137,1137,1113,1111
+"32000","Nevada","11","      Gasoline and other energy goods",982,1187,1206,1171,1103,832,722,799
+"32000","Nevada","12","      Other nondurable goods",2637,2705,2733,2769,2923,3069,3142,3208
+"32000","Nevada","13","  Services",22498,23203,23702,24188,25098,26013,26774,27321
+"32000","Nevada","14","    Household consumption expenditures (for services)",21719,22365,22768,23207,24098,25041,25717,26256
+"32000","Nevada","15","    Housing and utilities",6459,6578,6650,6710,6946,7166,7233,7265
+"32000","Nevada","16","    Health care",4308,4435,4468,4621,4846,5143,5419,5657
+"32000","Nevada","17","    Transportation services",826,940,955,1007,1017,1035,1030,1046
+"32000","Nevada","18","    Recreation services",1178,1254,1317,1320,1399,1453,1515,1504
+"32000","Nevada","19","    Food services and accommodations",1575,1652,1659,1695,1762,1802,1807,1782
+"32000","Nevada","20","    Financial services and insurance",5343,5472,5690,5855,6093,6382,6537,6731
+"32000","Nevada","21","    Other services",2030,2034,2028,1999,2035,2060,2175,2269
+"32000","Nevada","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",779,839,934,980,1000,972,1057,1066
+"32000","Nevada","23","  Gross output of nonprofit institutions",3007,3161,3348,3446,3604,3706,3944,4025
+"32000","Nevada","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2228,2322,2415,2465,2604,2734,2887,2959
+"33000","New Hampshire","1","Per capita personal consumption expenditures",41425,42756,43654,44861,46127,47429,48663,50265
+"33000","New Hampshire","2","  Goods",13027,13600,13943,14431,14776,14631,14608,15055
+"33000","New Hampshire","3","    Durable goods",3868,3929,4116,4336,4502,4656,4758,4907
+"33000","New Hampshire","4","      Motor vehicles and parts",1314,1352,1433,1548,1653,1720,1737,1755
+"33000","New Hampshire","5","      Furnishings and durable household equipment",819,829,859,894,924,970,1020,1045
+"33000","New Hampshire","6","      Recreational goods and vehicles",955,949,980,1011,1015,1041,1078,1162
+"33000","New Hampshire","7","      Other durable goods",780,800,845,882,911,925,924,945
+"33000","New Hampshire","8","    Nondurable goods",9159,9671,9826,10095,10274,9975,9850,10148
+"33000","New Hampshire","9","      Food and beverages purchased for off-premises consumption",3269,3407,3525,3591,3635,3684,3719,3798
+"33000","New Hampshire","10","      Clothing and footwear",1262,1239,1298,1332,1343,1343,1342,1336
+"33000","New Hampshire","11","      Gasoline and other energy goods",1659,1969,1894,1922,1905,1449,1191,1331
+"33000","New Hampshire","12","      Other nondurable goods",2969,3056,3110,3250,3391,3500,3598,3684
+"33000","New Hampshire","13","  Services",28399,29156,29712,30430,31351,32798,34055,35210
+"33000","New Hampshire","14","    Household consumption expenditures (for services)",26685,27386,27891,28544,29440,30877,32039,33141
+"33000","New Hampshire","15","    Housing and utilities",7955,8132,8252,8446,8744,9138,9343,9552
+"33000","New Hampshire","16","    Health care",7037,7202,7277,7370,7580,7968,8348,8673
+"33000","New Hampshire","17","    Transportation services",1168,1231,1238,1311,1377,1450,1518,1578
+"33000","New Hampshire","18","    Recreation services",1692,1709,1778,1869,1893,2018,2095,2214
+"33000","New Hampshire","19","    Food services and accommodations",2181,2255,2332,2418,2536,2703,2812,2850
+"33000","New Hampshire","20","    Financial services and insurance",3364,3513,3592,3711,3811,3974,3998,4189
+"33000","New Hampshire","21","    Other services",3289,3342,3423,3419,3499,3625,3924,4084
+"33000","New Hampshire","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1714,1771,1821,1886,1911,1921,2016,2069
+"33000","New Hampshire","23","  Gross output of nonprofit institutions",4830,4963,5077,5210,5367,5516,5789,5991
+"33000","New Hampshire","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3116,3193,3256,3324,3456,3594,3773,3922
+"34000","New Jersey","1","Per capita personal consumption expenditures",41256,42368,43374,44384,45844,47186,48518,49911
+"34000","New Jersey","2","  Goods",12423,12903,13098,13396,13833,14036,14205,14621
+"34000","New Jersey","3","    Durable goods",4118,4204,4269,4429,4560,4691,4802,4957
+"34000","New Jersey","4","      Motor vehicles and parts",1234,1319,1399,1478,1528,1589,1614,1635
+"34000","New Jersey","5","      Furnishings and durable household equipment",963,958,956,986,1003,1038,1089,1146
+"34000","New Jersey","6","      Recreational goods and vehicles",1120,1105,1088,1128,1159,1166,1196,1252
+"34000","New Jersey","7","      Other durable goods",801,822,826,836,869,899,903,923
+"34000","New Jersey","8","    Nondurable goods",8305,8699,8828,8967,9273,9344,9403,9664
+"34000","New Jersey","9","      Food and beverages purchased for off-premises consumption",2914,2983,3002,3060,3186,3231,3257,3329
+"34000","New Jersey","10","      Clothing and footwear",1360,1392,1453,1454,1470,1493,1491,1491
+"34000","New Jersey","11","      Gasoline and other energy goods",971,1208,1232,1212,1157,894,770,843
+"34000","New Jersey","12","      Other nondurable goods",3060,3116,3142,3241,3459,3726,3885,4002
+"34000","New Jersey","13","  Services",28833,29464,30277,30988,32011,33151,34313,35290
+"34000","New Jersey","14","    Household consumption expenditures (for services)",26617,27144,27809,28441,29400,30516,31523,32415
+"34000","New Jersey","15","    Housing and utilities",8666,8784,8873,9031,9309,9649,9963,10280
+"34000","New Jersey","16","    Health care",5804,5878,6161,6272,6466,6802,7070,7284
+"34000","New Jersey","17","    Transportation services",1497,1610,1643,1741,1810,1820,1868,1903
+"34000","New Jersey","18","    Recreation services",1781,1812,1891,1957,1968,2043,2093,2087
+"34000","New Jersey","19","    Food services and accommodations",1937,1968,2033,2098,2185,2253,2336,2351
+"34000","New Jersey","20","    Financial services and insurance",2717,2828,2826,2939,3075,3237,3212,3353
+"34000","New Jersey","21","    Other services",4214,4264,4383,4404,4587,4712,4981,5156
+"34000","New Jersey","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",2216,2320,2467,2547,2611,2635,2790,2874
+"34000","New Jersey","23","  Gross output of nonprofit institutions",6040,6156,6358,6526,6707,6909,7268,7543
+"34000","New Jersey","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3824,3836,3890,3979,4096,4274,4479,4669
+"35000","New Mexico","1","Per capita personal consumption expenditures",28443,29482,30285,30910,32166,33059,33814,34696
+"35000","New Mexico","2","  Goods",9837,10314,10547,10713,11026,11033,11050,11297
+"35000","New Mexico","3","    Durable goods",3134,3194,3340,3462,3595,3733,3784,3858
+"35000","New Mexico","4","      Motor vehicles and parts",1072,1133,1234,1303,1368,1451,1464,1475
+"35000","New Mexico","5","      Furnishings and durable household equipment",653,658,685,702,722,733,740,765
+"35000","New Mexico","6","      Recreational goods and vehicles",780,763,768,786,806,840,854,863
+"35000","New Mexico","7","      Other durable goods",629,641,654,671,698,708,726,755
+"35000","New Mexico","8","    Nondurable goods",6703,7120,7207,7251,7431,7300,7266,7438
+"35000","New Mexico","9","      Food and beverages purchased for off-premises consumption",2422,2517,2559,2590,2681,2728,2760,2783
+"35000","New Mexico","10","      Clothing and footwear",767,769,790,792,801,812,835,843
+"35000","New Mexico","11","      Gasoline and other energy goods",1408,1694,1693,1689,1645,1371,1205,1300
+"35000","New Mexico","12","      Other nondurable goods",2106,2140,2165,2179,2304,2388,2466,2512
+"35000","New Mexico","13","  Services",18606,19168,19737,20198,21140,22026,22764,23399
+"35000","New Mexico","14","    Household consumption expenditures (for services)",17742,18251,18759,19199,20118,21004,21687,22291
+"35000","New Mexico","15","    Housing and utilities",4793,4928,5087,5280,5519,5772,5941,6141
+"35000","New Mexico","16","    Health care",4919,5081,5252,5267,5542,5808,6153,6297
+"35000","New Mexico","17","    Transportation services",809,847,869,898,903,912,931,955
+"35000","New Mexico","18","    Recreation services",1265,1254,1319,1341,1373,1460,1488,1526
+"35000","New Mexico","19","    Food services and accommodations",2037,2087,2155,2232,2371,2486,2526,2560
+"35000","New Mexico","20","    Financial services and insurance",1973,2094,2121,2215,2371,2476,2522,2630
+"35000","New Mexico","21","    Other services",1946,1960,1956,1966,2039,2090,2127,2182
+"35000","New Mexico","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",864,917,978,999,1022,1022,1077,1108
+"35000","New Mexico","23","  Gross output of nonprofit institutions",2848,2963,3109,3167,3279,3412,3628,3772
+"35000","New Mexico","24","  Less: Receipts from sales of goods and services by nonprofit institutions",1984,2046,2131,2168,2257,2390,2551,2664
+"36000","New York","1","Per capita personal consumption expenditures",38103,39573,40637,41897,44018,45497,47230,49291
+"36000","New York","2","  Goods",10948,11521,11697,12069,12567,12756,12939,13491
+"36000","New York","3","    Durable goods",2945,3050,3083,3189,3313,3368,3417,3583
+"36000","New York","4","      Motor vehicles and parts",826,871,915,946,988,1022,1035,1061
+"36000","New York","5","      Furnishings and durable household equipment",822,848,859,890,915,941,969,1009
+"36000","New York","6","      Recreational goods and vehicles",760,741,708,715,742,737,746,797
+"36000","New York","7","      Other durable goods",537,590,601,637,668,668,667,716
+"36000","New York","8","    Nondurable goods",8003,8471,8613,8881,9254,9388,9522,9908
+"36000","New York","9","      Food and beverages purchased for off-premises consumption",2378,2475,2555,2623,2708,2777,2836,2904
+"36000","New York","10","      Clothing and footwear",1485,1607,1656,1743,1786,1790,1802,1816
+"36000","New York","11","      Gasoline and other energy goods",775,923,892,886,857,661,570,634
+"36000","New York","12","      Other nondurable goods",3366,3465,3510,3628,3903,4159,4315,4553
+"36000","New York","13","  Services",27155,28052,28940,29828,31451,32741,34292,35800
+"36000","New York","14","    Household consumption expenditures (for services)",25767,26595,27318,28194,29750,31041,32469,33924
+"36000","New York","15","    Housing and utilities",7117,7303,7372,7550,7913,8244,8475,8740
+"36000","New York","16","    Health care",6331,6445,6526,6661,6917,7130,7530,7953
+"36000","New York","17","    Transportation services",1656,1763,1823,1916,2048,2144,2207,2300
+"36000","New York","18","    Recreation services",1509,1533,1614,1670,1796,1905,1998,2033
+"36000","New York","19","    Food services and accommodations",2372,2527,2655,2768,2978,3134,3319,3470
+"36000","New York","20","    Financial services and insurance",2699,2838,2987,3208,3376,3540,3580,3934
+"36000","New York","21","    Other services",4083,4187,4341,4420,4724,4944,5360,5494
+"36000","New York","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1388,1457,1622,1634,1701,1700,1823,1876
+"36000","New York","23","  Gross output of nonprofit institutions",5007,5170,5450,5558,5804,5881,6244,6495
+"36000","New York","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3619,3713,3828,3924,4103,4181,4421,4620
+"37000","North Carolina","1","Per capita personal consumption expenditures",27486,28334,29256,30018,30974,31900,32887,34152
+"37000","North Carolina","2","  Goods",10163,10563,11042,11439,11820,11887,12055,12418
+"37000","North Carolina","3","    Durable goods",3135,3216,3377,3563,3740,3922,4040,4203
+"37000","North Carolina","4","      Motor vehicles and parts",1156,1194,1283,1352,1418,1531,1575,1607
+"37000","North Carolina","5","      Furnishings and durable household equipment",736,735,756,791,813,839,876,903
+"37000","North Carolina","6","      Recreational goods and vehicles",803,830,864,932,998,1030,1070,1150
+"37000","North Carolina","7","      Other durable goods",440,458,474,488,511,522,518,543
+"37000","North Carolina","8","    Nondurable goods",7028,7347,7665,7876,8080,7965,8015,8215
+"37000","North Carolina","9","      Food and beverages purchased for off-premises consumption",2382,2390,2560,2642,2734,2795,2848,2898
+"37000","North Carolina","10","      Clothing and footwear",905,925,941,964,981,1003,1028,1041
+"37000","North Carolina","11","      Gasoline and other energy goods",1137,1363,1387,1364,1303,962,864,963
+"37000","North Carolina","12","      Other nondurable goods",2605,2669,2777,2906,3062,3205,3275,3312
+"37000","North Carolina","13","  Services",17323,17770,18214,18579,19154,20013,20832,21734
+"37000","North Carolina","14","    Household consumption expenditures (for services)",17229,17663,18090,18445,19012,19880,20702,21611
+"37000","North Carolina","15","    Housing and utilities",4794,4858,4962,5092,5319,5544,5788,5982
+"37000","North Carolina","16","    Health care",4910,5058,5256,5303,5364,5589,5808,6170
+"37000","North Carolina","17","    Transportation services",554,593,604,641,673,717,754,777
+"37000","North Carolina","18","    Recreation services",1045,1059,1114,1139,1164,1236,1288,1342
+"37000","North Carolina","19","    Food services and accommodations",1878,1929,2008,2054,2142,2271,2366,2415
+"37000","North Carolina","20","    Financial services and insurance",1893,1937,1921,1975,2035,2180,2233,2372
+"37000","North Carolina","21","    Other services",2155,2229,2224,2240,2315,2343,2465,2553
+"37000","North Carolina","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",94,107,124,134,142,133,130,123
+"37000","North Carolina","23","  Gross output of nonprofit institutions",2210,2251,2305,2356,2437,2489,2575,2650
+"37000","North Carolina","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2116,2144,2180,2222,2295,2356,2445,2528
+"38000","North Dakota","1","Per capita personal consumption expenditures",35714,38805,42314,44293,46334,46175,45778,46713
+"38000","North Dakota","2","  Goods",14204,15742,17249,18200,18747,17780,16969,17170
+"38000","North Dakota","3","    Durable goods",4971,5432,6077,6300,6537,6571,6455,6499
+"38000","North Dakota","4","      Motor vehicles and parts",1851,2048,2278,2391,2490,2496,2407,2392
+"38000","North Dakota","5","      Furnishings and durable household equipment",1016,1107,1272,1321,1374,1396,1360,1322
+"38000","North Dakota","6","      Recreational goods and vehicles",1376,1487,1657,1705,1737,1722,1785,1885
+"38000","North Dakota","7","      Other durable goods",728,791,870,883,937,958,903,900
+"38000","North Dakota","8","    Nondurable goods",9233,10310,11172,11900,12210,11210,10514,10671
+"38000","North Dakota","9","      Food and beverages purchased for off-premises consumption",2567,2697,2898,3058,3065,3060,3094,3138
+"38000","North Dakota","10","      Clothing and footwear",1111,1193,1319,1342,1410,1421,1403,1354
+"38000","North Dakota","11","      Gasoline and other energy goods",2530,3312,3698,4100,4157,3058,2354,2498
+"38000","North Dakota","12","      Other nondurable goods",3025,3108,3257,3400,3578,3671,3663,3680
+"38000","North Dakota","13","  Services",21510,23063,25065,26093,27587,28395,28809,29543
+"38000","North Dakota","14","    Household consumption expenditures (for services)",20276,21750,23628,24625,26083,26866,27213,27893
+"38000","North Dakota","15","    Housing and utilities",4329,4565,4956,5134,5260,5598,6069,6294
+"38000","North Dakota","16","    Health care",6260,6619,6835,7073,7420,7897,8192,8538
+"38000","North Dakota","17","    Transportation services",945,1103,1296,1461,1706,1606,1437,1401
+"38000","North Dakota","18","    Recreation services",1308,1378,1594,1743,1895,1854,1756,1745
+"38000","North Dakota","19","    Food services and accommodations",2181,2414,2779,2918,3112,3086,2924,2856
+"38000","North Dakota","20","    Financial services and insurance",2804,3073,3333,3456,3701,3950,3997,4125
+"38000","North Dakota","21","    Other services",2448,2598,2835,2841,2989,2875,2838,2935
+"38000","North Dakota","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1235,1313,1438,1469,1504,1529,1596,1649
+"38000","North Dakota","23","  Gross output of nonprofit institutions",3398,3574,3765,3813,3917,4073,4242,4417
+"38000","North Dakota","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2164,2262,2328,2344,2412,2544,2646,2768
+"39000","Ohio","1","Per capita personal consumption expenditures",31705,33113,34219,34912,36086,37199,38141,39403
+"39000","Ohio","2","  Goods",9951,10658,11088,11260,11461,11475,11477,11794
+"39000","Ohio","3","    Durable goods",3046,3219,3376,3485,3606,3721,3788,3941
+"39000","Ohio","4","      Motor vehicles and parts",1097,1174,1240,1296,1383,1451,1470,1523
+"39000","Ohio","5","      Furnishings and durable household equipment",664,700,731,738,751,784,812,860
+"39000","Ohio","6","      Recreational goods and vehicles",779,805,836,876,888,896,916,959
+"39000","Ohio","7","      Other durable goods",506,540,568,575,583,590,590,599
+"39000","Ohio","8","    Nondurable goods",6906,7439,7712,7775,7856,7754,7689,7854
+"39000","Ohio","9","      Food and beverages purchased for off-premises consumption",2411,2539,2647,2651,2685,2707,2716,2754
+"39000","Ohio","10","      Clothing and footwear",844,864,917,923,933,937,947,945
+"39000","Ohio","11","      Gasoline and other energy goods",1068,1354,1406,1395,1341,1048,913,1005
+"39000","Ohio","12","      Other nondurable goods",2582,2681,2741,2805,2897,3062,3113,3150
+"39000","Ohio","13","  Services",21753,22455,23131,23652,24625,25724,26664,27608
+"39000","Ohio","14","    Household consumption expenditures (for services)",20324,20936,21523,22001,22944,24005,24855,25747
+"39000","Ohio","15","    Housing and utilities",5288,5361,5391,5483,5687,5839,5961,6133
+"39000","Ohio","16","    Health care",5828,6038,6325,6423,6681,7044,7321,7526
+"39000","Ohio","17","    Transportation services",960,1012,1032,1070,1135,1188,1221,1268
+"39000","Ohio","18","    Recreation services",1360,1349,1411,1448,1496,1557,1596,1680
+"39000","Ohio","19","    Food services and accommodations",1811,1901,2013,2082,2172,2309,2386,2408
+"39000","Ohio","20","    Financial services and insurance",2599,2780,2863,3002,3244,3481,3667,3938
+"39000","Ohio","21","    Other services",2479,2494,2489,2492,2529,2587,2704,2795
+"39000","Ohio","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1429,1519,1608,1651,1681,1718,1809,1861
+"39000","Ohio","23","  Gross output of nonprofit institutions",4212,4390,4584,4699,4818,5008,5254,5452
+"39000","Ohio","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2783,2871,2976,3048,3138,3289,3445,3591
+"40000","Oklahoma","1","Per capita personal consumption expenditures",27238,28511,29449,30034,31187,31695,32265,33056
+"40000","Oklahoma","2","  Goods",10248,10860,11248,11481,11745,11563,11515,11701
+"40000","Oklahoma","3","    Durable goods",3409,3505,3672,3779,3850,3925,3906,3961
+"40000","Oklahoma","4","      Motor vehicles and parts",1410,1469,1612,1692,1726,1764,1719,1691
+"40000","Oklahoma","5","      Furnishings and durable household equipment",752,762,771,786,815,835,846,858
+"40000","Oklahoma","6","      Recreational goods and vehicles",813,810,809,813,809,816,827,876
+"40000","Oklahoma","7","      Other durable goods",435,465,480,487,500,510,513,535
+"40000","Oklahoma","8","    Nondurable goods",6839,7355,7576,7703,7895,7638,7609,7741
+"40000","Oklahoma","9","      Food and beverages purchased for off-premises consumption",2018,2088,2120,2210,2325,2375,2407,2406
+"40000","Oklahoma","10","      Clothing and footwear",916,954,983,970,968,970,976,978
+"40000","Oklahoma","11","      Gasoline and other energy goods",1354,1683,1765,1802,1747,1342,1198,1259
+"40000","Oklahoma","12","      Other nondurable goods",2551,2631,2708,2720,2855,2951,3028,3098
+"40000","Oklahoma","13","  Services",16990,17651,18201,18553,19442,20132,20750,21354
+"40000","Oklahoma","14","    Household consumption expenditures (for services)",16600,17270,17801,18162,19007,19722,20283,20882
+"40000","Oklahoma","15","    Housing and utilities",4444,4570,4559,4681,4929,5008,5189,5361
+"40000","Oklahoma","16","    Health care",4905,5096,5242,5272,5525,5822,5971,6070
+"40000","Oklahoma","17","    Transportation services",541,568,628,627,635,631,641,647
+"40000","Oklahoma","18","    Recreation services",1056,1071,1168,1200,1207,1254,1286,1326
+"40000","Oklahoma","19","    Food services and accommodations",1781,1894,2018,2067,2172,2284,2315,2320
+"40000","Oklahoma","20","    Financial services and insurance",1853,2030,2160,2286,2455,2636,2739,2952
+"40000","Oklahoma","21","    Other services",2021,2041,2026,2030,2084,2087,2142,2207
+"40000","Oklahoma","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",390,381,400,390,435,410,468,472
+"40000","Oklahoma","23","  Gross output of nonprofit institutions",2760,2857,3011,3054,3187,3256,3342,3470
+"40000","Oklahoma","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2370,2476,2611,2664,2752,2846,2874,2997
+"41000","Oregon","1","Per capita personal consumption expenditures",32127,33329,34054,35039,36560,38052,39287,40805
+"41000","Oregon","2","  Goods",10579,11039,11282,11658,12120,12331,12462,12885
+"41000","Oregon","3","    Durable goods",3367,3444,3556,3745,3938,4139,4284,4531
+"41000","Oregon","4","      Motor vehicles and parts",956,977,1045,1102,1158,1254,1304,1377
+"41000","Oregon","5","      Furnishings and durable household equipment",853,849,877,930,985,1032,1076,1152
+"41000","Oregon","6","      Recreational goods and vehicles",1112,1142,1145,1207,1263,1314,1363,1451
+"41000","Oregon","7","      Other durable goods",447,476,489,506,531,538,541,551
+"41000","Oregon","8","    Nondurable goods",7212,7595,7726,7913,8182,8193,8178,8354
+"41000","Oregon","9","      Food and beverages purchased for off-premises consumption",2983,3077,3140,3222,3371,3472,3470,3523
+"41000","Oregon","10","      Clothing and footwear",942,989,1024,1038,1061,1084,1103,1129
+"41000","Oregon","11","      Gasoline and other energy goods",987,1159,1146,1139,1079,825,723,804
+"41000","Oregon","12","      Other nondurable goods",2300,2370,2416,2513,2672,2811,2883,2899
+"41000","Oregon","13","  Services",21548,22290,22772,23381,24440,25721,26824,27920
+"41000","Oregon","14","    Household consumption expenditures (for services)",20596,21253,21640,22194,23215,24481,25496,26572
+"41000","Oregon","15","    Housing and utilities",6655,6871,6949,7115,7330,7620,7822,8062
+"41000","Oregon","16","    Health care",5277,5448,5561,5710,6077,6581,6881,7181
+"41000","Oregon","17","    Transportation services",1034,1079,1114,1173,1238,1264,1337,1400
+"41000","Oregon","18","    Recreation services",1410,1432,1516,1560,1635,1723,1820,1924
+"41000","Oregon","19","    Food services and accommodations",2046,2125,2222,2319,2456,2659,2765,2878
+"41000","Oregon","20","    Financial services and insurance",1990,2075,2051,2100,2199,2289,2363,2513
+"41000","Oregon","21","    Other services",2184,2223,2226,2217,2281,2346,2508,2614
+"41000","Oregon","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",952,1037,1132,1187,1225,1239,1328,1348
+"41000","Oregon","23","  Gross output of nonprofit institutions",3541,3737,3936,4041,4191,4416,4654,4778
+"41000","Oregon","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2589,2700,2804,2854,2966,3177,3326,3430
+"42000","Pennsylvania","1","Per capita personal consumption expenditures",35267,36561,37222,37997,39152,40252,41370,42819
+"42000","Pennsylvania","2","  Goods",11074,11632,11826,11988,12156,12178,12299,12586
+"42000","Pennsylvania","3","    Durable goods",3417,3560,3666,3756,3829,3950,4029,4170
+"42000","Pennsylvania","4","      Motor vehicles and parts",1176,1234,1300,1351,1405,1481,1499,1532
+"42000","Pennsylvania","5","      Furnishings and durable household equipment",774,789,802,811,815,845,882,922
+"42000","Pennsylvania","6","      Recreational goods and vehicles",977,1012,1036,1059,1062,1076,1093,1140
+"42000","Pennsylvania","7","      Other durable goods",490,525,528,535,547,548,554,577
+"42000","Pennsylvania","8","    Nondurable goods",7657,8072,8160,8232,8326,8228,8270,8416
+"42000","Pennsylvania","9","      Food and beverages purchased for off-premises consumption",2606,2656,2724,2723,2725,2747,2773,2784
+"42000","Pennsylvania","10","      Clothing and footwear",1004,1042,1044,1051,1060,1064,1068,1066
+"42000","Pennsylvania","11","      Gasoline and other energy goods",1192,1441,1421,1376,1322,1027,927,995
+"42000","Pennsylvania","12","      Other nondurable goods",2856,2932,2971,3083,3218,3391,3503,3571
+"42000","Pennsylvania","13","  Services",24193,24929,25396,26009,26997,28074,29070,30233
+"42000","Pennsylvania","14","    Household consumption expenditures (for services)",22690,23381,23814,24380,25317,26386,27289,28397
+"42000","Pennsylvania","15","    Housing and utilities",5473,5633,5760,5977,6276,6563,6807,7059
+"42000","Pennsylvania","16","    Health care",6204,6426,6580,6675,6911,7250,7515,7805
+"42000","Pennsylvania","17","    Transportation services",1098,1165,1193,1242,1293,1343,1372,1404
+"42000","Pennsylvania","18","    Recreation services",1634,1641,1721,1797,1823,1923,1994,2062
+"42000","Pennsylvania","19","    Food services and accommodations",1878,1976,2073,2148,2225,2338,2408,2431
+"42000","Pennsylvania","20","    Financial services and insurance",3106,3213,3147,3180,3311,3406,3450,3693
+"42000","Pennsylvania","21","    Other services",3298,3327,3340,3362,3478,3562,3744,3944
+"42000","Pennsylvania","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1503,1547,1582,1629,1680,1688,1782,1836
+"42000","Pennsylvania","23","  Gross output of nonprofit institutions",4403,4489,4571,4679,4831,4964,5146,5349
+"42000","Pennsylvania","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2900,2941,2989,3050,3151,3276,3364,3512
+"44000","Rhode Island","1","Per capita personal consumption expenditures",35505,36576,37253,38099,39536,40878,41934,43193
+"44000","Rhode Island","2","  Goods",10069,10428,10636,10874,11313,11486,11809,12348
+"44000","Rhode Island","3","    Durable goods",2784,2865,2924,3029,3175,3290,3401,3565
+"44000","Rhode Island","4","      Motor vehicles and parts",949,973,995,1049,1132,1168,1168,1203
+"44000","Rhode Island","5","      Furnishings and durable household equipment",620,635,658,677,705,734,786,857
+"44000","Rhode Island","6","      Recreational goods and vehicles",736,749,747,766,768,783,809,833
+"44000","Rhode Island","7","      Other durable goods",480,509,524,538,570,605,637,672
+"44000","Rhode Island","8","    Nondurable goods",7285,7562,7712,7845,8137,8196,8408,8783
+"44000","Rhode Island","9","      Food and beverages purchased for off-premises consumption",2568,2633,2692,2738,2826,2870,2935,2966
+"44000","Rhode Island","10","      Clothing and footwear",832,858,907,908,919,931,938,944
+"44000","Rhode Island","11","      Gasoline and other energy goods",910,1084,1054,1059,1036,795,701,752
+"44000","Rhode Island","12","      Other nondurable goods",2975,2988,3059,3140,3357,3599,3834,4123
+"44000","Rhode Island","13","  Services",25436,26148,26617,27225,28223,29393,30125,30845
+"44000","Rhode Island","14","    Household consumption expenditures (for services)",23852,24520,24918,25455,26443,27603,28261,28924
+"44000","Rhode Island","15","    Housing and utilities",7260,7433,7533,7715,7993,8399,8538,8760
+"44000","Rhode Island","16","    Health care",6336,6481,6613,6664,6922,7214,7310,7429
+"44000","Rhode Island","17","    Transportation services",907,969,990,1042,1084,1130,1171,1215
+"44000","Rhode Island","18","    Recreation services",1439,1444,1498,1548,1607,1659,1701,1769
+"44000","Rhode Island","19","    Food services and accommodations",2351,2462,2583,2695,2847,3038,3198,3262
+"44000","Rhode Island","20","    Financial services and insurance",2290,2407,2439,2507,2623,2755,2803,2928
+"44000","Rhode Island","21","    Other services",3268,3324,3263,3284,3367,3407,3541,3562
+"44000","Rhode Island","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1584,1628,1698,1769,1780,1789,1864,1921
+"44000","Rhode Island","23","  Gross output of nonprofit institutions",4515,4628,4761,4922,4973,5080,5187,5389
+"44000","Rhode Island","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2931,3000,3063,3152,3193,3291,3324,3468
+"45000","South Carolina","1","Per capita personal consumption expenditures",27898,28813,29405,30182,31142,31861,32748,33692
+"45000","South Carolina","2","  Goods",10513,11020,11262,11531,11747,11578,11667,11924
+"45000","South Carolina","3","    Durable goods",2969,3032,3144,3295,3399,3529,3644,3746
+"45000","South Carolina","4","      Motor vehicles and parts",1064,1103,1191,1256,1296,1375,1405,1425
+"45000","South Carolina","5","      Furnishings and durable household equipment",671,671,688,724,751,773,807,834
+"45000","South Carolina","6","      Recreational goods and vehicles",748,753,756,788,803,818,859,887
+"45000","South Carolina","7","      Other durable goods",486,504,509,526,550,563,573,600
+"45000","South Carolina","8","    Nondurable goods",7544,7988,8119,8236,8348,8049,8023,8178
+"45000","South Carolina","9","      Food and beverages purchased for off-premises consumption",2622,2649,2666,2720,2810,2812,2813,2799
+"45000","South Carolina","10","      Clothing and footwear",985,1008,1021,1021,1039,1050,1082,1116
+"45000","South Carolina","11","      Gasoline and other energy goods",1394,1717,1744,1705,1598,1184,1046,1125
+"45000","South Carolina","12","      Other nondurable goods",2543,2615,2688,2790,2901,3002,3083,3138
+"45000","South Carolina","13","  Services",17385,17794,18142,18651,19395,20283,21081,21768
+"45000","South Carolina","14","    Household consumption expenditures (for services)",16928,17306,17590,18043,18748,19660,20410,21090
+"45000","South Carolina","15","    Housing and utilities",4650,4745,4833,4973,5197,5422,5656,5795
+"45000","South Carolina","16","    Health care",4832,4922,4961,5088,5296,5605,5789,5899
+"45000","South Carolina","17","    Transportation services",558,582,584,611,644,679,719,749
+"45000","South Carolina","18","    Recreation services",986,995,1038,1084,1119,1205,1253,1356
+"45000","South Carolina","19","    Food services and accommodations",2034,2112,2204,2253,2317,2466,2571,2601
+"45000","South Carolina","20","    Financial services and insurance",1716,1790,1838,1922,2014,2078,2100,2275
+"45000","South Carolina","21","    Other services",2152,2161,2132,2112,2161,2206,2323,2416
+"45000","South Carolina","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",457,487,552,608,646,623,671,678
+"45000","South Carolina","23","  Gross output of nonprofit institutions",2844,2823,2840,2918,3047,3122,3227,3316
+"45000","South Carolina","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2387,2336,2288,2310,2401,2499,2556,2638
+"46000","South Dakota","1","Per capita personal consumption expenditures",33131,34672,35930,37178,38437,39689,41078,42558
+"46000","South Dakota","2","  Goods",11773,12450,12801,13130,13541,13468,13540,13865
+"46000","South Dakota","3","    Durable goods",4220,4298,4473,4692,4911,5116,5166,5287
+"46000","South Dakota","4","      Motor vehicles and parts",1642,1670,1747,1811,1950,2033,2032,2060
+"46000","South Dakota","5","      Furnishings and durable household equipment",817,838,884,926,949,995,1013,1031
+"46000","South Dakota","6","      Recreational goods and vehicles",1044,1062,1101,1164,1199,1262,1291,1350
+"46000","South Dakota","7","      Other durable goods",717,728,741,790,814,827,831,845
+"46000","South Dakota","8","    Nondurable goods",7553,8152,8328,8437,8630,8352,8373,8577
+"46000","South Dakota","9","      Food and beverages purchased for off-premises consumption",2487,2601,2638,2671,2783,2878,2971,2959
+"46000","South Dakota","10","      Clothing and footwear",868,888,913,915,939,970,998,1004
+"46000","South Dakota","11","      Gasoline and other energy goods",1849,2219,2254,2265,2213,1715,1525,1675
+"46000","South Dakota","12","      Other nondurable goods",2349,2444,2523,2586,2694,2789,2879,2939
+"46000","South Dakota","13","  Services",21358,22222,23129,24048,24896,26221,27538,28694
+"46000","South Dakota","14","    Household consumption expenditures (for services)",20282,21066,21868,22717,23557,24891,26139,27264
+"46000","South Dakota","15","    Housing and utilities",4446,4589,4927,5126,5177,5549,5825,5791
+"46000","South Dakota","16","    Health care",6604,6859,7022,7424,7708,8069,8463,8989
+"46000","South Dakota","17","    Transportation services",771,810,827,868,905,939,991,1041
+"46000","South Dakota","18","    Recreation services",1244,1236,1282,1322,1349,1442,1468,1509
+"46000","South Dakota","19","    Food services and accommodations",2123,2170,2226,2276,2370,2533,2606,2608
+"46000","South Dakota","20","    Financial services and insurance",2958,3274,3474,3659,3985,4291,4632,5112
+"46000","South Dakota","21","    Other services",2136,2127,2110,2042,2063,2069,2153,2215
+"46000","South Dakota","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1077,1156,1260,1331,1340,1330,1399,1430
+"46000","South Dakota","23","  Gross output of nonprofit institutions",3338,3496,3735,3821,3939,4038,4236,4368
+"46000","South Dakota","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2262,2340,2474,2490,2599,2708,2836,2938
+"47000","Tennessee","1","Per capita personal consumption expenditures",28307,29358,30010,30376,31537,32493,33579,34905
+"47000","Tennessee","2","  Goods",10464,11051,11256,11325,11640,11618,11834,12196
+"47000","Tennessee","3","    Durable goods",3146,3246,3354,3430,3577,3756,3890,4034
+"47000","Tennessee","4","      Motor vehicles and parts",1131,1198,1283,1310,1404,1527,1576,1601
+"47000","Tennessee","5","      Furnishings and durable household equipment",725,734,746,778,801,840,891,943
+"47000","Tennessee","6","      Recreational goods and vehicles",859,860,860,880,898,908,943,988
+"47000","Tennessee","7","      Other durable goods",431,454,465,462,475,481,479,502
+"47000","Tennessee","8","    Nondurable goods",7318,7805,7902,7894,8063,7862,7945,8162
+"47000","Tennessee","9","      Food and beverages purchased for off-premises consumption",2527,2655,2678,2677,2751,2743,2798,2826
+"47000","Tennessee","10","      Clothing and footwear",915,948,967,967,978,984,988,1002
+"47000","Tennessee","11","      Gasoline and other energy goods",1052,1300,1331,1268,1239,928,829,935
+"47000","Tennessee","12","      Other nondurable goods",2823,2902,2925,2983,3095,3207,3330,3400
+"47000","Tennessee","13","  Services",17843,18307,18754,19051,19897,20875,21744,22709
+"47000","Tennessee","14","    Household consumption expenditures (for services)",17413,17837,18240,18509,19333,20328,21163,22122
+"47000","Tennessee","15","    Housing and utilities",5039,5139,5173,5263,5465,5649,5896,6090
+"47000","Tennessee","16","    Health care",5139,5220,5418,5463,5653,6029,6133,6372
+"47000","Tennessee","17","    Transportation services",561,591,599,609,647,691,747,788
+"47000","Tennessee","18","    Recreation services",975,982,1024,1047,1109,1185,1236,1333
+"47000","Tennessee","19","    Food services and accommodations",1890,1969,2067,2086,2198,2334,2460,2515
+"47000","Tennessee","20","    Financial services and insurance",1824,1935,1970,2053,2204,2324,2464,2717
+"47000","Tennessee","21","    Other services",1984,2000,1989,1988,2058,2115,2226,2307
+"47000","Tennessee","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",430,469,514,542,564,547,581,587
+"47000","Tennessee","23","  Gross output of nonprofit institutions",2677,2786,2896,2973,3013,3203,3283,3384
+"47000","Tennessee","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2248,2317,2382,2431,2448,2655,2701,2797
+"48000","Texas","1","Per capita personal consumption expenditures",29955,31372,32469,33203,34528,35372,36214,37486
+"48000","Texas","2","  Goods",10567,11287,11773,12004,12374,12333,12365,12694
+"48000","Texas","3","    Durable goods",3447,3613,3837,3946,4103,4283,4293,4410
+"48000","Texas","4","      Motor vehicles and parts",1362,1446,1632,1695,1795,1882,1854,1880
+"48000","Texas","5","      Furnishings and durable household equipment",767,788,798,829,865,916,945,957
+"48000","Texas","6","      Recreational goods and vehicles",822,838,850,863,870,895,912,958
+"48000","Texas","7","      Other durable goods",496,540,556,558,573,590,582,615
+"48000","Texas","8","    Nondurable goods",7121,7675,7936,8058,8272,8051,8072,8284
+"48000","Texas","9","      Food and beverages purchased for off-premises consumption",2389,2501,2597,2644,2758,2798,2838,2878
+"48000","Texas","10","      Clothing and footwear",1077,1146,1186,1184,1178,1191,1203,1222
+"48000","Texas","11","      Gasoline and other energy goods",1133,1425,1476,1484,1461,1077,941,1035
+"48000","Texas","12","      Other nondurable goods",2521,2602,2678,2748,2875,2985,3089,3149
+"48000","Texas","13","  Services",19388,20084,20696,21199,22153,23039,23849,24792
+"48000","Texas","14","    Household consumption expenditures (for services)",18739,19410,19946,20436,21368,22267,23024,23958
+"48000","Texas","15","    Housing and utilities",5050,5137,5158,5298,5534,5780,5979,6264
+"48000","Texas","16","    Health care",4798,4915,5081,5089,5283,5607,5837,6025
+"48000","Texas","17","    Transportation services",810,887,928,982,1043,1044,1051,1093
+"48000","Texas","18","    Recreation services",1227,1252,1323,1366,1406,1457,1486,1555
+"48000","Texas","19","    Food services and accommodations",2019,2132,2241,2319,2439,2572,2640,2656
+"48000","Texas","20","    Financial services and insurance",2415,2593,2670,2808,2989,3119,3233,3465
+"48000","Texas","21","    Other services",2419,2494,2544,2573,2674,2688,2798,2900
+"48000","Texas","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",649,674,750,763,786,772,825,834
+"48000","Texas","23","  Gross output of nonprofit institutions",2847,2902,3015,3063,3194,3301,3456,3547
+"48000","Texas","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2198,2228,2265,2299,2408,2529,2632,2713
+"49000","Utah","1","Per capita personal consumption expenditures",28013,28837,29782,30456,31751,33038,34502,35786
+"49000","Utah","2","  Goods",9922,10179,10582,10799,11164,11394,11730,12230
+"49000","Utah","3","    Durable goods",3365,3415,3600,3809,3994,4260,4469,4739
+"49000","Utah","4","      Motor vehicles and parts",1078,1128,1226,1327,1392,1513,1568,1669
+"49000","Utah","5","      Furnishings and durable household equipment",822,799,832,868,903,952,1001,1044
+"49000","Utah","6","      Recreational goods and vehicles",973,979,1016,1073,1150,1210,1302,1393
+"49000","Utah","7","      Other durable goods",492,509,526,541,549,585,599,633
+"49000","Utah","8","    Nondurable goods",6557,6764,6982,6989,7169,7134,7261,7490
+"49000","Utah","9","      Food and beverages purchased for off-premises consumption",2404,2399,2395,2387,2499,2527,2588,2601
+"49000","Utah","10","      Clothing and footwear",897,916,964,979,968,998,1026,1074
+"49000","Utah","11","      Gasoline and other energy goods",1024,1247,1333,1299,1249,956,848,944
+"49000","Utah","12","      Other nondurable goods",2232,2202,2290,2324,2453,2652,2799,2871
+"49000","Utah","13","  Services",18091,18658,19199,19657,20588,21644,22772,23556
+"49000","Utah","14","    Household consumption expenditures (for services)",17478,18035,18508,18948,19852,20924,22044,22825
+"49000","Utah","15","    Housing and utilities",5339,5482,5582,5731,5913,6179,6356,6494
+"49000","Utah","16","    Health care",4000,4115,4257,4324,4539,4729,5081,5192
+"49000","Utah","17","    Transportation services",854,907,931,984,1023,1041,1074,1113
+"49000","Utah","18","    Recreation services",1219,1248,1359,1452,1494,1660,1844,1990
+"49000","Utah","19","    Food services and accommodations",1638,1708,1797,1848,1956,2107,2166,2206
+"49000","Utah","20","    Financial services and insurance",2423,2537,2544,2602,2796,2999,3171,3398
+"49000","Utah","21","    Other services",2004,2038,2037,2007,2131,2211,2352,2432
+"49000","Utah","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",613,623,691,709,736,720,728,731
+"49000","Utah","23","  Gross output of nonprofit institutions",2712,2812,3005,3064,3215,3288,3540,3617
+"49000","Utah","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2099,2190,2314,2355,2479,2568,2812,2886
+"50000","Vermont","1","Per capita personal consumption expenditures",37957,39722,40821,42351,44023,45383,46518,47845
+"50000","Vermont","2","  Goods",12802,13540,13765,14263,14778,14714,14867,15356
+"50000","Vermont","3","    Durable goods",3663,3784,3892,4100,4295,4442,4580,4798
+"50000","Vermont","4","      Motor vehicles and parts",1434,1519,1579,1656,1748,1827,1852,1934
+"50000","Vermont","5","      Furnishings and durable household equipment",810,819,845,874,888,909,952,990
+"50000","Vermont","6","      Recreational goods and vehicles",1007,1022,1042,1125,1197,1232,1303,1392
+"50000","Vermont","7","      Other durable goods",413,424,427,445,461,474,474,482
+"50000","Vermont","8","    Nondurable goods",9139,9756,9873,10163,10483,10272,10286,10558
+"50000","Vermont","9","      Food and beverages purchased for off-premises consumption",3542,3667,3784,3909,4083,4233,4341,4452
+"50000","Vermont","10","      Clothing and footwear",805,809,812,818,823,833,836,842
+"50000","Vermont","11","      Gasoline and other energy goods",1966,2319,2239,2209,2149,1607,1400,1520
+"50000","Vermont","12","      Other nondurable goods",2827,2960,3039,3227,3428,3600,3709,3743
+"50000","Vermont","13","  Services",25154,26182,27056,28088,29245,30669,31651,32490
+"50000","Vermont","14","    Household consumption expenditures (for services)",23139,23958,24655,25585,26643,28025,28897,29640
+"50000","Vermont","15","    Housing and utilities",6586,6830,7139,7355,7680,8006,8251,8448
+"50000","Vermont","16","    Health care",6592,6872,7177,7503,7726,8144,8517,8680
+"50000","Vermont","17","    Transportation services",834,886,898,934,988,1034,1078,1105
+"50000","Vermont","18","    Recreation services",1514,1501,1517,1596,1621,1706,1736,1801
+"50000","Vermont","19","    Food services and accommodations",2318,2427,2524,2653,2814,3028,3089,3185
+"50000","Vermont","20","    Financial services and insurance",2121,2233,2271,2405,2553,2728,2755,2821
+"50000","Vermont","21","    Other services",3174,3210,3129,3140,3261,3379,3471,3600
+"50000","Vermont","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",2016,2224,2401,2503,2602,2644,2754,2849
+"50000","Vermont","23","  Gross output of nonprofit institutions",4952,5211,5492,5689,5903,6087,6370,6628
+"50000","Vermont","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2937,2987,3091,3186,3301,3442,3616,3779
+"51000","Virginia","1","Per capita personal consumption expenditures",35912,37005,37995,38515,39712,40893,42178,43551
+"51000","Virginia","2","  Goods",11454,11952,12194,12266,12354,12355,12447,12785
+"51000","Virginia","3","    Durable goods",3662,3748,3861,3920,3983,4111,4156,4229
+"51000","Virginia","4","      Motor vehicles and parts",1260,1287,1365,1394,1437,1517,1546,1556
+"51000","Virginia","5","      Furnishings and durable household equipment",855,875,889,903,904,934,943,965
+"51000","Virginia","6","      Recreational goods and vehicles",961,974,982,990,995,1000,1006,1033
+"51000","Virginia","7","      Other durable goods",586,612,624,632,647,660,661,675
+"51000","Virginia","8","    Nondurable goods",7792,8204,8334,8346,8371,8245,8290,8556
+"51000","Virginia","9","      Food and beverages purchased for off-premises consumption",2653,2734,2810,2821,2890,2966,3081,3199
+"51000","Virginia","10","      Clothing and footwear",1114,1131,1151,1148,1146,1150,1160,1153
+"51000","Virginia","11","      Gasoline and other energy goods",1260,1487,1482,1416,1321,977,839,920
+"51000","Virginia","12","      Other nondurable goods",2765,2852,2891,2961,3015,3152,3211,3283
+"51000","Virginia","13","  Services",24458,25053,25800,26249,27358,28538,29731,30766
+"51000","Virginia","14","    Household consumption expenditures (for services)",23790,24355,25004,25453,26504,27721,28808,29826
+"51000","Virginia","15","    Housing and utilities",6777,6937,7131,7379,7789,8235,8592,8921
+"51000","Virginia","16","    Health care",5076,5237,5433,5488,5687,5981,6238,6460
+"51000","Virginia","17","    Transportation services",871,941,970,996,1015,1045,1076,1106
+"51000","Virginia","18","    Recreation services",1331,1318,1363,1370,1380,1454,1500,1545
+"51000","Virginia","19","    Food services and accommodations",2248,2326,2401,2429,2510,2669,2766,2788
+"51000","Virginia","20","    Financial services and insurance",3415,3532,3648,3736,3864,3997,4111,4324
+"51000","Virginia","21","    Other services",4072,4063,4058,4055,4259,4339,4525,4683
+"51000","Virginia","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",668,698,796,796,855,816,923,939
+"51000","Virginia","23","  Gross output of nonprofit institutions",3467,3566,3739,3804,3920,4014,4250,4395
+"51000","Virginia","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2799,2868,2943,3008,3065,3198,3327,3455
+"53000","Washington","1","Per capita personal consumption expenditures",34935,36184,37392,38314,39709,41190,42554,44377
+"53000","Washington","2","  Goods",10843,11383,11605,11998,12314,12432,12660,13206
+"53000","Washington","3","    Durable goods",3693,3821,3968,4200,4375,4560,4759,5029
+"53000","Washington","4","      Motor vehicles and parts",1036,1067,1110,1199,1249,1321,1361,1412
+"53000","Washington","5","      Furnishings and durable household equipment",833,828,843,892,924,967,1028,1088
+"53000","Washington","6","      Recreational goods and vehicles",1347,1406,1488,1560,1641,1702,1785,1901
+"53000","Washington","7","      Other durable goods",477,520,527,548,561,569,585,629
+"53000","Washington","8","    Nondurable goods",7150,7562,7637,7798,7939,7872,7901,8177
+"53000","Washington","9","      Food and beverages purchased for off-premises consumption",2963,3065,3111,3204,3293,3334,3357,3409
+"53000","Washington","10","      Clothing and footwear",918,1003,1021,1041,1045,1047,1056,1070
+"53000","Washington","11","      Gasoline and other energy goods",925,1099,1087,1070,1001,758,656,748
+"53000","Washington","12","      Other nondurable goods",2344,2395,2418,2484,2600,2733,2831,2949
+"53000","Washington","13","  Services",24092,24802,25787,26316,27395,28758,29894,31171
+"53000","Washington","14","    Household consumption expenditures (for services)",23075,23681,24506,24962,25992,27369,28465,29723
+"53000","Washington","15","    Housing and utilities",7099,7287,7420,7572,7826,8197,8488,8775
+"53000","Washington","16","    Health care",5876,6002,6281,6314,6531,6898,7193,7530
+"53000","Washington","17","    Transportation services",1270,1341,1385,1449,1505,1574,1652,1721
+"53000","Washington","18","    Recreation services",1496,1512,1626,1672,1747,1862,1950,2032
+"53000","Washington","19","    Food services and accommodations",2054,2140,2262,2303,2394,2552,2655,2818
+"53000","Washington","20","    Financial services and insurance",2448,2532,2560,2680,2850,3016,3023,3160
+"53000","Washington","21","    Other services",2832,2868,2972,2971,3138,3270,3504,3686
+"53000","Washington","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1017,1120,1281,1354,1403,1389,1428,1448
+"53000","Washington","23","  Gross output of nonprofit institutions",3584,3749,3998,4132,4267,4429,4606,4714
+"53000","Washington","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2567,2629,2717,2777,2864,3039,3178,3266
+"54000","West Virginia","1","Per capita personal consumption expenditures",27902,29274,30204,30713,31642,32590,33592,34758
+"54000","West Virginia","2","  Goods",10315,10925,11095,11275,11484,11573,11682,11871
+"54000","West Virginia","3","    Durable goods",2912,3013,3137,3219,3276,3372,3425,3498
+"54000","West Virginia","4","      Motor vehicles and parts",1177,1240,1344,1377,1408,1455,1466,1473
+"54000","West Virginia","5","      Furnishings and durable household equipment",602,609,614,625,633,643,660,671
+"54000","West Virginia","6","      Recreational goods and vehicles",715,722,733,757,765,781,797,840
+"54000","West Virginia","7","      Other durable goods",418,442,446,460,470,492,502,514
+"54000","West Virginia","8","    Nondurable goods",7402,7912,7958,8056,8208,8201,8257,8373
+"54000","West Virginia","9","      Food and beverages purchased for off-premises consumption",2523,2610,2628,2667,2702,2748,2807,2857
+"54000","West Virginia","10","      Clothing and footwear",746,762,778,796,811,825,842,850
+"54000","West Virginia","11","      Gasoline and other energy goods",1242,1543,1542,1528,1459,1143,1019,1082
+"54000","West Virginia","12","      Other nondurable goods",2891,2996,3010,3066,3236,3485,3589,3585
+"54000","West Virginia","13","  Services",17587,18349,19108,19437,20158,21016,21910,22887
+"54000","West Virginia","14","    Household consumption expenditures (for services)",16350,17014,17678,17966,18642,19458,20266,21174
+"54000","West Virginia","15","    Housing and utilities",4015,4112,4236,4356,4518,4713,4958,5149
+"54000","West Virginia","16","    Health care",5827,5998,6364,6484,6801,7172,7533,7935
+"54000","West Virginia","17","    Transportation services",437,456,464,465,477,485,492,510
+"54000","West Virginia","18","    Recreation services",801,817,820,824,832,853,865,907
+"54000","West Virginia","19","    Food services and accommodations",1818,2075,2221,2216,2258,2370,2391,2386
+"54000","West Virginia","20","    Financial services and insurance",1673,1771,1784,1838,1930,2034,2148,2341
+"54000","West Virginia","21","    Other services",1778,1786,1788,1782,1826,1833,1879,1946
+"54000","West Virginia","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1237,1335,1431,1472,1516,1558,1644,1713
+"54000","West Virginia","23","  Gross output of nonprofit institutions",3009,3178,3367,3460,3570,3723,3924,4114
+"54000","West Virginia","24","  Less: Receipts from sales of goods and services by nonprofit institutions",1773,1842,1937,1988,2054,2165,2281,2401
+"55000","Wisconsin","1","Per capita personal consumption expenditures",32993,34222,34760,35659,36838,37958,39186,40660
+"55000","Wisconsin","2","  Goods",10627,11181,11341,11700,12085,12231,12519,13008
+"55000","Wisconsin","3","    Durable goods",3370,3441,3502,3684,3884,4077,4228,4420
+"55000","Wisconsin","4","      Motor vehicles and parts",1137,1183,1250,1312,1399,1497,1534,1599
+"55000","Wisconsin","5","      Furnishings and durable household equipment",759,767,761,793,828,884,934,955
+"55000","Wisconsin","6","      Recreational goods and vehicles",1035,1041,1040,1112,1175,1213,1264,1351
+"55000","Wisconsin","7","      Other durable goods",439,449,451,467,481,484,496,515
+"55000","Wisconsin","8","    Nondurable goods",7257,7741,7839,8016,8201,8154,8291,8588
+"55000","Wisconsin","9","      Food and beverages purchased for off-premises consumption",2522,2608,2670,2715,2796,2878,2961,3047
+"55000","Wisconsin","10","      Clothing and footwear",857,872,877,891,896,899,912,917
+"55000","Wisconsin","11","      Gasoline and other energy goods",1289,1580,1589,1570,1514,1212,1107,1240
+"55000","Wisconsin","12","      Other nondurable goods",2589,2680,2703,2840,2996,3165,3310,3384
+"55000","Wisconsin","13","  Services",22365,23041,23419,23959,24753,25727,26667,27652
+"55000","Wisconsin","14","    Household consumption expenditures (for services)",21011,21582,21859,22320,23113,24058,24918,25853
+"55000","Wisconsin","15","    Housing and utilities",5609,5744,5851,6004,6254,6406,6597,6796
+"55000","Wisconsin","16","    Health care",6381,6563,6631,6707,6894,7281,7559,7818
+"55000","Wisconsin","17","    Transportation services",952,980,981,1026,1078,1118,1167,1218
+"55000","Wisconsin","18","    Recreation services",1298,1293,1305,1345,1373,1433,1491,1566
+"55000","Wisconsin","19","    Food services and accommodations",1775,1826,1889,1929,2003,2149,2223,2271
+"55000","Wisconsin","20","    Financial services and insurance",2394,2561,2599,2708,2856,2999,3097,3281
+"55000","Wisconsin","21","    Other services",2602,2614,2604,2601,2655,2670,2784,2903
+"55000","Wisconsin","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1354,1458,1560,1639,1640,1669,1749,1799
+"55000","Wisconsin","23","  Gross output of nonprofit institutions",3998,4193,4397,4528,4575,4762,4979,5163
+"55000","Wisconsin","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2644,2735,2836,2890,2935,3093,3230,3364
+"56000","Wyoming","1","Per capita personal consumption expenditures",34003,35776,36864,37815,39078,39345,39650,41036
+"56000","Wyoming","2","  Goods",12542,13316,13428,13516,13634,13108,12824,13223
+"56000","Wyoming","3","    Durable goods",3607,3759,3846,3955,4081,4128,4092,4146
+"56000","Wyoming","4","      Motor vehicles and parts",1422,1531,1610,1623,1692,1723,1693,1718
+"56000","Wyoming","5","      Furnishings and durable household equipment",728,723,725,762,779,796,804,820
+"56000","Wyoming","6","      Recreational goods and vehicles",974,999,1010,1050,1075,1069,1051,1053
+"56000","Wyoming","7","      Other durable goods",483,508,500,520,535,541,544,554
+"56000","Wyoming","8","    Nondurable goods",8935,9557,9582,9561,9553,8980,8733,9078
+"56000","Wyoming","9","      Food and beverages purchased for off-premises consumption",2899,2944,2982,3090,3210,3265,3327,3413
+"56000","Wyoming","10","      Clothing and footwear",765,789,788,792,804,811,821,833
+"56000","Wyoming","11","      Gasoline and other energy goods",2919,3459,3453,3284,3066,2342,1983,2186
+"56000","Wyoming","12","      Other nondurable goods",2352,2365,2360,2395,2473,2562,2602,2646
+"56000","Wyoming","13","  Services",21461,22460,23436,24299,25444,26237,26826,27813
+"56000","Wyoming","14","    Household consumption expenditures (for services)",20808,21761,22689,23512,24638,25451,25971,26928
+"56000","Wyoming","15","    Housing and utilities",5350,5577,5748,5941,6202,6514,6805,7228
+"56000","Wyoming","16","    Health care",5461,5641,5804,5862,6143,6389,6494,6626
+"56000","Wyoming","17","    Transportation services",850,939,969,1024,1113,1120,1139,1161
+"56000","Wyoming","18","    Recreation services",1017,1038,1092,1134,1188,1209,1243,1309
+"56000","Wyoming","19","    Food services and accommodations",2753,2834,2952,3072,3221,3288,3351,3399
+"56000","Wyoming","20","    Financial services and insurance",3190,3472,3910,4273,4539,4707,4641,4804
+"56000","Wyoming","21","    Other services",2186,2259,2214,2206,2232,2226,2298,2401
+"56000","Wyoming","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",653,699,748,786,806,786,855,885
+"56000","Wyoming","23","  Gross output of nonprofit institutions",3258,3380,3455,3532,3579,3643,3719,3909
+"56000","Wyoming","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2605,2681,2707,2746,2773,2857,2864,3024
+"91000","New England","1","Per capita personal consumption expenditures",41158,42404,43354,44362,45993,47504,48862,50536
+"91000","New England","2","  Goods",12570,13071,13280,13602,14049,14166,14385,14929
+"91000","New England","3","    Durable goods",3976,4069,4167,4296,4453,4616,4736,4910
+"91000","New England","4","      Motor vehicles and parts",1214,1256,1306,1369,1444,1526,1537,1575
+"91000","New England","5","      Furnishings and durable household equipment",872,881,898,933,961,991,1034,1066
+"91000","New England","6","      Recreational goods and vehicles",1192,1215,1225,1244,1276,1308,1357,1424
+"91000","New England","7","      Other durable goods",698,717,738,751,772,792,808,845
+"91000","New England","8","    Nondurable goods",8594,9002,9113,9306,9596,9550,9649,10019
+"91000","New England","9","      Food and beverages purchased for off-premises consumption",3004,3120,3209,3264,3381,3451,3534,3634
+"91000","New England","10","      Clothing and footwear",1174,1174,1205,1210,1222,1240,1261,1263
+"91000","New England","11","      Gasoline and other energy goods",1280,1500,1441,1433,1402,1072,917,1008
+"91000","New England","12","      Other nondurable goods",3136,3209,3258,3399,3592,3787,3937,4115
+"91000","New England","13","  Services",28588,29333,30074,30760,31944,33338,34477,35606
+"91000","New England","14","    Household consumption expenditures (for services)",27053,27716,28314,28936,30066,31446,32496,33570
+"91000","New England","15","    Housing and utilities",7886,8014,8114,8263,8593,8998,9229,9505
+"91000","New England","16","    Health care",7087,7239,7388,7469,7662,7973,8277,8514
+"91000","New England","17","    Transportation services",1199,1276,1304,1386,1470,1537,1587,1625
+"91000","New England","18","    Recreation services",1630,1645,1714,1780,1834,1946,2053,2154
+"91000","New England","19","    Food services and accommodations",2347,2441,2542,2632,2765,2943,3085,3159
+"91000","New England","20","    Financial services and insurance",3190,3335,3407,3536,3689,3860,3814,3961
+"91000","New England","21","    Other services",3713,3766,3844,3869,4052,4189,4450,4652
+"91000","New England","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1535,1617,1760,1824,1878,1892,1981,2036
+"91000","New England","23","  Gross output of nonprofit institutions",5023,5193,5452,5592,5806,5906,6144,6373
+"91000","New England","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3488,3575,3692,3768,3928,4014,4163,4337
+"92000","Mideast","1","Per capita personal consumption expenditures",37934,39225,40135,41139,42768,44106,45538,47232
+"92000","Mideast","2","  Goods",11313,11841,12040,12310,12671,12808,12973,13403
+"92000","Mideast","3","    Durable goods",3410,3521,3596,3699,3808,3906,3980,4130
+"92000","Mideast","4","      Motor vehicles and parts",1066,1121,1186,1230,1279,1335,1354,1380
+"92000","Mideast","5","      Furnishings and durable household equipment",839,854,863,886,903,932,967,1007
+"92000","Mideast","6","      Recreational goods and vehicles",924,927,919,937,956,960,977,1026
+"92000","Mideast","7","      Other durable goods",580,619,627,646,670,679,683,718
+"92000","Mideast","8","    Nondurable goods",7904,8320,8443,8610,8863,8902,8993,9273
+"92000","Mideast","9","      Food and beverages purchased for off-premises consumption",2589,2664,2720,2764,2837,2885,2926,2978
+"92000","Mideast","10","      Clothing and footwear",1281,1353,1388,1424,1449,1459,1465,1473
+"92000","Mideast","11","      Gasoline and other energy goods",952,1144,1139,1120,1072,827,726,793
+"92000","Mideast","12","      Other nondurable goods",3082,3159,3196,3302,3506,3731,3875,4029
+"92000","Mideast","13","  Services",26621,27384,28096,28830,30097,31298,32564,33829
+"92000","Mideast","14","    Household consumption expenditures (for services)",25102,25797,26388,27092,28298,29498,30651,31860
+"92000","Mideast","15","    Housing and utilities",7062,7223,7331,7534,7876,8222,8498,8787
+"92000","Mideast","16","    Health care",6206,6353,6496,6600,6838,7136,7453,7777
+"92000","Mideast","17","    Transportation services",1393,1480,1521,1596,1682,1743,1795,1856
+"92000","Mideast","18","    Recreation services",1592,1606,1675,1733,1792,1883,1953,1992
+"92000","Mideast","19","    Food services and accommodations",2149,2254,2356,2444,2579,2710,2831,2918
+"92000","Mideast","20","    Financial services and insurance",2767,2885,2929,3059,3200,3332,3350,3604
+"92000","Mideast","21","    Other services",3933,3996,4081,4126,4330,4473,4770,4927
+"92000","Mideast","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1519,1586,1708,1738,1799,1800,1914,1969
+"92000","Mideast","23","  Gross output of nonprofit institutions",5002,5134,5336,5449,5645,5773,6067,6302
+"92000","Mideast","24","  Less: Receipts from sales of goods and services by nonprofit institutions",3483,3548,3628,3711,3846,3973,4153,4333
+"93000","Great Lakes","1","Per capita personal consumption expenditures",32273,33512,34363,35036,36265,37439,38625,40045
+"93000","Great Lakes","2","  Goods",10206,10810,11082,11269,11532,11638,11822,12267
+"93000","Great Lakes","3","    Durable goods",3193,3328,3444,3550,3684,3852,3965,4129
+"93000","Great Lakes","4","      Motor vehicles and parts",1049,1112,1175,1220,1302,1380,1404,1441
+"93000","Great Lakes","5","      Furnishings and durable household equipment",702,721,743,764,782,828,873,915
+"93000","Great Lakes","6","      Recreational goods and vehicles",893,913,930,959,976,999,1033,1086
+"93000","Great Lakes","7","      Other durable goods",549,582,596,608,625,644,655,687
+"93000","Great Lakes","8","    Nondurable goods",7013,7483,7638,7719,7848,7786,7857,8138
+"93000","Great Lakes","9","      Food and beverages purchased for off-premises consumption",2418,2509,2571,2589,2649,2701,2756,2816
+"93000","Great Lakes","10","      Clothing and footwear",925,953,980,984,993,1007,1024,1030
+"93000","Great Lakes","11","      Gasoline and other energy goods",1091,1346,1363,1350,1294,1002,891,999
+"93000","Great Lakes","12","      Other nondurable goods",2580,2674,2724,2796,2912,3077,3187,3293
+"93000","Great Lakes","13","  Services",22066,22701,23281,23767,24734,25801,26803,27778
+"93000","Great Lakes","14","    Household consumption expenditures (for services)",20656,21217,21682,22134,23055,24102,25002,25923
+"93000","Great Lakes","15","    Housing and utilities",5746,5824,5842,5938,6165,6312,6490,6705
+"93000","Great Lakes","16","    Health care",5723,5895,6112,6198,6419,6783,7095,7349
+"93000","Great Lakes","17","    Transportation services",1051,1129,1150,1195,1278,1331,1393,1436
+"93000","Great Lakes","18","    Recreation services",1350,1354,1405,1454,1501,1577,1639,1723
+"93000","Great Lakes","19","    Food services and accommodations",1841,1928,2018,2068,2151,2311,2400,2444
+"93000","Great Lakes","20","    Financial services and insurance",2256,2369,2426,2539,2712,2905,2994,3172
+"93000","Great Lakes","21","    Other services",2689,2718,2729,2743,2829,2884,2990,3094
+"93000","Great Lakes","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1410,1485,1599,1633,1679,1698,1801,1855
+"93000","Great Lakes","23","  Gross output of nonprofit institutions",4269,4416,4615,4718,4858,5034,5303,5510
+"93000","Great Lakes","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2859,2931,3016,3085,3179,3335,3502,3655
+"94000","Plains","1","Per capita personal consumption expenditures",32654,34072,35100,35860,37002,38035,39147,40542
+"94000","Plains","2","  Goods",11282,11963,12332,12540,12782,12761,12933,13341
+"94000","Plains","3","    Durable goods",3699,3817,3980,4092,4212,4379,4473,4616
+"94000","Plains","4","      Motor vehicles and parts",1269,1328,1429,1468,1538,1625,1638,1673
+"94000","Plains","5","      Furnishings and durable household equipment",776,792,824,848,874,910,952,985
+"94000","Plains","6","      Recreational goods and vehicles",1039,1051,1066,1102,1109,1129,1157,1207
+"94000","Plains","7","      Other durable goods",615,645,660,673,691,714,726,751
+"94000","Plains","8","    Nondurable goods",7583,8146,8352,8448,8570,8383,8460,8725
+"94000","Plains","9","      Food and beverages purchased for off-premises consumption",2491,2592,2664,2693,2754,2807,2889,2934
+"94000","Plains","10","      Clothing and footwear",913,939,961,964,977,994,1007,1011
+"94000","Plains","11","      Gasoline and other energy goods",1483,1826,1864,1867,1804,1398,1245,1376
+"94000","Plains","12","      Other nondurable goods",2696,2788,2863,2924,3036,3183,3319,3404
+"94000","Plains","13","  Services",21372,22109,22768,23320,24220,25274,26214,27201
+"94000","Plains","14","    Household consumption expenditures (for services)",20303,20976,21551,22074,22946,23993,24872,25826
+"94000","Plains","15","    Housing and utilities",5292,5425,5549,5722,5945,6157,6393,6630
+"94000","Plains","16","    Health care",5761,5954,6129,6227,6412,6785,7067,7363
+"94000","Plains","17","    Transportation services",911,966,994,1036,1102,1127,1154,1183
+"94000","Plains","18","    Recreation services",1426,1439,1517,1574,1628,1713,1781,1843
+"94000","Plains","19","    Food services and accommodations",1894,1968,2044,2094,2189,2336,2413,2447
+"94000","Plains","20","    Financial services and insurance",2401,2562,2643,2742,2914,3077,3159,3352
+"94000","Plains","21","    Other services",2617,2661,2676,2678,2757,2797,2905,3009
+"94000","Plains","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",1069,1134,1217,1247,1275,1281,1342,1375
+"94000","Plains","23","  Gross output of nonprofit institutions",3654,3786,3950,4031,4127,4278,4489,4648
+"94000","Plains","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2585,2652,2733,2785,2852,2997,3147,3273
+"95000","Southeast","1","Per capita personal consumption expenditures",29684,30724,31523,32110,33236,34245,35185,36317
+"95000","Southeast","2","  Goods",10485,11001,11298,11508,11811,11883,11997,12335
+"95000","Southeast","3","    Durable goods",3246,3354,3494,3632,3779,3964,4067,4204
+"95000","Southeast","4","      Motor vehicles and parts",1154,1206,1297,1361,1426,1532,1558,1579
+"95000","Southeast","5","      Furnishings and durable household equipment",769,780,803,836,868,904,941,980
+"95000","Southeast","6","      Recreational goods and vehicles",861,881,896,926,954,982,1017,1077
+"95000","Southeast","7","      Other durable goods",462,487,497,509,530,547,550,567
+"95000","Southeast","8","    Nondurable goods",7239,7648,7804,7876,8032,7919,7930,8131
+"95000","Southeast","9","      Food and beverages purchased for off-premises consumption",2525,2600,2667,2706,2787,2839,2893,2933
+"95000","Southeast","10","      Clothing and footwear",929,957,979,987,1003,1019,1029,1037
+"95000","Southeast","11","      Gasoline and other energy goods",1125,1365,1385,1349,1272,951,831,915
+"95000","Southeast","12","      Other nondurable goods",2659,2725,2773,2833,2971,3110,3177,3246
+"95000","Southeast","13","  Services",19199,19723,20225,20602,21425,22362,23188,23983
+"95000","Southeast","14","    Household consumption expenditures (for services)",18805,19306,19768,20133,20936,21889,22685,23476
+"95000","Southeast","15","    Housing and utilities",5322,5419,5502,5622,5856,6088,6332,6536
+"95000","Southeast","16","    Health care",5043,5156,5328,5390,5586,5918,6141,6360
+"95000","Southeast","17","    Transportation services",655,699,715,744,785,822,855,884
+"95000","Southeast","18","    Recreation services",1034,1035,1075,1100,1137,1196,1238,1290
+"95000","Southeast","19","    Food services and accommodations",2035,2125,2221,2283,2393,2530,2617,2641
+"95000","Southeast","20","    Financial services and insurance",2285,2399,2442,2504,2595,2720,2772,2940
+"95000","Southeast","21","    Other services",2431,2473,2486,2490,2582,2615,2729,2825
+"95000","Southeast","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",394,416,457,469,490,473,503,507
+"95000","Southeast","23","  Gross output of nonprofit institutions",2605,2664,2746,2803,2889,2993,3131,3229
+"95000","Southeast","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2211,2247,2289,2334,2399,2520,2627,2722
+"96000","Southwest","1","Per capita personal consumption expenditures",29457,30747,31712,32380,33626,34426,35212,36425
+"96000","Southwest","2","  Goods",10424,11084,11491,11695,12044,11987,12012,12339
+"96000","Southwest","3","    Durable goods",3383,3536,3730,3838,3978,4137,4154,4270
+"96000","Southwest","4","      Motor vehicles and parts",1292,1373,1538,1604,1689,1773,1753,1777
+"96000","Southwest","5","      Furnishings and durable household equipment",753,776,784,808,842,882,909,928
+"96000","Southwest","6","      Recreational goods and vehicles",825,837,845,859,867,890,902,944
+"96000","Southwest","7","      Other durable goods",512,550,563,566,580,592,590,621
+"96000","Southwest","8","    Nondurable goods",7041,7548,7762,7857,8066,7850,7858,8069
+"96000","Southwest","9","      Food and beverages purchased for off-premises consumption",2381,2471,2543,2585,2697,2737,2776,2814
+"96000","Southwest","10","      Clothing and footwear",1026,1081,1116,1115,1113,1125,1136,1152
+"96000","Southwest","11","      Gasoline and other energy goods",1150,1433,1483,1489,1456,1092,957,1048
+"96000","Southwest","12","      Other nondurable goods",2484,2562,2620,2668,2801,2896,2990,3055
+"96000","Southwest","13","  Services",19033,19663,20220,20685,21582,22439,23199,24086
+"96000","Southwest","14","    Household consumption expenditures (for services)",18425,19032,19527,19978,20852,21724,22433,23311
+"96000","Southwest","15","    Housing and utilities",5095,5188,5216,5353,5589,5825,6023,6270
+"96000","Southwest","16","    Health care",4803,4923,5078,5095,5271,5571,5791,5985
+"96000","Southwest","17","    Transportation services",797,869,911,953,1005,1010,1023,1064
+"96000","Southwest","18","    Recreation services",1195,1207,1274,1312,1349,1400,1430,1495
+"96000","Southwest","19","    Food services and accommodations",2015,2117,2219,2293,2412,2546,2607,2643
+"96000","Southwest","20","    Financial services and insurance",2216,2362,2426,2548,2711,2841,2932,3134
+"96000","Southwest","21","    Other services",2305,2366,2403,2424,2514,2530,2628,2721
+"96000","Southwest","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",608,631,693,707,729,715,766,775
+"96000","Southwest","23","  Gross output of nonprofit institutions",2795,2859,2971,3022,3144,3241,3388,3483
+"96000","Southwest","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2187,2227,2278,2316,2415,2526,2622,2707
+"97000","Rocky Mountain","1","Per capita personal consumption expenditures",31417,32448,33323,34107,35443,36674,37933,39426
+"97000","Rocky Mountain","2","  Goods",10600,11004,11322,11557,11922,12053,12296,12834
+"97000","Rocky Mountain","3","    Durable goods",3565,3617,3748,3932,4106,4303,4432,4668
+"97000","Rocky Mountain","4","      Motor vehicles and parts",1120,1146,1229,1303,1378,1473,1491,1559
+"97000","Rocky Mountain","5","      Furnishings and durable household equipment",850,849,872,916,958,1005,1052,1102
+"97000","Rocky Mountain","6","      Recreational goods and vehicles",1046,1056,1073,1120,1160,1189,1236,1312
+"97000","Rocky Mountain","7","      Other durable goods",550,566,574,592,611,636,652,695
+"97000","Rocky Mountain","8","    Nondurable goods",7034,7387,7574,7626,7817,7750,7865,8166
+"97000","Rocky Mountain","9","      Food and beverages purchased for off-premises consumption",2623,2685,2759,2799,2927,2997,3086,3136
+"97000","Rocky Mountain","10","      Clothing and footwear",915,946,972,984,988,1014,1035,1057
+"97000","Rocky Mountain","11","      Gasoline and other energy goods",1212,1446,1475,1431,1361,1034,902,1002
+"97000","Rocky Mountain","12","      Other nondurable goods",2284,2310,2368,2413,2542,2705,2842,2970
+"97000","Rocky Mountain","13","  Services",20818,21444,22001,22549,23520,24620,25637,26592
+"97000","Rocky Mountain","14","    Household consumption expenditures (for services)",20151,20738,21220,21752,22695,23817,24807,25755
+"97000","Rocky Mountain","15","    Housing and utilities",5998,6138,6248,6393,6607,6902,7138,7391
+"97000","Rocky Mountain","16","    Health care",4767,4901,5026,5128,5388,5731,6047,6212
+"97000","Rocky Mountain","17","    Transportation services",1011,1071,1115,1164,1220,1249,1295,1351
+"97000","Rocky Mountain","18","    Recreation services",1411,1414,1492,1566,1631,1732,1817,1914
+"97000","Rocky Mountain","19","    Food services and accommodations",2121,2227,2321,2401,2539,2712,2807,2880
+"97000","Rocky Mountain","20","    Financial services and insurance",2329,2454,2488,2579,2682,2804,2869,3075
+"97000","Rocky Mountain","21","    Other services",2513,2532,2530,2521,2626,2687,2832,2933
+"97000","Rocky Mountain","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",667,706,781,798,826,803,830,837
+"97000","Rocky Mountain","23","  Gross output of nonprofit institutions",3129,3249,3417,3475,3618,3749,3966,4068
+"97000","Rocky Mountain","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2462,2543,2636,2678,2792,2945,3136,3231
+"98000","Far West","1","Per capita personal consumption expenditures",34232,35537,36625,37390,38897,40551,42192,43954
+"98000","Far West","2","  Goods",10363,10909,11246,11411,11764,11982,12188,12625
+"98000","Far West","3","    Durable goods",3453,3572,3730,3828,3975,4194,4318,4502
+"98000","Far West","4","      Motor vehicles and parts",938,997,1092,1156,1215,1313,1353,1408
+"98000","Far West","5","      Furnishings and durable household equipment",785,792,798,811,840,874,891,930
+"98000","Far West","6","      Recreational goods and vehicles",1215,1229,1257,1272,1308,1381,1443,1507
+"98000","Far West","7","      Other durable goods",516,555,582,589,612,626,632,658
+"98000","Far West","8","    Nondurable goods",6910,7337,7516,7583,7789,7787,7870,8122
+"98000","Far West","9","      Food and beverages purchased for off-premises consumption",2635,2730,2789,2828,2925,2979,3010,3036
+"98000","Far West","10","      Clothing and footwear",1038,1107,1160,1160,1190,1220,1237,1266
+"98000","Far West","11","      Gasoline and other energy goods",881,1082,1097,1061,1007,766,696,797
+"98000","Far West","12","      Other nondurable goods",2356,2418,2470,2534,2667,2823,2927,3023
+"98000","Far West","13","  Services",23869,24628,25379,25979,27133,28569,30004,31329
+"98000","Far West","14","    Household consumption expenditures (for services)",22911,23609,24243,24793,25910,27352,28692,29992
+"98000","Far West","15","    Housing and utilities",7573,7747,7875,8024,8324,8707,9022,9285
+"98000","Far West","16","    Health care",5415,5586,5725,5823,6043,6459,6867,7202
+"98000","Far West","17","    Transportation services",1153,1228,1286,1361,1434,1488,1582,1680
+"98000","Far West","18","    Recreation services",1328,1336,1407,1439,1498,1586,1658,1753
+"98000","Far West","19","    Food services and accommodations",2184,2275,2377,2460,2626,2839,3016,3105
+"98000","Far West","20","    Financial services and insurance",2520,2623,2670,2783,2929,3099,3176,3395
+"98000","Far West","21","    Other services",2739,2814,2903,2903,3055,3174,3372,3572
+"98000","Far West","22","  Final consumption expenditures of nonprofit institutions serving households (NPISHs)",958,1019,1135,1186,1223,1217,1311,1337
+"98000","Far West","23","  Gross output of nonprofit institutions",3753,3949,4244,4352,4482,4640,4916,5074
+"98000","Far West","24","  Less: Receipts from sales of goods and services by nonprofit institutions",2795,2930,3109,3166,3259,3423,3605,3737
+"Legend / Footnotes:"
+"1/ Per capita PCE estimates are in current dollars, and reflect Census Bureau midyear population estimates for years 2010-2017 available as of December 2017. Per capita values are computed from unrounded data."
+"Last updated: October 4, 2018; new PCE by state statistics for 2017, and revised statistics for 1997-2016."

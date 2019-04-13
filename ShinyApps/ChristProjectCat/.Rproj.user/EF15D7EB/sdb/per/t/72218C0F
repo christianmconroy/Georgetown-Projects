@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#Template for a US\nlibrary(shiny)\n# Define UI\nshinyUI(fluidPage(\n  titlePanel(title=\"Text input & output\"),\n \n  sidebarLayout(\n    sidebarPanel(\"Input area\",\n                 textInput(\"semester\", \"Enter semester\", \"\"),\n                 textInput(\"year\", \"Enter year\", \"\")),\n    mainPanel(\"Output area\",\n              textOutput(\"semesterout\"),\n              textOutput(\"yearout\"))\n  )\n  ))\n",
+    "created" : 1518649176583.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3225942701",
+    "id" : "72218C0F",
+    "lastKnownWriteTime" : 1518648597,
+    "last_content_update" : 1518648597,
+    "path" : "~/GeorgetownMPPMSFS/McCourtMPP/Semester4MPP/ProgrammingStats/ChristProjectCat/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,23 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx4176\clbrdrt\brdrs\cellx5472\clbrdrt\brdrs\cellx6768\clbrdrt\brdrs\cellx8064\clbrdrt\brdrs\cellx9360\clbrdrt\brdrs\cellx10656
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx4176\cellx5472\cellx6768\cellx8064\cellx9360\cellx10656
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx4176\clbrdrb\brdrs\cellx5472\clbrdrb\brdrs\cellx6768\clbrdrb\brdrs\cellx8064\clbrdrb\brdrs\cellx9360\clbrdrb\brdrs\cellx10656
+\ql VARIABLES\cell\qc Strata 1\cell\qc Strata 2\cell\qc Strata 3\cell\qc Strata 4\cell\qc Strata 5\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx4176\cellx5472\cellx6768\cellx8064\cellx9360\cellx10656
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql IncentivesTab_itc_dum_cumsum\cell\qc 13,692\cell\qc -27,687\cell\qc -18,489\cell\qc 9,062\cell\qc 522.7\cell\row
+\ql \cell\qc (8,745)\cell\qc (16,240)\cell\qc (16,935)\cell\qc (7,356)\cell\qc (3,192)\cell\row
+\ql Constant\cell\qc -36,447\cell\qc 5,744\cell\qc 40,230*\cell\qc -27,127\cell\qc 3,728\cell\row
+\ql \cell\qc (25,242)\cell\qc (17,810)\cell\qc (22,383)\cell\qc (16,475)\cell\qc (3,851)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 3,927\cell\qc 3,927\cell\qc 3,894\cell\qc 3,922\cell\qc 3,898\cell\row
+\ql R-squared\cell\qc 0.145\cell\qc 0.089\cell\qc 0.133\cell\qc 0.141\cell\qc 0.065\cell\row
+\ql Number of State_num_id\cell\qc 16\cell\qc 22\cell\qc 24\cell\qc 21\cell\qc 15\cell\row
+\ql State-Industry FE\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx4176\clbrdrb\brdrs\cellx5472\clbrdrb\brdrs\cellx6768\clbrdrb\brdrs\cellx8064\clbrdrb\brdrs\cellx9360\clbrdrb\brdrs\cellx10656
+\ql Year FE\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

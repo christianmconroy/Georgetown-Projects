@@ -1,0 +1,42 @@
+,Industry from Inc,Industry from NAICS,NAICS Code,SIC Code,Industry from SIC,NAICS SIC Match,Comments
+43,Accommodation,Accommodation,721,70,Hotel and Other Lodging Places,Y,
+35,Administrative and support services,Administrative and support services,561,,,,
+42,"Amusement, gambling, and recreation industries","Amusement, gambling, and recreation industries",713,,,,
+4,"Apparel, Leather and allied product Manufacturing","Apparel, leather, and allied product manufacturing",315,,,,
+25,Broadcasting and Telecommunications,Broadcasting (except Internet) and telecommunications,513,,,,
+9,Chemical Manufacturing,Chemical manufacturing,325,28,Chemicals and Allied Products,Y,"Match does not include Natural Gas Extraction (211130), Alumina Refining and Primary Aluminum Production (331313), Spice and Extract Manufacturing (311942), which are part of the SIC code according to the crosswalk. The NAICS code also captures Custom Compounding of Purchased Resins (325991), which is not part of the SIC code according to the crosswalk. "
+15,Computer systems design and related services,Computer systems design and related services,5415,,,,
+32,Construction,Construction,23,,,,
+1,Educational Services,Educational services,611,82,Educational Services,Y,"Match does not include Libraries and Archives (519120), which are part of the SIC code according to the crosswalk. "
+27,"Electrical equipment, appliance, and component manufacturing","Electrical equipment, appliance, and component manufacturing",3351,,,,
+37,Fabricated Metal Product Manufacturing,Fabricated metal product manufacturing,332,34,Fabricated Metal Products,,"Match does not include Overhead Traveling Crane, Hoist, and Monorail System Manufacturing (333923), Other Measuring and Controlling Device Manufacturing(334519), Other Measuring and Controlling Device Manufacturing(336290), Showcase, Partition, Shelving, and Locker Manufacturing(337215), Heating Equipment (except Warm Air Furnaces) Manufacturing (33414), Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415),   Motor Vehicle Metal Stamping (336370), which are part of the SIC code according to the crosswalk. There are other 322 also not in the SIC crosswalk, including 332811 or 332810. "
+16,Food services and drinking places,Food services and drinking places,722,,,,
+13,"Food, beverage, and tobacco Manufacturing",Food and beverage and tobacco products manufacturing,312,,,,Only the tobacco part is covered
+44,furniture and related product manufacturing,Furniture and related product manufacturing,337,25,Furniture and Fixtures,,"Match does not include All Other Miscellaneous Wood Product Manufacturing (321999), Motor Vehicle Seating and Interior Trim Manufacturing (336360), Office Supplies (except Paper) Manufacturing(339940), Other Industrial Machinery Manufacturing (333249), Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing (333415), Industrial Process Furnace and Oven Manufacturing (333994), Scale and Balance Manufacturing (333997), All Other Miscellaneous General Purpose Machinery Manufacturing (333999), Surgical Appliance and Supplied Manufacturing (339113), which are part of the SIC code according to the crosswalk. "
+2,"Hospitals, nursing, and residential care facilities","Hospitals, nursing, and residential care facilities",623,,,,
+19,Information and data processing services,Information,514,,,,
+40,Insurance carriers and related activities,Insurance carriers and related activities,524,63 and 64,"Insurance Carriers and Insurance Agents, Brokers, and Services ",,"Match does not include Pension Funds (525110), Health and Welfare Funds (525120), Other Financial Vehicles (525990), Portfolio Management (523920), or Other Insurance Funds (525190)"
+26,Legal Services,Legal services,54110,8111,Legal Services,,
+29,Machinery manufacturing,Machinery manufacturing,333,,,,
+31,Management of companies (holding companies),Management of companies and enterprises,5511,,,,
+14,miscellaneous manufacturing,Miscellaneous manufacturing,399,,,,
+34,"Miscellaneous professional, scientific, and technical services","Miscellaneous professional, scientific, and technical services",5412,,,,
+39,"Motor Vehicles, bodies and trailers, and parts","Motor vehicles, bodies and trailers, and parts manufacturing",3361,371,Motor Vehicles and Equipment,,
+20,Nonmetallic mineral product manufacturing,Nonmetallic mineral product manufacturing,327,32,Durable Goods Manufacturing,,"Match does not include All Other Miscellaneous Fabricated Metal Product Manufacturing (332999), Motor Vehicle Brake System Manufacturing (336340), Motor Vehicle Transmission and Power Train Parts Manufacturing (336340), Kaolin and Ball Clay Mining (212324), Clay and Ceramic and Refractory Minerals Mining (212325), Other Chemical and Fertilizer Mineral Mining (212393), All Other Nonmetallic Mineral Mining (212399)"
+33,Other services ,Other services (except government and government enterprises),81,,,,
+17,Other Transportation Equipment,Other transportation equipment manufacturing,3364,,,,
+11,Paper Manufacturing,Paper manufacturing,322,26,Paper and Allied Products,,Match does not include Plastics Packaging Film and Sheet (including Laminated) Manufacturing (326112) and Plastics Bag and Pouch Manufacturing (326111) 
+38,"Performing arts, spectator sports, museums and entertainment","Performing arts, spectator sports, museums, and related activities",711,79,Amusement and Recreation Services ,,"Match does not include 611, 753, 112, 512, 534, 561, 713, 481, 488, 487, 532, 561, 712, 812"
+45,Petroleum and coal products manufacturing,Petroleum and coal products manufacturing,324,2999,All Other Petroleum and Coal Products Manufacturing,,
+18,Plastics and Rubber products manufacturing,Plastics and rubber products manufacturing,326,,,,
+6,Primary Metal Manufacturing,Primary metal manufacturing,331,,,,
+41,Printing and related support activities,Printing and related support activities,323,,,,
+8,Publishing industries (includes software),Publishing industries (except Internet),511,,,,
+10,Rental and leasing services and lessors of intangible assets,Rental and leasing services and lessors of nonfinancial intangible assets,532,,,,
+12,Retail Trade,Retail trade,44,,,,
+7,"Securities, commodity contracts, other financial investments, and related activities","Securities, commodity contracts, and other financial investments and related activities",523,,,,
+24,Textile Mills and textile product mills,Textile mills and textile product mills,314,,,,
+30,warehousing and storeage ,Warehousing and storage,493,,,,
+22,Waste Management and remediation services,Waste management and remediation services,562,,,,
+28,Wholesale Trade,Wholesale trade,42,,,,
+3,Wood Product Manufacturing,Wood product manufacturing,321,,,,

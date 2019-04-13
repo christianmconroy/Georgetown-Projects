@@ -1,0 +1,26 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3312\clbrdrt\brdrs\cellx4896\clbrdrt\brdrs\cellx6480\clbrdrt\brdrs\cellx8208\clbrdrt\brdrs\cellx9648\clbrdrt\brdrs\cellx11088
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3312\cellx4896\cellx6480\cellx8208\cellx9648\cellx11088
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx4896\clbrdrb\brdrs\cellx6480\clbrdrb\brdrs\cellx8208\clbrdrb\brdrs\cellx9648\clbrdrb\brdrs\cellx11088
+\ql VARIABLES\cell\qc Strata 1\cell\qc Strata 2\cell\qc Strata 3\cell\qc Strata 4\cell\qc Strata 5\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3312\cellx4896\cellx6480\cellx8208\cellx9648\cellx11088
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql itc\cell\qc 528,953\cell\qc -87,663\cell\qc 19,609\cell\qc 8,492\cell\qc -92,521\cell\row
+\ql \cell\qc (377,640)\cell\qc (105,408)\cell\qc (39,047)\cell\qc (16,830)\cell\qc (64,874)\cell\row
+\ql IncentivesTab_itc\cell\qc -8,160***\cell\qc -199.2\cell\qc 1,656**\cell\qc 756.4*\cell\qc 2,078*\cell\row
+\ql \cell\qc (2,789)\cell\qc (1,315)\cell\qc (694.5)\cell\qc (428.5)\cell\qc (1,163)\cell\row
+\ql Constant\cell\qc -467,640**\cell\qc -217,803**\cell\qc -313,801***\cell\qc 246,568**\cell\qc -493,500\cell\row
+\ql \cell\qc (212,316)\cell\qc (85,258)\cell\qc (102,266)\cell\qc (98,857)\cell\qc (426,718)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 3,939\cell\qc 3,920\cell\qc 3,892\cell\qc 3,925\cell\qc 3,892\cell\row
+\ql R-squared\cell\qc 0.994\cell\qc 0.988\cell\qc 0.986\cell\qc 0.983\cell\qc 0.978\cell\row
+\ql Number of State_num_id\cell\qc 21\cell\qc 25\cell\qc 29\cell\qc 24\cell\qc 18\cell\row
+\ql Robust Standard Errors\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\ql State-Industry FE\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx4896\clbrdrb\brdrs\cellx6480\clbrdrb\brdrs\cellx8208\clbrdrb\brdrs\cellx9648\clbrdrb\brdrs\cellx11088
+\ql Year FE\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

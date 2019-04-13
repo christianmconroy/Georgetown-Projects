@@ -1,0 +1,20 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3312\clbrdrt\brdrs\cellx6624
+\ql \cell\qc (1)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3312\cellx6624
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx6624
+\ql VARIABLES\cell\qc Exposure Model - Index\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3312\cellx6624
+\ql \cell\qc \cell\row
+\ql avgindex\cell\qc 4.932e+06***\cell\row
+\ql \cell\qc (1.367e+06)\cell\row
+\ql \cell\qc \cell\row
+\ql Observations\cell\qc 1,056\cell\row
+\ql R-squared\cell\qc 0.498\cell\row
+\ql Robust Standard Errors\cell\qc YES\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx6624
+\ql Long-Term Effects\cell\qc YES\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

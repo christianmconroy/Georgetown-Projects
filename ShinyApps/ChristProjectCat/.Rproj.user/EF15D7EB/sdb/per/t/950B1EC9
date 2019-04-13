@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyServer(\n  function(input, output) {\n  output$semesterout <- renderText(input$semester)\n  output$yearout <- renderText(input$year)\n  }\n  )\n",
+    "created" : 1518649175127.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2270735173",
+    "id" : "950B1EC9",
+    "lastKnownWriteTime" : 1518648432,
+    "last_content_update" : 1518648432,
+    "path" : "~/GeorgetownMPPMSFS/McCourtMPP/Semester4MPP/ProgrammingStats/ChristProjectCat/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

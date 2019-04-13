@@ -1,0 +1,32 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3312\clbrdrt\brdrs\cellx6048\clbrdrt\brdrs\cellx10080\clbrdrt\brdrs\cellx14400\clbrdrt\brdrs\cellx20016
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3312\cellx6048\cellx10080\cellx14400\cellx20016
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx6048\clbrdrb\brdrs\cellx10080\clbrdrb\brdrs\cellx14400\clbrdrb\brdrs\cellx20016
+\ql VARIABLES\cell\qc Base Model - Index\cell\qc Base Model - Each Incentive\cell\qc Two-Way Fixed Effects - Index\cell\qc Two-Way Fixed Effects - Each Incentive\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3312\cellx6048\cellx10080\cellx14400\cellx20016
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql jctc\cell\qc \cell\qc -2.104e+08\cell\qc \cell\qc -2.300e+09***\cell\row
+\ql \cell\qc \cell\qc (1.657e+08)\cell\qc \cell\qc (6.500e+08)\cell\row
+\ql itc\cell\qc \cell\qc -3.519e+08*\cell\qc \cell\qc -6.529e+08\cell\row
+\ql \cell\qc \cell\qc (1.874e+08)\cell\qc \cell\qc (6.942e+08)\cell\row
+\ql rdc\cell\qc \cell\qc 4.226e+09***\cell\qc \cell\qc -7.535e+09***\cell\row
+\ql \cell\qc \cell\qc (5.008e+08)\cell\qc \cell\qc (1.739e+09)\cell\row
+\ql pta\cell\qc \cell\qc 2.157e+09***\cell\qc \cell\qc 1.465e+09***\cell\row
+\ql \cell\qc \cell\qc (1.469e+08)\cell\qc \cell\qc (4.458e+08)\cell\row
+\ql cjts\cell\qc \cell\qc -2.922e+09***\cell\qc \cell\qc -1.765e+10***\cell\row
+\ql \cell\qc \cell\qc (5.973e+08)\cell\qc \cell\qc (3.957e+09)\cell\row
+\ql matchindex\cell\qc 3.256e+10***\cell\qc \cell\qc 3.190e+10***\cell\qc \cell\row
+\ql \cell\qc (1.491e+09)\cell\qc \cell\qc (4.284e+09)\cell\qc \cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 19,008\cell\qc 19,008\cell\qc 19,008\cell\qc 19,008\cell\row
+\ql R-squared\cell\qc 0.460\cell\qc 0.436\cell\qc 0.496\cell\qc 0.513\cell\row
+\ql Robust Standard Errors\cell\qc YES\cell\qc YES\cell\qc YES\cell\qc YES\cell\row
+\ql Number of State_num_id\cell\qc \cell\qc \cell\qc 32\cell\qc 32\cell\row
+\ql State-Industry FE\cell\qc \cell\qc \cell\qc YES\cell\qc YES\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3312\clbrdrb\brdrs\cellx6048\clbrdrb\brdrs\cellx10080\clbrdrb\brdrs\cellx14400\clbrdrb\brdrs\cellx20016
+\ql Year FE\cell\qc \cell\qc \cell\qc YES\cell\qc YES\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}
