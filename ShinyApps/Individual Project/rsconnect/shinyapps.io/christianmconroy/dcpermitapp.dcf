@@ -1,0 +1,12 @@
+name: dcpermitapp
+title: DCPermitApp
+username:
+account: christianmconroy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 309935
+bundleId: 1291257
+url: https://christianmconroy.shinyapps.io/dcpermitapp/
+when: 1522201724.49305
+asMultiple: FALSE
+asStatic: FALSE

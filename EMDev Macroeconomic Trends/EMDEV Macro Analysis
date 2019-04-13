@@ -1,0 +1,117 @@
+##### subset data #####
+macLong <- read.table('MacroLong.txt', header = TRUE)
+
+mcap <- macLong[which(macLong$Indicator=='Market capitalization of listed domestic companies (current US$)'),]
+colnames(mcap) <- c('Country', 'Country_Code', 'Indicator', 'Indicator_Code', 'Year','Value', 'Classification')
+
+mcap$Time <- rep(0:35, length(unique(mcap$Country)))
+cab <- macLong[which(macLong$Indicator=='Current account balance (% of GDP)'),]
+
+colnames(cab) <- c('Country', 'Country_Code', 'Indicator', 'Indicator_Code', 'Year', 'Value', 'Classification')
+cab$Time <- rep(0:35, length(unique(cab$Country)))
+spv <- macLong[which(macLong$Indicator=='Stock price volatility'),]
+
+colnames(spv) <- c('Country', 'Country_Code', 'Indicator', 'Indicator_Code', 'Year', 'Value', 'Classification')
+spv$Time <- rep(0:35, length(unique(spv$Country)))
+
+## imputation
+pred <- gam(Value ~ Classification + s(Time), data=mcap, family=gaussian)
+mcap$Value <- ifelse(is.na(mcap$Value), predict(pred), mcap$Value)
+pred.spv <- gam(Value ~ Classification + s(Time), data=spv, family=gaussian)
+spv$Value <- ifelse(is.na(spv$Value), predict(pred.spv), spv$Value)
+pred.cab <- gam(Value ~ Classification + s(Time), data=cab, family=gaussian)
+cab$Value <- ifelse(is.na(cab$Value), predict(pred.cab), cab$Value)
+
+## Market Capitalization
+test.model <- gamm(Value ~ Classification + s(Time), random = list(Country = ~ 1), data = mcap)
+plot(test.model$gam)
+
+# GEE
+model1 <- geeglm(Value ~ Time*Classification, family = gaussian(link = 'identity'),
++ corstr = 'ar1', id=Country, data = mcap)
+summary(model1)
+model2 <- geeglm(Value ~ Time+Classification, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = mcap)
+summary(model2)
+anova(model2, model1)
+
+model3 <- geeglm(Value ~ Time, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = mcap)
+summary(model3)
+anova(model3, model1)
+
+## LME
+modelL1 <- lme(Value ~ Time*Classification, random = ~ 1 + Time | Country, data = mcap)
+summary(modelL1)
+modelL2 <- lme(Value ~ Time*Classification, random = ~ 1 + Time | Country, data = mcap, correlation = corAR1(form = ~1|Country))
+summary(modelL2)
+
+# correlation matrix
+rho <- 0.951
+cov <- diag(35)
+cov <- rho^abs(row(cov)-col(cov))
+
+library(reshape2)
+meltcov <- melt(cov)
+heatmap <- ggplot(data = meltcov, aes(x=Var1, y=ordered(Var2, levels = rev(sort(unique(Var2)))),
++ fill=value)) + geom_tile()
+heatmap + labs(x="Time",y="Time")
+
+## Stock Price Volatility
+
+# Assessing and running spline model
+model1 <- gamm(Value ~ Classification + s(Time, by=factor(Classification)), random = list(Country = ~ 1 + Time), data = spv)
+par(mfrow=c(1,2))
+plot(model1$gam)
+summary(model1$gam)
+summary(model1$lme)
+
+# LME
+model2 <- lme(Value ~ Classification*Time, random = ~ 1 + Time | Country, data = spv)
+summary(model2)
+model3 <- lme(Value ~ Classification*Time, random = ~ 1 | Country, data = spv)
+anova(model2, model3)
+
+model4 <- lme(Value ~ Classification*Time, random = ~ 1 + Time | Country, data = spv, correlation = corAR1(form = ~1 | Country))
+summary(model4)
+
+# GEE
+model5 <- geeglm(Value ~ Classification*Time, family = gaussian(link = "identity"), corstr = 'ar1', id = Country, data = spv)
+summary(model5)
+spv.model2 <- geeglm(Value ~ Time+Classification, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = spv)
+summary(spv.model2)
+anova(spv.model2, spv.model1)
+
+spv.model3 <- geeglm(Value ~ Time, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = spv)
+summary(spv.model3)
+anova(spv.model3, spv.model2)
+
+## Current Account Balance
+model6 <- gamm(Value ~ Classification + s(Time), random = list(Country = ~ 1), data = cab)
+plot(model6$gam)
+
+# LME
+model7 <- lme(Value ~ Classification*Time, random = ~ 1 + Time | Country, data = cab)
+summary(model7)
+model8 <- lme(Value ~ Classification*Time, random = ~ 1 | Country, data = cab)
+model9 <- lme(Value ~ Classification*Time, random = ~ 1 + Time | Country, data = cab,
++ correlation = corAR1(form = ~1 | Country))
+summary(model9)
+
+# GEE
+cab.model1 <- geeglm(Value ~ Time*Classification, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = cab)
+summary(cab.model1)
+cab.model2 <- geeglm(Value ~ Time+Classification, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = cab)
+summary(cab.model2)
+anova(cab.model2, cab.model1)
+
+cab.model3 <- geeglm(Value ~ Time, family = gaussian(link = 'identity'), corstr = 'ar1', id=Country, data = cab)
+summary(cab.model3)
+anova(cab.model3, cab.model2)
+
+#correlation
+rho <- 0.903
+cov <- diag(35)
+cov <- rho^abs(row(cov)-col(cov))
+meltcov <- melt(cov)
+heatmap <- ggplot(data = meltcov, aes(x=Var1, y=ordered(Var2, levels = rev(sort(unique(Var2)))),
++ fill=value)) + geom_tile()
+heatmap + labs(x="Time",y="Time")
