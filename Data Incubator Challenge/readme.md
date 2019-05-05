@@ -1,1 +1,1 @@
-! [](Georgetown-Projects/Data Incubator Challenge/images/ANLPNL.jpg)
+! [](Georgetown-Projects/Data%20Incubator%20Challenge/images/ANLPNL.jpg)
