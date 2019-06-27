@@ -1,0 +1,483 @@
+---
+title: "FinalRMDScript_050618_ForPDF"
+author: "Christian Conroy"
+date: "May 6, 2018"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+## The Data
+
+For this project, we use data provided by Yelp for the Yelp Dataset challenge, which can be found in JSON format from this website: 
+
+https://www.yelp.com/dataset/challenge
+
+Documentation describing the  variables and  information contained in each json file comprising the yelp challenge dataset can be found here:
+
+https://www.yelp.com/dataset/documentation/json
+
+We then merge it with Zillow data on rental values across the United States by postal code. The Zillow rental value dataset can be downloaded from this website:
+
+https://www.zillow.com/research/data/
+
+## Setting the Working Directory and loading in required packages
+
+```{r setup, include=FALSE}
+setwd("/Users/chris/Documents/GeorgetownMPPMSFS/McCourtMPP/Semester4MPP/DataScienceIntro")
+
+library(zoo)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(Amelia)
+library(lattice)
+library(stringr)
+library(jsonlite)
+library(mitools)
+library(plm)
+library(ggplot2)
+library(directlabels)
+
+```
+
+## Importing the data
+
+First, we import the Yelp checkin data and flatten it. 
+```{r import, results="hide", warning=FALSE, message=FALSE}
+# Stream in Checkin Data
+yelp_checkin <- as.data.frame(jsonlite::stream_in(file("dataset/checkin.json")), flatten = TRUE)
+# Flatten Checkin Data 
+renquote <- function(l) if (is.list(l)) lapply(l, renquote) else enquote(l)
+yelp_checkin_flat <- as.data.frame(lapply(unlist(renquote(yelp_checkin)), eval))
+```
+
+## Reshaping the data
+
+We clean the time period variable names by collapsing to long and using string functions to isolate day of the week name in string.
+```{r reshape}
+# Convert from wide to long
+yelp_checkin_flat_long <- reshape(yelp_checkin_flat, varying = list(names(yelp_checkin_flat[1:168])), times = names(yelp_checkin_flat[1:168]), idvar = 'business_id', v.names = 'checkin' , direction = 'long')
+
+# Elimminate punctuation and digits
+yelp_checkin_flat_long$time <- str_replace(yelp_checkin_flat_long$time, "time.", "")
+yelp_checkin_flat_long$time <- gsub('[[:digit:]]+', '', yelp_checkin_flat_long$time)
+
+# Isolate name of weekday
+yelp_checkin_flat_long$time = substr(yelp_checkin_flat_long$time,1,nchar(yelp_checkin_flat_long$time)-2)
+```
+
+Here, we will collapse the data, reshape it from long to wide, then merge them together. 
+
+```{r collapse convert and merge}
+# Aggregate checkin by business and time period to get checkin average and totalby business for each day of the week. 
+yelp_checkin_collapse_mean <- as.data.frame(aggregate(checkin ~ business_id + time, yelp_checkin_flat_long , mean))
+yelp_checkin_collapse_sum <- as.data.frame(aggregate(checkin ~ business_id + time, yelp_checkin_flat_long , sum))
+
+# Convert from long to wide
+yelp_checkin_wide_mean <- spread(yelp_checkin_collapse_mean, key = time, value = checkin)
+yelp_checkin_wide_sum <- spread(yelp_checkin_collapse_sum, key = time, value = checkin)
+
+# Merge averages and totals
+yelp_checkin_wide <- inner_join(yelp_checkin_wide_mean, yelp_checkin_wide_sum, by='business_id', match='all')
+colnames(yelp_checkin_wide) <- c("business_id", "Friday_ave", "Monday_ave", "Saturday_ave", "Sunday_ave", "Thursday_ave", "Tuesday_ave", "Wednesday_ave", "Friday_total", "Monday_total", "Saturday_total", "Sunday_total", "Thursday_total", "Tuesday_total", "Wednesday_total")
+```
+
+## Loading in business dataset to merge with check in data and aggregate by zip code. Then we eliminate useless columns and merge. 
+
+```{r load business and mege, warning = FALSE, message=FALSE}
+# Import business dataset
+yelp_business <- fromJSON(sprintf("[%s]", paste(readLines("dataset/business.json"), collapse=",")), simplifyDataFrame=TRUE, flatten=TRUE)
+
+# Merge checkin data with business data by business
+checkinbiz <- inner_join(yelp_business, yelp_checkin_wide, by=c('business_id'), match='all')
+
+# Eliminate unneeded columns
+checkinbiz <- checkinbiz[-c(2:6, 8:101)]
+
+# Collapse checkin data by zipcode to get total and average checkins each weekday for each zipcode
+checkinzipmean <- as.data.frame(aggregate(. ~ postal_code, checkinbiz[2:9], mean))
+checkinzipsum <- as.data.frame(aggregate(. ~ postal_code, checkinbiz[c(2, 10:16)], sum))
+
+checkinfull <- inner_join(checkinzipmean, checkinzipsum, by=c('postal_code'), match='all')
+```
+## Importing the Yelp Review Data
+
+Because of the large size of the yelp review JSON file, The Yelp Review dataset was collapsed to the zipcode level through merging, aggregation, and collapsing within the google cloud platform. 
+```{r import yelp}
+# Import data
+yelp_review_long <- read.csv("yelplongPC_updated2.csv", header = T, na.strings=c("NA"))
+
+# Check missingness
+sapply(yelp_review_long, function(x) sum(is.na(x)))
+
+# Check how many unique zipcodes
+length(unique(yelp_review_long$postal_code))
+
+# Convert YearMonth from character to ym class
+yelp_review_long$YearMonth <- as.yearmon(yelp_review_long$YearMonth)
+```
+
+Notice that there are no missing postal code values with 15,980 unique postal codes. 
+
+## Zillow data
+
+Here, we read in the Zillow data that has information on all rental values across the US and Canada. We will rename the RegionName variable to "postal_code" then convert the data from wide to long in order to merge it with the Yelp dataset. We will change the "time" variable to a date class, and finally we cut the Zillow data to match the dates of the Yelp data (while Zillow data goes back to the 1990s, Yelp business and review data only go back to 2010).
+
+```{r import reshape and cut zillow, message=FALSE, warning=FALSE}
+# Import data
+zillow <- read_csv("zecon/Zip_Zri_AllHomesPlusMultifamily.csv", col_names = TRUE)
+
+# Reformat to prepare for merge with Yelp dataset. 
+names (zillow)[2] <- "postal_code"
+zillow <- as.data.frame(zillow)
+zillow_long <- reshape(zillow, varying = list(names(zillow[8:95])), times = names(zillow[8:95]), idvar = 'postal_code', v.names = 'rentprice' , direction = 'long')
+
+sapply(zillow_long, function(x) sum(is.na(x)))
+
+zillow_long$time<- as.Date(strptime(paste(1, zillow_long$time),"%d %Y-%m"))
+
+zillow_long <- zillow_long[zillow_long$time >= "2010-11-01" & zillow_long$time <= "2017-12-31",]
+
+zillow_long$month <- match(months(zillow_long$time), month.name)
+zillow_long$year <- format(zillow_long$time,format="%Y")
+zillow_long$YearMonth <- as.yearmon(paste(zillow_long$year, zillow_long$month), "%Y %m")
+names(zillow_long)
+
+```
+Notice that there are 28,354 missing values. We will later attempt to recitfy this through imputation. 
+
+## Merging all datasets 
+
+Here, we create the official merged dataset from which we conduct the analysis portion
+
+```{r final merge, warning=FALSE}
+# Merge Checkin with Yelp 
+yelp_review_long <- left_join(yelp_review_long, checkinfull, by=c('postal_code'), match='all')
+
+# Merge Zillow with Yelp
+Full_data_long <- inner_join(yelp_review_long, zillow_long, by=c('postal_code', 'YearMonth'), match='all')
+length(unique(Full_data_long$postal_code))
+sapply(Full_data_long, function(x) sum(is.na(x)))
+
+```
+The final frame consists of 37492 observations and 39 variables. 
+  
+## Explortatory Data Analysis
+
+Here is where we conduct the official analysis portion of the project
+
+```{r eda, warning=FALSE}
+# First, we subset business based on eventual merging with Zillow
+Full <- unique(Full_data_long$postal_code)
+business_zillow <- dplyr::filter(yelp_business, postal_code %in% Full)
+
+# Assessing the count of states 
+Full_data_long$State <- Full_data_long$State %>% as.factor
+Full_data_long$State %>% summary
+
+ggplot(Full_data_long, aes(State)) + geom_bar() + labs(title= " Frequency of States in Yelp Challenge Dataset")
+```
+
+The states most represented in the dataset are Arizona, Ohio, Pennsylvania, Nevada, North Carolina, Wisconsin, and Illinois. 
+
+```{r, warning=FALSE}
+Full_data_long$City <- Full_data_long$City %>% as.factor
+Full_data_long$City %>% summary
+```
+
+
+
+```{r, warning=FALSE}
+temp <- row.names(as.data.frame(summary(Full_data_long$City, max=12))) # create a df or something else with the summary output.
+Full_data_long$City <- as.character(Full_data_long$City) # IMPORTANT! Here was the problem: turn into character values
+Full_data_long$top <- ifelse(
+  Full_data_long$City %in% temp, ## condition: match aDDs$answer with row.names in summary df 
+  Full_data_long$City, ## then it should be named as aDDs$answer
+  "Other" ## else it should be named "Other"
+)
+Full_data_long$top <- as.factor(Full_data_long$top) # factorize the output again
+ggplot(Full_data_long[Full_data_long$top!="Other",],aes(x=factor(top, levels=names(sort(table(top),increasing=TRUE))))) + geom_bar() + labs(title="Frequency of Top Cities in Yelp Challenge Dataset") + xlab("City") + ylab("Count")
+
+```
+
+This assesses the count of cities in the dataset. Top cities include Phoenix, Las Vegas, Charlotte, Pittsburgh, Cleveland.
+
+```{r, warning=FALSE}
+# Reformat data to suit plot
+catplot <- business_zillow%>%select(-starts_with("hours"), -starts_with("attribute")) %>% unnest(categories) %>%
+  select(name, categories)%>%group_by(categories)%>%summarise(n=n())%>%arrange(desc(n))%>%head(20)
+catplot <- as.data.frame(catplot)
+
+ggplot(data=catplot, aes(x=categories, y=n)) +
+  geom_bar(stat="identity") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(title="Frequency of Categories in Dataset") + xlab("Category") + ylab("Count")
+
+```
+
+This counts the "cateories" included in the dataset. These categories are tags users might use to describe various businesses. We can see that the top category is "Restuarants" followed by "Shopping," "Food," "Home Services," and "Beauty and Spa."
+
+The Yelp dataset includes information on businesses that may have been open but are currently closed. The previous analyses included all of them, but here we assess the counts of categories only for buinesses that are open.
+
+```{r, warning=FALSE}
+catplot_open <- business_zillow %>% 
+  select(-starts_with("hours"), -starts_with("attribute")) %>% 
+  filter(is_open==1) %>% 
+  unnest(categories) %>% 
+  select(name, categories) %>% 
+  group_by(categories) %>% 
+  summarise(n=n()) %>% 
+  arrange(desc(n)) %>% 
+  head(20)
+
+catplot_open  <- as.data.frame(catplot_open )
+
+ggplot(data=catplot_open , aes(x=categories, y=n)) +
+  geom_bar(stat="identity") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + labs(title="Frequency of Open Categories in Dataset") + xlab("Category") + ylab("Count")
+
+```
+
+Top categories include: Restaurants, Shopping, Home Services, Food, Health & Medical. Interestingly, it seems like "Food" and "Beauty & Spas" might be closing at  higher rate than other categories. 
+
+Now, we compare the rent prices across cities. We use cities as categorizing variable because there are far too many zip codes in the dataset. 
+
+```{r, warning=FALSE, message=FALSE}
+
+# Reimport data for plotting
+zillow <- read_csv("zecon/Zip_Zri_AllHomesPlusMultifamily.csv", col_names = TRUE)
+# Eliminate unneeded columns
+zillow <- zillow[-c(94:95)]
+
+# Convert from long to wide by city
+zillow_collapse_wide <- zillow %>% 
+  group_by(City) %>% 
+  summarize_all(funs(mean))
+names(zillow_long)
+
+# Collapse to long by State and time period. 
+zillow_collapse_long <- zillow_long %>% 
+  group_by(State, time) %>% 
+  summarize(rentprice = mean(rentprice))
+```
+
+Finally, we compose a graph illustrating rents over time
+```{r, warning=FALSE, message=FALSE}
+ggplot(zillow_collapse_long, aes(x = time, y=rentprice, group = State, colour = State)) + geom_line()  + scale_colour_discrete(guide = 'none')  + scale_x_date(expand=c(0.1, 0)) + geom_dl(aes(label = State), method = list(dl.trans(x = x + .2), "last.points")) + geom_dl(aes(label = State), method = list(dl.trans(x = x - .2), "first.points")) + labs(title = "Rent Prices over Time by State", xlab = "Rent Price (USD)")
+
+```
+Few states in the dataset appear to have experienced overall declines in rent over the periods in question. California, Oregon, Colorado, Massachussets, and Washington appear to have experienced significant increases over the time period. DC, California, New Jersey, Hawaii, and Massachussets are consistently plagued by high rents prices.
+
+## Comparing the average star values across cities. First, we must collapse by state. 
+```{r, warning=FALSE}
+# First, we collapse by state
+FDL_collapse_long <- Full_data_long %>% 
+  group_by(State, time) %>% 
+  summarize(starsav = mean(starsav))
+
+ggplot(FDL_collapse_long, aes(x = time, y=starsav, group = State, colour = State)) + geom_line()  + scale_colour_discrete(guide = 'none')  + scale_x_date(expand=c(0.1, 0)) + geom_dl(aes(label = State), method = list(dl.trans(x = x + .2), "last.points")) +
+  geom_dl(aes(label = State), method = list(dl.trans(x = x - .2), "first.points")) + labs(title = "Average Stars over Time by State", xlab = "Avg. Stars (1-5)")
+```
+
+As we can see, there don't appear to be any trends or patterns. Seems like a very random relationship. 
+
+## Modeling and Panel Data Regression Analysis
+
+Now comes the fun part. We split the data into train and test sets where our test set comprises the last year (12 months) of our data set. We run a Hausman test to determine whether we should run a fixed effects ("within") or a random effects model. Then we develop a Panel Linear Regression model to predict housing prices.
+
+```{r plm, warning=FALSE}
+# Create test and train
+Full_data_long_train <- Full_data_long[Full_data_long$time < "2017-01-01",]
+Full_data_long_test <- Full_data_long[Full_data_long$time >= "2017-01-01",]
+
+# Set parameters
+my.formula <- rentprice ~ starsav + is_openave + funnyav + coolav + usefulav 
+my.index <- c('postal_code','time')
+
+# Conduct test
+my.hausman.test.train <- phtest(x = my.formula, 
+                          data = Full_data_long_train,
+                          model = c('within', 'random'),
+                          index = my.index)
+print(my.hausman.test.train)
+
+```
+
+The high p-value of 0.937 indicates that we should use a random effects model instead of a fixed effects model. 
+
+Now, we build our random effects model on the training dataset and predict on the test set. We calculate the Mean Averege Percent Error (MAPE) to see how accurately our model uses training values to predict rental prices in the test set.  
+
+```{r, warning=FALSE}
+my.pdm.train <- plm(data = Full_data_long_train, 
+              formula = my.formula, 
+              model = 'random',
+              index = my.index)
+summary(my.pdm.train)
+
+Full_data_long_test$pred.plm.test <- predict(my.pdm.train, Full_data_long_test, type='response')
+
+plmmape <- 100*mean(abs(Full_data_long_test$pred.plm.test/Full_data_long_test$rentprice-1), na.rm = T)
+print(plmmape)
+
+```
+
+MAPE is only 21.39% right now. We will continue working on the model to get this error lower. 
+
+```{r, warning=FALSE}
+
+ggplot(Full_data_long_test, aes(x=rentprice, y=pred.plm.test)) +geom_point() + labs(title="Predicted vs. Actual Real Estate Prices") + xlab("Actual") + ylab("Predicted")
+
+```
+The plot above shows a significant discrepency existing between actual and predicted rent prices. 
+
+## Generating the Lag Model
+
+To fine-tune the model, we decide to lag the dependent variable to consider the possibility that last month's rent could be the best predictor of this month's rent price. We follow a similar process to the one above for training, testing, and predicting. 
+
+```{r lag model, warning=FALSE}
+my.lag.formula <- rentprice ~ lag(rentprice, 1) + starsav + is_openave + funnyav + coolav + usefulav + Number_of_reviews
+
+# Conduct Hausman Test
+my.hausman.test.train.lag <- phtest(x = my.lag.formula, 
+                                data = Full_data_long_train,
+                                model = c('within', 'random'),
+                                index = my.index)
+
+# print result
+print(my.hausman.test.train.lag)
+
+```
+
+
+Then, we build the model on the training set and predict on the test set in order to calculate the MAPE.
+```{r, warning=FALSE}
+
+my.pdm.train.lag <- plm(data = Full_data_long_train, 
+                    formula = my.lag.formula, 
+                    model = 'random',
+                    index = my.index)
+summary(my.pdm.train.lag)
+
+# Predict 
+Full_data_long_test$pred.plm.test.lag <- predict(my.pdm.train.lag, Full_data_long_test, type='response')
+
+# MAPE
+plmmape.lag <- 100*mean(abs(Full_data_long_test$pred.plm.test.lag/Full_data_long_test$rentprice-1), na.rm = T)
+print(plmmape.lag)
+```
+Now we get a MAPE of 0.211, far lower than the non-lagged model. This supports the hypothesis that last month's rent could be the best predictor of this month's rent price.
+
+```{r plot, warning=FALSE}
+
+ggplot(Full_data_long_test, aes(x=rentprice, y=pred.plm.test.lag)) +geom_point() + labs(title="Predicted vs. Actual Real Estate Prices") + xlab("Actual") + ylab("Predicted")
+
+```
+
+## Multiple Imputation for Missing Values Using the Amelia Package 
+
+This process uses bootstrapping and Expectation-Maximization algorithm to impute the missing values in a data set. In our model, we will be able to throw in almost all of our independent variables.
+
+```{r imputation, warning=FALSE}
+# Look at missingness to get a sense of what needs to be imputed.
+sapply(Full_data_long, function(x) sum(is.na(x)))
+Full_data_long <- Full_data_long[-c(40)]
+Imputed_Full_data_long <-amelia(Full_data_long,ts= 'time', cs= 'postal_code', p2s=0, intercs = FALSE, idvars=c('City', 'State', 'Metro', 'CountyName', 'year', 'month', 'YearMonth'))
+
+write.amelia(obj=Imputed_Full_data_long, file.stem="imputedfull")
+
+data1 <- read.csv("imputedfull1.csv")
+data2 <- read.csv("imputedfull2.csv")
+data3 <- read.csv("imputedfull3.csv")
+data4 <- read.csv("imputedfull4.csv")
+data5 <- read.csv("imputedfull5.csv")
+
+data1 <- pdata.frame(data1, index = c("postal_code", "time"))
+data2 <- pdata.frame(data2, index = c("postal_code", "time"))
+data3 <- pdata.frame(data3, index = c("postal_code", "time"))
+data4 <- pdata.frame(data4, index = c("postal_code", "time"))
+data5 <- pdata.frame(data5, index = c("postal_code", "time"))
+
+allimp <- imputationList(list(data1,data2,data3,data4,data5))
+
+```
+
+Now, we will create the train and tests set using the last 12 months (1 year) for the test set, but with imputed values from an Amelia imputation iteration. 
+```{r, warning=FALSE}
+
+data5$time <- as.Date(data5$time, "%Y-%m-%d")
+data5_train <- data5[data5$time < "2017-01-01",]
+data5_test <- data5[data5$time >= "2017-01-01",]
+
+my.formula.impute.lag <- rentprice ~ lag(rentprice, 12) + starsav + starssd + is_openave + funnyav + coolav + usefulav + Number_of_reviews + Number_of_businesses + Friday_ave + Monday_ave + Saturday_ave + Sunday_ave + Thursday_ave + Tuesday_ave + Wednesday_ave + Friday_total + Monday_total + Saturday_total + Sunday_total + Thursday_total + Tuesday_total + Wednesday_total
+
+my.index <- c('postal_code','time')
+
+# Conduct Hausman Test
+my.hausman.test.train.impute.lag <- phtest(x = my.formula.impute.lag, 
+                                           data = data5_train, 
+                                           model = c('within', 'random'),
+                                           index = my.index)
+# print result
+print(my.hausman.test.train.impute.lag)
+
+```
+
+Build random effects model on train and predict on test.
+```{r, warning=FALSE}
+my.pdm.train.impute.lag <- plm(data = data5_train, 
+                    formula = my.formula.impute.lag, 
+                    model = 'random',
+                    index = my.index)
+summary(my.pdm.train.impute.lag)
+
+data5_test$pred.plm.test.impute.lag <- predict(my.pdm.train.impute.lag, data5_test, type='response')
+
+plmmape_impute_lag <- 100*mean(abs(data5_test$pred.plm.test.impute.lag/data5_test$rentprice-1), na.rm = T)
+print(plmmape_impute_lag)
+
+```
+Imputation gives us 5.127882 (Might be different if we tried the other 4 imputed data sets)
+
+```{r, warning=FALSE}
+ggplot(data5_test, aes(x=rentprice, y=pred.plm.test.impute.lag)) + geom_point() + labs(title="Predicted vs. Actual Real Estate Prices") + xlab("Actual") + ylab("Predicted")
+
+```
+
+Now, we conduct a reduced imputed model, which excludes checkin data
+
+```{r, warning=FALSE}
+my.formula.impute.lag.Simple <- rentprice ~ lag(rentprice, 12) + starsav + starssd + is_openave + funnyav + coolav + usefulav + Number_of_reviews + Number_of_businesses
+my.index <- c('postal_code','time')
+
+my.hausman.test.train.impute.lag.Simple <- phtest(x = my.formula.impute.lag.Simple, 
+                                                  data = data5_train, 
+                                                  model = c('within', 'random'),
+                                                  index = my.index)
+
+print(my.hausman.test.train.impute.lag.Simple)
+
+```
+Build random effects model on train and predict on test
+```{r, warning=FALSE}
+my.pdm.train.impute.lag.Simple <- plm(data = data5_train, 
+                               formula = my.formula.impute.lag.Simple, 
+                               model = 'random',
+                               index = my.index)
+summary(my.pdm.train.impute.lag.Simple)
+
+# Predict 
+data5_test$pred.plm.test.impute.lag.Simple <- predict(my.pdm.train.impute.lag.Simple, data5_test, type='response')
+
+plmmape_impute_lag.Simple <- 100*mean(abs(data5_test$pred.plm.test.impute.lag.Simple/data5_test$rentprice-1), na.rm = T)
+print(plmmape_impute_lag.Simple)
+```
+
+# Imputation gives us 5.037
+
+```{r, warning=FALSE}
+ggplot(data5_test, aes(x=rentprice, y=pred.plm.test.impute.lag.Simple)) +geom_point() + labs(title="Predicted vs. Actual Real Estate Prices") + xlab("Actual") + ylab("Predicted")
+```
+
+## Final Model
+
+The last thing we do is subset the Business dataset to include only businesses categorized as food or bars. We do this because we expect these businesses to have a stronger relationship to rent prices than others, such as Beauty & Spas.
+
+There is not a significant change in the MAPE for the subset, with the non-imputed subset without a lagged dependent producing a MAPE of 18.69, the non-imputed subset with a lagged dependent producing a MAPE of .2142, and the imputed subset with a lag producing a MAPE of 3.46. 
