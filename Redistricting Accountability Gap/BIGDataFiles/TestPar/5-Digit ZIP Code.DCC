@@ -1,0 +1,801 @@
+
+0 header
+"ID",I,1,12,0,12,0
+"Coloring",S,2,3,0,3,0
+"ZIP5",C,3,5,0,5,0
+"Name",C,4,29,0,29,0
+"Population",I,5,10,0,10,0
+"White",I,6,10,0,10,0
+"Black",I,7,10,0,10,0
+"AmIndian",S,8,10,0,10,0
+"Asian",S,9,10,0,10,0
+"Hawaiian",S,10,10,0,10,0
+"Other",S,11,10,0,10,0
+"WhtBlk",S,12,10,0,10,0
+"WhtInd",S,13,10,0,10,0
+"WhtAsn",S,14,10,0,10,0
+"WhtHwn",S,15,10,0,10,0
+"WhtOth",S,16,10,0,10,0
+"BlkInd",S,17,10,0,10,0
+"BlkAsn",S,18,10,0,10,0
+"BlkHwn",S,19,10,0,10,0
+"BlkOth",S,20,10,0,10,0
+"IndAsn",S,21,10,0,10,0
+"IndHwn",S,22,10,0,10,0
+"IndOth",S,23,10,0,10,0
+"AsnHwn",S,24,10,0,10,0
+"AsnOth",S,25,10,0,10,0
+"HwnOth",S,26,10,0,10,0
+"WhtBlkInd",S,27,10,0,10,0
+"WhtBlkAsn",S,28,10,0,10,0
+"WhtBlkHwn",S,29,10,0,10,0
+"WhtBlkOth",S,30,10,0,10,0
+"WhtIndAsn",S,31,10,0,10,0
+"WhtIndHwn",S,32,10,0,10,0
+"WhtIndOth",S,33,10,0,10,0
+"WhtAsnHwn",S,34,10,0,10,0
+"WhtAsnOth",S,35,10,0,10,0
+"WhtHwnOth",S,36,10,0,10,0
+"BlkIndAsn",S,37,10,0,10,0
+"BlkIndHwn",S,38,10,0,10,0
+"BlkIndOth",S,39,10,0,10,0
+"BlkAsnHwn",S,40,10,0,10,0
+"BlkAsnOth",S,41,10,0,10,0
+"BlkHwnOth",S,42,10,0,10,0
+"IndAsnHwn",S,43,10,0,10,0
+"IndAsnOth",S,44,10,0,10,0
+"IndHwnOth",S,45,10,0,10,0
+"AsnHwnOth",S,46,10,0,10,0
+"WhtBlkIndAsn",S,47,10,0,10,0
+"WhtBlkIndHwn",S,48,10,0,10,0
+"WhtBlkIndOth",S,49,10,0,10,0
+"WhtBlkAsnHwn",S,50,10,0,10,0
+"WhtBlkAsnOth",S,51,10,0,10,0
+"WhtBlkHwnOth",S,52,10,0,10,0
+"WhtIndAsnHwn",S,53,10,0,10,0
+"WhtIndAsnOth",S,54,10,0,10,0
+"WhtIndHwnOth",S,55,10,0,10,0
+"WhtAsnHwnOth",S,56,10,0,10,0
+"BlkIndAsnHwn",S,57,10,0,10,0
+"BlkIndAsnOth",S,58,10,0,10,0
+"BlkIndHwnOth",S,59,10,0,10,0
+"BlkAsnHwnOth",S,60,10,0,10,0
+"IndAsnHwnOth",S,61,10,0,10,0
+"WhtBlkIndAsnHwn",S,62,10,0,10,0
+"WhtBlkIndAsnOth",S,63,10,0,10,0
+"WhtBlkIndHwnOth",S,64,10,0,10,0
+"WhtBlkAsnHwnOth",S,65,10,0,10,0
+"WhtIndAsnHwnOth",S,66,10,0,10,0
+"BlkIndAsnHwnOth",S,67,10,0,10,0
+"All Races",S,68,10,0,10,0
+"AP_Wht",I,69,10,0,10,0
+"NP_Wht",I,70,10,0,10,0
+"AP_Blk",I,71,10,0,10,0
+"NP_Blk",I,72,10,0,10,0
+"AP_Ind",S,73,10,0,10,0
+"NP_Ind",I,74,10,0,10,0
+"AP_Asn",S,75,10,0,10,0
+"NP_Asn",I,76,10,0,10,0
+"AP_Hwn",S,77,10,0,10,0
+"NP_Hwn",I,78,10,0,10,0
+"AP_Oth",S,79,10,0,10,0
+"NP_Oth",I,80,10,0,10,0
+"1 Race",I,81,10,0,10,0
+"2+ Races",S,82,10,0,10,0
+"2 Races",S,83,10,0,10,0
+"3 Races",S,84,10,0,10,0
+"4 Races",S,85,10,0,10,0
+"5 Races",S,86,10,0,10,0
+"Hispanic Origin",S,87,10,0,10,0
+"Not Hispanic",I,88,10,0,10,0
+"NH_Wht",I,89,10,0,10,0
+"NH_Blk",I,90,10,0,10,0
+"NH_Ind",S,91,10,0,10,0
+"NH_Asn",S,92,10,0,10,0
+"NH_Hwn",S,93,10,0,10,0
+"NH_Oth",S,94,10,0,10,0
+"NH_WhtBlk",S,95,10,0,10,0
+"NH_WhtInd",S,96,10,0,10,0
+"NH_WhtAsn",S,97,10,0,10,0
+"NH_WhtHwn",S,98,10,0,10,0
+"NH_WhtOth",S,99,10,0,10,0
+"NH_BlkInd",S,100,10,0,10,0
+"NH_BlkAsn",S,101,10,0,10,0
+"NH_BlkHwn",S,102,10,0,10,0
+"NH_BlkOth",S,103,10,0,10,0
+"NH_IndAsn",S,104,10,0,10,0
+"NH_IndHwn",S,105,10,0,10,0
+"NH_IndOth",S,106,10,0,10,0
+"NH_AsnHwn",S,107,10,0,10,0
+"NH_AsnOth",S,108,10,0,10,0
+"NH_HwnOth",S,109,10,0,10,0
+"NH_WhtBlkInd",S,110,10,0,10,0
+"NH_WhtBlkAsn",S,111,10,0,10,0
+"NH_WhtBlkHwn",S,112,10,0,10,0
+"NH_WhtBlkOth",S,113,10,0,10,0
+"NH_WhtIndAsn",S,114,10,0,10,0
+"NH_WhtIndHwn",S,115,10,0,10,0
+"NH_WhtIndOth",S,116,10,0,10,0
+"NH_WhtAsnHwn",S,117,10,0,10,0
+"NH_WhtAsnOth",S,118,10,0,10,0
+"NH_WhtHwnOth",S,119,10,0,10,0
+"NH_BlkIndAsn",S,120,10,0,10,0
+"NH_BlkIndHwn",S,121,10,0,10,0
+"NH_BlkIndOth",S,122,10,0,10,0
+"NH_BlkAsnHwn",S,123,10,0,10,0
+"NH_BlkAsnOth",S,124,10,0,10,0
+"NH_BlkHwnOth",S,125,10,0,10,0
+"NH_IndAsnHwn",S,126,10,0,10,0
+"NH_IndAsnOth",S,127,10,0,10,0
+"NH_IndHwnOth",S,128,10,0,10,0
+"NH_AsnHwnOth",S,129,10,0,10,0
+"NH_WhtBlkIndAsn",S,130,10,0,10,0
+"NH_WhtBlkIndHwn",S,131,10,0,10,0
+"NH_WhtBlkIndOth",S,132,10,0,10,0
+"NH_WhtBlkAsnHwn",S,133,10,0,10,0
+"NH_WhtBlkAsnOth",S,134,10,0,10,0
+"NH_WhtBlkHwnOth",S,135,10,0,10,0
+"NH_WhtIndAsnHwn",S,136,10,0,10,0
+"NH_WhtIndAsnOth",S,137,10,0,10,0
+"NH_WhtIndHwnOth",S,138,10,0,10,0
+"NH_WhtAsnHwnOth",S,139,10,0,10,0
+"NH_BlkIndAsnHwn",S,140,10,0,10,0
+"NH_BlkIndAsnOth",S,141,10,0,10,0
+"NH_BlkIndHwnOth",S,142,10,0,10,0
+"NH_BlkAsnHwnOth",S,143,10,0,10,0
+"NH_IndAsnHwnOth",S,144,10,0,10,0
+"NH_WhtBlkIndAsnHwn",S,145,10,0,10,0
+"NH_WhtBlkIndAsnOth",S,146,10,0,10,0
+"NH_WhtBlkIndHwnOth",S,147,10,0,10,0
+"NH_WhtBlkAsnHwnOth",S,148,10,0,10,0
+"NH_WhtIndAsnHwnOth",S,149,10,0,10,0
+"NH_BlkIndAsnHwnOth",S,150,10,0,10,0
+"NH_All Races",S,151,10,0,10,0
+"NH_AP_Wht",I,152,10,0,10,0
+"NH_NP_Wht",I,153,10,0,10,0
+"NH_AP_Blk",I,154,10,0,10,0
+"NH_NP_Blk",I,155,10,0,10,0
+"NH_AP_Ind",S,156,10,0,10,0
+"NH_NP_Ind",I,157,10,0,10,0
+"NH_AP_Asn",S,158,10,0,10,0
+"NH_NP_Asn",I,159,10,0,10,0
+"NH_AP_Hwn",S,160,10,0,10,0
+"NH_NP_Hwn",I,161,10,0,10,0
+"NH_AP_Oth",S,162,10,0,10,0
+"NH_NP_Oth",I,163,10,0,10,0
+"NH_1 Race",I,164,10,0,10,0
+"NH_2+ Races",S,165,10,0,10,0
+"NH_2 Races",S,166,10,0,10,0
+"NH_3 Races",S,167,10,0,10,0
+"NH_4 Races",S,168,10,0,10,0
+"NH_5 Races",S,169,10,0,10,0
+"NH_DOJ_Blk",I,170,10,0,10,0
+"NH_DOJ_Ind",S,171,10,0,10,0
+"NH_DOJ_Asn",S,172,10,0,10,0
+"NH_DOJ_Hwn",S,173,10,0,10,0
+"NH_DOJ_Oth",S,174,10,0,10,0
+"NH_DOJ_OthMR",S,175,10,0,10,0
+"18+_Pop",I,176,10,0,10,0
+"18+_Wht",I,177,10,0,10,0
+"18+_Blk",S,178,10,0,10,0
+"18+_Ind",S,179,10,0,10,0
+"18+_Asn",S,180,10,0,10,0
+"18+_Hwn",S,181,10,0,10,0
+"18+_Oth",S,182,10,0,10,0
+"18+_WhtBlk",S,183,10,0,10,0
+"18+_WhtInd",S,184,10,0,10,0
+"18+_WhtAsn",S,185,10,0,10,0
+"18+_WhtHwn",S,186,10,0,10,0
+"18+_WhtOth",S,187,10,0,10,0
+"18+_BlkInd",S,188,10,0,10,0
+"18+_BlkAsn",S,189,10,0,10,0
+"18+_BlkHwn",S,190,10,0,10,0
+"18+_BlkOth",S,191,10,0,10,0
+"18+_IndAsn",S,192,10,0,10,0
+"18+_IndHwn",S,193,10,0,10,0
+"18+_IndOth",S,194,10,0,10,0
+"18+_AsnHwn",S,195,10,0,10,0
+"18+_AsnOth",S,196,10,0,10,0
+"18+_HwnOth",S,197,10,0,10,0
+"18+_WhtBlkInd",S,198,10,0,10,0
+"18+_WhtBlkAsn",S,199,10,0,10,0
+"18+_WhtBlkHwn",S,200,10,0,10,0
+"18+_WhtBlkOth",S,201,10,0,10,0
+"18+_WhtIndAsn",S,202,10,0,10,0
+"18+_WhtIndHwn",S,203,10,0,10,0
+"18+_WhtIndOth",S,204,10,0,10,0
+"18+_WhtAsnHwn",S,205,10,0,10,0
+"18+_WhtAsnOth",S,206,10,0,10,0
+"18+_WhtHwnOth",S,207,10,0,10,0
+"18+_BlkIndAsn",S,208,10,0,10,0
+"18+_BlkIndHwn",S,209,10,0,10,0
+"18+_BlkIndOth",S,210,10,0,10,0
+"18+_BlkAsnHwn",S,211,10,0,10,0
+"18+_BlkAsnOth",S,212,10,0,10,0
+"18+_BlkHwnOth",S,213,10,0,10,0
+"18+_IndAsnHwn",S,214,10,0,10,0
+"18+_IndAsnOth",S,215,10,0,10,0
+"18+_IndHwnOth",S,216,10,0,10,0
+"18+_AsnHwnOth",S,217,10,0,10,0
+"18+_WhtBlkIndAsn",S,218,10,0,10,0
+"18+_WhtBlkIndHwn",S,219,10,0,10,0
+"18+_WhtBlkIndOth",S,220,10,0,10,0
+"18+_WhtBlkAsnHwn",S,221,10,0,10,0
+"18+_WhtBlkAsnOth",S,222,10,0,10,0
+"18+_WhtBlkHwnOth",S,223,10,0,10,0
+"18+_WhtIndAsnHwn",S,224,10,0,10,0
+"18+_WhtIndAsnOth",S,225,10,0,10,0
+"18+_WhtIndHwnOth",S,226,10,0,10,0
+"18+_WhtAsnHwnOth",S,227,10,0,10,0
+"18+_BlkIndAsnHwn",S,228,10,0,10,0
+"18+_BlkIndAsnOth",S,229,10,0,10,0
+"18+_BlkIndHwnOth",S,230,10,0,10,0
+"18+_BlkAsnHwnOth",S,231,10,0,10,0
+"18+_IndAsnHwnOth",S,232,10,0,10,0
+"18+_WhtBlkIndAsnHwn",S,233,10,0,10,0
+"18+_WhtBlkIndAsnOth",S,234,10,0,10,0
+"18+_WhtBlkIndHwnOth",S,235,10,0,10,0
+"18+_WhtBlkAsnHwnOth",S,236,10,0,10,0
+"18+_WhtIndAsnHwnOth",S,237,10,0,10,0
+"18+_BlkIndAsnHwnOth",S,238,10,0,10,0
+"18+_All Races",S,239,10,0,10,0
+"18+_AP_Wht",I,240,10,0,10,0
+"18+_NP_Wht",S,241,10,0,10,0
+"18+_AP_Blk",S,242,10,0,10,0
+"18+_NP_Blk",I,243,10,0,10,0
+"18+_AP_Ind",S,244,10,0,10,0
+"18+_NP_Ind",I,245,10,0,10,0
+"18+_AP_Asn",S,246,10,0,10,0
+"18+_NP_Asn",I,247,10,0,10,0
+"18+_AP_Hwn",S,248,10,0,10,0
+"18+_NP_Hwn",I,249,10,0,10,0
+"18+_AP_Oth",S,250,10,0,10,0
+"18+_NP_Oth",I,251,10,0,10,0
+"18+_1 Race",I,252,10,0,10,0
+"18+_2+ Races",S,253,10,0,10,0
+"18+_2 Races",S,254,10,0,10,0
+"18+_3 Races",S,255,10,0,10,0
+"18+_4 Races",S,256,10,0,10,0
+"18+_5 Races",S,257,10,0,10,0
+"H18+_Pop",S,258,10,0,10,0
+"NH18+_Pop",I,259,10,0,10,0
+"NH18+_Wht",I,260,10,0,10,0
+"NH18+_Blk",S,261,10,0,10,0
+"NH18+_Ind",S,262,10,0,10,0
+"NH18+_Asn",S,263,10,0,10,0
+"NH18+_Hwn",S,264,10,0,10,0
+"NH18+_Oth",S,265,10,0,10,0
+"NH18+_WhtBlk",S,266,10,0,10,0
+"NH18+_WhtInd",S,267,10,0,10,0
+"NH18+_WhtAsn",S,268,10,0,10,0
+"NH18+_WhtHwn",S,269,10,0,10,0
+"NH18+_WhtOth",S,270,10,0,10,0
+"NH18+_BlkInd",S,271,10,0,10,0
+"NH18+_BlkAsn",S,272,10,0,10,0
+"NH18+_BlkHwn",S,273,10,0,10,0
+"NH18+_BlkOth",S,274,10,0,10,0
+"NH18+_IndAsn",S,275,10,0,10,0
+"NH18+_IndHwn",S,276,10,0,10,0
+"NH18+_IndOth",S,277,10,0,10,0
+"NH18+_AsnHwn",S,278,10,0,10,0
+"NH18+_AsnOth",S,279,10,0,10,0
+"NH18+_HwnOth",S,280,10,0,10,0
+"NH18+_WhtBlkInd",S,281,10,0,10,0
+"NH18+_WhtBlkAsn",S,282,10,0,10,0
+"NH18+_WhtBlkHwn",S,283,10,0,10,0
+"NH18+_WhtBlkOth",S,284,10,0,10,0
+"NH18+_WhtIndAsn",S,285,10,0,10,0
+"NH18+_WhtIndHwn",S,286,10,0,10,0
+"NH18+_WhtIndOth",S,287,10,0,10,0
+"NH18+_WhtAsnHwn",S,288,10,0,10,0
+"NH18+_WhtAsnOth",S,289,10,0,10,0
+"NH18+_WhtHwnOth",S,290,10,0,10,0
+"NH18+_BlkIndAsn",S,291,10,0,10,0
+"NH18+_BlkIndHwn",S,292,10,0,10,0
+"NH18+_BlkIndOth",S,293,10,0,10,0
+"NH18+_BlkAsnHwn",S,294,10,0,10,0
+"NH18+_BlkAsnOth",S,295,10,0,10,0
+"NH18+_BlkHwnOth",S,296,10,0,10,0
+"NH18+_IndAsnHwn",S,297,10,0,10,0
+"NH18+_IndAsnOth",S,298,10,0,10,0
+"NH18+_IndHwnOth",S,299,10,0,10,0
+"NH18+_AsnHwnOth",S,300,10,0,10,0
+"NH18+_WhtBlkIndAsn",S,301,10,0,10,0
+"NH18+_WhtBlkIndHwn",S,302,10,0,10,0
+"NH18+_WhtBlkIndOth",S,303,10,0,10,0
+"NH18+_WhtBlkAsnHwn",S,304,10,0,10,0
+"NH18+_WhtBlkAsnOth",S,305,10,0,10,0
+"NH18+_WhtBlkHwnOth",S,306,10,0,10,0
+"NH18+_WhtIndAsnHwn",S,307,10,0,10,0
+"NH18+_WhtIndAsnOth",S,308,10,0,10,0
+"NH18+_WhtIndHwnOth",S,309,10,0,10,0
+"NH18+_WhtAsnHwnOth",S,310,10,0,10,0
+"NH18+_BlkIndAsnHwn",S,311,10,0,10,0
+"NH18+_BlkIndAsnOth",S,312,10,0,10,0
+"NH18+_BlkIndHwnOth",S,313,10,0,10,0
+"NH18+_BlkAsnHwnOth",S,314,10,0,10,0
+"NH18+_IndAsnHwnOth",S,315,10,0,10,0
+"NH18+_WhtBlkIndAsnHwn",S,316,10,0,10,0
+"NH18+_WhtBlkIndAsnOth",S,317,10,0,10,0
+"NH18+_WhtBlkIndHwnOth",S,318,10,0,10,0
+"NH18+_WhtBlkAsnHwnOth",S,319,10,0,10,0
+"NH18+_WhtIndAsnHwnOth",S,320,10,0,10,0
+"NH18+_BlkIndAsnHwnOth",S,321,10,0,10,0
+"NH18+_All Races",S,322,10,0,10,0
+"NH18+_AP_Wht",I,323,10,0,10,0
+"NH18+_NP_Wht",S,324,10,0,10,0
+"NH18+_AP_Blk",S,325,10,0,10,0
+"NH18+_NP_Blk",I,326,10,0,10,0
+"NH18+_AP_Ind",S,327,10,0,10,0
+"NH18+_NP_Ind",I,328,10,0,10,0
+"NH18+_AP_Asn",S,329,10,0,10,0
+"NH18+_NP_Asn",I,330,10,0,10,0
+"NH18+_AP_Hwn",S,331,10,0,10,0
+"NH18+_NP_Hwn",I,332,10,0,10,0
+"NH18+_AP_Oth",S,333,10,0,10,0
+"NH18+_NP_Oth",I,334,10,0,10,0
+"NH18+_1 Race",I,335,10,0,10,0
+"NH18+_2+ Races",S,336,10,0,10,0
+"NH18+_2 Races",S,337,10,0,10,0
+"NH18+_3 Races",S,338,10,0,10,0
+"NH18+_4 Races",S,339,10,0,10,0
+"NH18+_5 Races",S,340,10,0,10,0
+"NH18+_DOJ_Blk",S,341,10,0,10,0
+"NH18+_DOJ_Ind",S,342,10,0,10,0
+"NH18+_DOJ_Asn",S,343,10,0,10,0
+"NH18+_DOJ_Hwn",S,344,10,0,10,0
+"NH18+_DOJ_Oth",S,345,10,0,10,0
+"NH18+_DOJ_OthMR",S,346,10,0,10,0
+"Housing Units",S,347,10,0,10,0
+"HU_Occupied",S,348,10,0,10,0
+"HU_Vacant",S,349,10,0,10,0
+"2010_Male",I,350,10,0,10,0
+"2010_Male <5",S,351,10,0,10,0
+"2010_Male 5 to 9",S,352,10,0,10,0
+"2010_Male 10 to 14",S,353,10,0,10,0
+"2010_Male 15 to 17",S,354,10,0,10,0
+"2010_Male 18 and 19",S,355,10,0,10,0
+"2010_Male 20",S,356,10,0,10,0
+"2010_Male 21",S,357,10,0,10,0
+"2010_Male 22 to 24",S,358,10,0,10,0
+"2010_Male 25 to 29",S,359,10,0,10,0
+"2010_Male 30 to 34",S,360,10,0,10,0
+"2010_Male 35 to 39",S,361,10,0,10,0
+"2010_Male 40 to 44",S,362,10,0,10,0
+"2010_Male 45 to 49",S,363,10,0,10,0
+"2010_Male 50 to 54",S,364,10,0,10,0
+"2010_Male 55 to 59",S,365,10,0,10,0
+"2010_Male 60 and 61",S,366,10,0,10,0
+"2010_Male 62 to 64",S,367,10,0,10,0
+"2010_Male 65 and 66",S,368,10,0,10,0
+"2010_Male 67 to 69",S,369,10,0,10,0
+"2010_Male 70 to 74",S,370,10,0,10,0
+"2010_Male 75 to 79",S,371,10,0,10,0
+"2010_Male 80 to 84",S,372,10,0,10,0
+"2010_Male 85+",S,373,10,0,10,0
+"2010_Female",I,374,10,0,10,0
+"2010_Female <5",S,375,10,0,10,0
+"2010_Female 5 to 9",S,376,10,0,10,0
+"2010_Female 10 to 14",S,377,10,0,10,0
+"2010_Female 15 to 17",S,378,10,0,10,0
+"2010_Female 18 and 19",S,379,10,0,10,0
+"2010_Female 20",S,380,10,0,10,0
+"2010_Female 21",S,381,10,0,10,0
+"2010_Female 22 to 24",S,382,10,0,10,0
+"2010_Female 25 to 29",S,383,10,0,10,0
+"2010_Female 30 to 34",S,384,10,0,10,0
+"2010_Female 35 to 39",S,385,10,0,10,0
+"2010_Female 40 to 44",S,386,10,0,10,0
+"2010_Female 45 to 49",S,387,10,0,10,0
+"2010_Female 50 to 54",S,388,10,0,10,0
+"2010_Female 55 to 59",S,389,10,0,10,0
+"2010_Female 60 and 61",S,390,10,0,10,0
+"2010_Female 62 to 64",S,391,10,0,10,0
+"2010_Female 65 and 66",S,392,10,0,10,0
+"2010_Female 67 to 69",S,393,10,0,10,0
+"2010_Female 70 to 74",S,394,10,0,10,0
+"2010_Female 75 to 79",S,395,10,0,10,0
+"2010_Female 80 to 84",S,396,10,0,10,0
+"2010_Female 85+",S,397,10,0,10,0
+"2010_Age 18+",I,398,10,0,10,0
+"2010_Male 18+",S,399,10,0,10,0
+"2010_Female 18+",S,400,10,0,10,0
+"2010_Age 21+",I,401,10,0,10,0
+"2010_Age 62+",S,402,10,0,10,0
+"2010_Age 65+",S,403,10,0,10,0
+"2010_Male 65+",S,404,10,0,10,0
+"2010_Female 65+",S,405,10,0,10,0
+"2010_People in households",I,406,10,0,10,0
+"2010_People in family HH",I,407,10,0,10,0
+"2010_In fam HH_Householder",S,408,10,0,10,0
+"2010_In fam HH_HHer_Male",S,409,10,0,10,0
+"2010_In fam HH_HHer_Female",S,410,10,0,10,0
+"2010_In fam HH_Spouse",S,411,10,0,10,0
+"2010_In fam HH_Child",S,412,10,0,10,0
+"2010_In fam HH_Other relatives",S,413,10,0,10,0
+"2010_In fam HH_Nonrelatives",S,414,10,0,10,0
+"2010_People in nonfamily HH",S,415,10,0,10,0
+"2010_In nonfam HH_Male HHer",S,416,10,0,10,0
+"2010_In nonfam HH_Female HHer",S,417,10,0,10,0
+"2010_In nonfam HH_Nonrelatives",S,418,10,0,10,0
+"2010_People in group quarters",S,419,10,0,10,0
+"2010_InGrp_Institutionalized",S,420,10,0,10,0
+"2010_InGrp_Noninstitutionalized",S,421,10,0,10,0
+"2010_Households",S,422,10,0,10,0
+"2010_HH_Family",S,423,10,0,10,0
+"2010_HH_Family_Husband-wife",S,424,10,0,10,0
+"2010_HH_Family_Other",S,425,10,0,10,0
+"2010_HH_Family_Other_Male HHer",S,426,10,0,10,0
+"2010_HH_Family_Other_Female HHer",S,427,10,0,10,0
+"2010_HH_Nonfamily",S,428,10,0,10,0
+"2010_HH_Nonfamily_Living alone",S,429,10,0,10,0
+"2010_HH_Nonfamily_Not living alone",S,430,10,0,10,0
+"2010_HH w/people <18",S,431,10,0,10,0
+"2010_HH w/people 65+",S,432,10,0,10,0
+"2010_Average HH Size",F,433,10,0,10,2
+"2010_Average Family Size",F,434,10,0,10,2
+"2010_HU_Vacant_Seasonal",S,435,10,0,10,0
+"2010_Owner occupied",S,436,10,0,10,0
+"2010_Renter occupied",S,437,10,0,10,0
+"2010_Owner occupied_Avg HH size",F,438,10,0,10,2
+"2010_Renter occupied_Avg HH size",F,439,10,0,10,2
+"2010_Median age",F,440,10,0,10,1
+"2010_Male median age",F,441,10,0,10,1
+"2010_Female median age",F,442,10,0,10,1
+"2014_HH_Median income",I,443,10,0,10,0
+"2014_HH_Mean income",I,444,10,0,10,0
+"2014_HH_Income <$10K",S,445,10,0,10,0
+"2014_HH_Income $10K-14,999",S,446,10,0,10,0
+"2014_HH_Income $15K-24,999",S,447,10,0,10,0
+"2014_HH_Income $25K-34,999",S,448,10,0,10,0
+"2014_HH_Income $35K-49,999",S,449,10,0,10,0
+"2014_HH_Income $50K-74,999",S,450,10,0,10,0
+"2014_HH_Income $75K-99,999",S,451,10,0,10,0
+"2014_HH_Income $100K-149,999",S,452,10,0,10,0
+"2014_HH_Income $150K-199,999",S,453,10,0,10,0
+"2014_HH_Income $200K+",S,454,10,0,10,0
+"2014_Population",I,455,10,0,10,0
+"2014_Male",I,456,10,0,10,0
+"2014_Female",I,457,10,0,10,0
+"2014_Age <5",S,458,10,0,10,0
+"2014_Age 5 to 9",S,459,10,0,10,0
+"2014_Age 10 to 14",S,460,10,0,10,0
+"2014_Age 15 to 19",S,461,10,0,10,0
+"2014_Age 20 to 24",S,462,10,0,10,0
+"2014_Age 25 to 34",S,463,10,0,10,0
+"2014_Age 35 to 44",S,464,10,0,10,0
+"2014_Age 45 to 54",S,465,10,0,10,0
+"2014_Age 55 to 59",S,466,10,0,10,0
+"2014_Age 60 to 64",S,467,10,0,10,0
+"2014_Age 65 to 74",S,468,10,0,10,0
+"2014_Age 75 to 84",S,469,10,0,10,0
+"2014_Age 85+",S,470,10,0,10,0
+"2014_Median Age",F,471,10,0,10,1
+"2014_Age 21+",I,472,10,0,10,0
+"2014_Age 62+",S,473,10,0,10,0
+"2014_Age 18+",I,474,10,0,10,0
+"2014_Male 18+",S,475,10,0,10,0
+"2014_Female 18+",S,476,10,0,10,0
+"2014_Age 65+",S,477,10,0,10,0
+"2014_Male 65+",S,478,10,0,10,0
+"2014_Female 65+",S,479,10,0,10,0
+"2014_One race",I,480,10,0,10,0
+"2014_White",I,481,10,0,10,0
+"2014_Black",I,482,10,0,10,0
+"2014_American Indian",S,483,10,0,10,0
+"2014_Asian",S,484,10,0,10,0
+"2014_Hawaiian",S,485,10,0,10,0
+"2014_Some other race",S,486,10,0,10,0
+"2014_2+ races",S,487,10,0,10,0
+"2014_2+ races_White & Black",S,488,10,0,10,0
+"2014_2+ races_White & Am Indian",S,489,10,0,10,0
+"2014_2+ races_White & Asian",S,490,10,0,10,0
+"2014_2+ races_Black & Am Indian",S,491,10,0,10,0
+"2014_Part White",I,492,10,0,10,0
+"2014_Part Black",I,493,10,0,10,0
+"2014_Part AmIndian",S,494,10,0,10,0
+"2014_Part Asian",S,495,10,0,10,0
+"2014_Part Hawaiian",S,496,10,0,10,0
+"2014_Part Other",S,497,10,0,10,0
+"2014_Hispanic Origin",S,498,10,0,10,0
+"2014_Not Hispanic Origin",I,499,10,0,10,0
+"2014_Not Hispanic White",I,500,10,0,10,0
+"2014_Not Hispanic_Black",I,501,10,0,10,0
+"2014_Not Hispanic_Am Indian",S,502,10,0,10,0
+"2014_Not Hispanic_Asian",S,503,10,0,10,0
+"2014_Not Hispanic_Hawaiian",S,504,10,0,10,0
+"2014_Not Hispanic_Other",S,505,10,0,10,0
+"2014_Not Hispanic_2+ races",S,506,10,0,10,0
+"2014_Not Hispanic_2+_Incl Other",S,507,10,0,10,0
+"2014_Not Hispanic_2+_Excl Other",S,508,10,0,10,0
+"2014_Housing units",S,509,10,0,10,0
+"2014_Households",S,510,10,0,10,0
+"2014_Family HH",S,511,10,0,10,0
+"2014_Family HH_Own children<Age 18",S,512,10,0,10,0
+"2014_Family HH_Married-couple family",S,513,10,0,10,0
+"2014_Family HH_Married_Own children<18",S,514,10,0,10,0
+"2014_Family HH_Male HHer",S,515,10,0,10,0
+"2014_Family HH_Male HHer_Own children<18",S,516,10,0,10,0
+"2014_Family HH_Female HHer",S,517,10,0,10,0
+"2014_Family HH_Female HHer_Own child<18",S,518,10,0,10,0
+"2014_Nonfamily HH",S,519,10,0,10,0
+"2014_Nonfamily HH_HHer living alone",S,520,10,0,10,0
+"2014_Nonfamily HH_HHer living alone_65+",S,521,10,0,10,0
+"2014_HH w/1+ people <18",S,522,10,0,10,0
+"2014_HH w/1+ people 65+",S,523,10,0,10,0
+"2014_Average HH Size",R,524,10,0,10,2
+"2014_Average Family Size",F,525,10,0,10,2
+"2014_People in households",I,526,10,0,10,0
+"2014_Householder",S,527,10,0,10,0
+"2014_Spouse",S,528,10,0,10,0
+"2014_Child",S,529,10,0,10,0
+"2014_Other relatives",S,530,10,0,10,0
+"2014_Nonrelatives",S,531,10,0,10,0
+"2014_Nonrelatives_Unmarried partner",S,532,10,0,10,0
+"2014_Males Age 15+",S,533,10,0,10,0
+"2014_Males Age 15+_Never married",S,534,10,0,10,0
+"2014_Males Age 15+_Now married",S,535,10,0,10,0
+"2014_Males Age 15+_Separated",S,536,10,0,10,0
+"2014_Males Age 15+_Widowed",S,537,10,0,10,0
+"2014_Males Age 15+_Divorced",S,538,10,0,10,0
+"2014_Females Age 15+",I,539,10,0,10,0
+"2014_Females Age 15+_Never married",S,540,10,0,10,0
+"2014_Females Age 15+_Now married",S,541,10,0,10,0
+"2014_Females Age 15+_Separated",S,542,10,0,10,0
+"2014_Females Age 15+_Widowed",S,543,10,0,10,0
+"2014_Females Age 15+_Divorced",S,544,10,0,10,0
+"2014_In school 3+",S,545,10,0,10,0
+"2014_In school_Nursery/preschool",S,546,10,0,10,0
+"2014_In school_Kindergarten",S,547,10,0,10,0
+"2014_In school_Elementary",S,548,10,0,10,0
+"2014_In school_High school",S,549,10,0,10,0
+"2014_In school_College/grad school",S,550,10,0,10,0
+"2014_Population 25+",I,551,10,0,10,0
+"2014_25+_<9th grade",S,552,10,0,10,0
+"2014_25+_9th to 12th grade, no diploma",S,553,10,0,10,0
+"2014_25+_High school grad",S,554,10,0,10,0
+"2014_25+_Some college, no degree",S,555,10,0,10,0
+"2014_25+_Associate degree",S,556,10,0,10,0
+"2014_25+_Bachelor's degree",S,557,10,0,10,0
+"2014_25+_Grad or prof degree",S,558,10,0,10,0
+"2014_25+_% HS grad or higher",F,559,10,0,10,1
+"2014_25+_% bachelor's degree or higher",F,560,10,0,10,1
+"2014_Civilian 18+",I,561,10,0,10,0
+"2014_Civilian 18+_Veterans",S,562,10,0,10,0
+"2014_Population 5+",I,563,10,0,10,0
+"2014_5+_English only",I,564,10,0,10,0
+"2014_5+_Other language",S,565,10,0,10,0
+"2014_5+_Other lang_Eng<very well",S,566,10,0,10,0
+"2014_5+_Other lang_Spanish",S,567,10,0,10,0
+"2014_5+_Other lang_Sp_Eng<very well",S,568,10,0,10,0
+"2014_5+_Other lang_Indo-European",S,569,10,0,10,0
+"2014_5+_Other lang_Indo-Eur_Eng<vry well",S,570,10,0,10,0
+"2014_5+_Other lang_Asian and Pacific Is",S,571,10,0,10,0
+"2014_5+_Other lang_API_Eng<very well",S,572,10,0,10,0
+"2014_5+_Other lang_Other",S,573,10,0,10,0
+"2014_5+_Other lang_Other_Eng<very well",S,574,10,0,10,0
+"2014_Population 16+",I,575,10,0,10,0
+"2014_16+_In labor force",I,576,10,0,10,0
+"2014_16+_In LF_Civilian",I,577,10,0,10,0
+"2014_16+_In LF_Civilian_Employed",I,578,10,0,10,0
+"2014_16+_In LF_Civilian_Unemployed",S,579,10,0,10,0
+"2014_16+_In LF_Armed Forces",S,580,10,0,10,0
+"2014_16+_Not in labor force",S,581,10,0,10,0
+"2014_16+_In LF_Civilian_Unempl_%",F,582,10,0,10,1
+"2014_Own children<6",S,583,10,0,10,0
+"2014_Own child<6_All parents in LF",S,584,10,0,10,0
+"2014_Own children age 6-17",S,585,10,0,10,0
+"2014_Own child 6-17_All parents in LF",S,586,10,0,10,0
+"2014_Workers 16+",I,587,10,0,10,0
+"2014_16+_Mode: Car_Drove alone",S,588,10,0,10,0
+"2014_16+_Mode: Car_Carpooled",S,589,10,0,10,0
+"2014_16+_Mode: Public trans",S,590,10,0,10,0
+"2014_16+_Mode: Walked",S,591,10,0,10,0
+"2014_16+_Mode: Other means",S,592,10,0,10,0
+"2014_16+_Mode: Worked at home",S,593,10,0,10,0
+"2014_16+_Mean travel time to work",F,594,10,0,10,1
+"2014_Employed civilian population 16+",I,595,10,0,10,0
+"2014_EC 16+_Occ: Manage/prof",S,596,10,0,10,0
+"2014_EC 16+_Occ: Service",S,597,10,0,10,0
+"2014_EC 16+_Occ: Sales/office",S,598,10,0,10,0
+"2014_EC 16+_Occ: Nat res/constr/maint",S,599,10,0,10,0
+"2014_EC 16+_Occ: Prod/transp/material",S,600,10,0,10,0
+"2014_EC 16+_Ind: Ag/forestry/fish/mine",S,601,10,0,10,0
+"2014_EC 16+_Ind: Construction",S,602,10,0,10,0
+"2014_EC 16+_Ind: Manufacturing",S,603,10,0,10,0
+"2014_EC 16+_Ind: Wholesale trade",S,604,10,0,10,0
+"2014_EC 16+_Ind: Retail trade",S,605,10,0,10,0
+"2014_EC 16+_Ind: Transportation/warehse",S,606,10,0,10,0
+"2014_EC 16+_Ind: Information",S,607,10,0,10,0
+"2014_EC 16+_Ind: Finance/ins/RE/rental",S,608,10,0,10,0
+"2014_EC 16+_Ind: Prof/scientific/admin",S,609,10,0,10,0
+"2014_EC 16+_Ind: Ed/health/soc services",S,610,10,0,10,0
+"2014_EC 16+_Ind: Art/ent/rec/acc/food",S,611,10,0,10,0
+"2014_EC 16+_Ind: Other (ex public admin)",S,612,10,0,10,0
+"2014_EC 16+_Ind: Public administration",S,613,10,0,10,0
+"2014_EC 16+_Workers: Private wage/salary",S,614,10,0,10,0
+"2014_EC 16+_Workers: Government",S,615,10,0,10,0
+"2014_EC 16+_Workers: Self-employed",S,616,10,0,10,0
+"2014_EC 16+_Workers: Unpaid family",S,617,10,0,10,0
+"2014_HH_w/earnings",S,618,10,0,10,0
+"2014_HH_w/earnings_Mean earnings",I,619,10,0,10,0
+"2014_HH_w/Social Security income",S,620,10,0,10,0
+"2014_HH_w/SS_Mean income",I,621,10,0,10,0
+"2014_HH_w/retirement Income",S,622,10,0,10,0
+"2014_HH_w/retirement_Mean income",I,623,10,0,10,0
+"2014_HH_w/Supplemental Security Income",S,624,10,0,10,0
+"2014_HH_w/SSI_Mean income",I,625,10,0,10,0
+"2014_HH_w/public assistance income",S,626,10,0,10,0
+"2014_HH_w/PA_Mean income",I,627,10,0,10,0
+"2014_Families",S,628,10,0,10,0
+"2014_Fam_Inc: <$10K",S,629,10,0,10,0
+"2014_Fam_Inc: $10K-$14,999",S,630,10,0,10,0
+"2014_Fam_Inc: $15K-$24,999",S,631,10,0,10,0
+"2014_Fam_Inc: $25K-$34,999",S,632,10,0,10,0
+"2014_Fam_Inc: $35K-$49,999",S,633,10,0,10,0
+"2014_Fam_Inc: $50K-$74,999",S,634,10,0,10,0
+"2014_Fam_Inc: $75K-$99,999",S,635,10,0,10,0
+"2014_Fam_Inc: $100K-$149,999",S,636,10,0,10,0
+"2014_Fam_Inc: $150K-$199,999",S,637,10,0,10,0
+"2014_Fam_Inc: $200K+",S,638,10,0,10,0
+"2014_Median family income",I,639,10,0,10,0
+"2014_Mean family income",I,640,10,0,10,0
+"2014_Per capita income",I,641,10,0,10,0
+"2014_Median nonfamily income",I,642,10,0,10,0
+"2014_Mean nonfamily income",I,643,10,0,10,0
+"2014_Median earnings for workers",I,644,10,0,10,0
+"2014_Pct in poverty_All families",F,645,10,0,10,1
+"2014_Pct in poverty_All fam_Child<18",F,646,10,0,10,1
+"2014_Pct in poverty_All fam_All child<5",F,647,10,0,10,1
+"2014_Pct in poverty_Married couple fam",F,648,10,0,10,1
+"2014_Pct in poverty_Married_Child<18",F,649,10,0,10,1
+"2014_Pct in poverty_Married_All child<5",F,650,10,0,10,1
+"2014_Pct in poverty_Families w/female HH",F,651,10,0,10,1
+"2014_Pct in poverty_Fem HHer_Child<18",F,652,10,0,10,1
+"2014_Pct in poverty_Fem HHer_All child<5",F,653,10,0,10,1
+"2014_Travel time <5 min",S,654,10,0,10,0
+"2014_Travel time 5-9 min",S,655,10,0,10,0
+"2014_Travel time 10-14 min",S,656,10,0,10,0
+"2014_Travel time 15-19 min",S,657,10,0,10,0
+"2014_Travel time 20-24 min",S,658,10,0,10,0
+"2014_Travel time 25-29 min",S,659,10,0,10,0
+"2014_Travel time 30-34 min",S,660,10,0,10,0
+"2014_Travel time 35-39 min",S,661,10,0,10,0
+"2014_Travel time 40-44 min",S,662,10,0,10,0
+"2014_Travel time 45-59 min",S,663,10,0,10,0
+"2014_Travel time 60-89 min",S,664,10,0,10,0
+"2014_Travel time 90+ min",S,665,10,0,10,0
+"2014_HH_Aggregate income",R,666,10,0,10,0
+"2014_HH_Aggregate income_White",R,667,10,0,10,0
+"2014_HH_Aggregate income_Black",I,668,10,0,10,0
+"2014_HH_Aggregate income_Am Indian",I,669,10,0,10,0
+"2014_HH_Aggregate income_Asian",R,670,10,0,10,0
+"2014_HH_Aggregate income_Hawaiian",S,671,10,0,10,0
+"2014_HH_Aggregate income_Other",I,672,10,0,10,0
+"2014_HH_Aggregate income_2+ Races",I,673,10,0,10,0
+"2014_HH_Aggregate income_NH_White",R,674,10,0,10,0
+"2014_HH_Aggregate income_Hispanic",I,675,10,0,10,0
+"2014_HU_Occupied",S,676,10,0,10,0
+"2014_HU_Vacant",S,677,10,0,10,0
+"2014_Homeowner vacancy rate",F,678,10,0,10,1
+"2014_Rental vacancy rate",F,679,10,0,10,1
+"2014_Housing units_1 detached",S,680,10,0,10,0
+"2014_Housing units_1 attached",S,681,10,0,10,0
+"2014_Housing units_2",S,682,10,0,10,0
+"2014_Housing units_3-4",S,683,10,0,10,0
+"2014_Housing units_5-9",S,684,10,0,10,0
+"2014_Housing units_10-19",S,685,10,0,10,0
+"2014_Housing units_20+",S,686,10,0,10,0
+"2014_Housing units_Mobile home",S,687,10,0,10,0
+"2014_Housing units_Boat/RV/van",S,688,10,0,10,0
+"2014_Built 2010+",S,689,10,0,10,0
+"2014_Built 2000 to 2009",S,690,10,0,10,0
+"2014_Built 1990 to 1999",S,691,10,0,10,0
+"2014_Built 1980 to 1989",S,692,10,0,10,0
+"2014_Built 1970 to 1979",S,693,10,0,10,0
+"2014_Built 1960 to 1969",S,694,10,0,10,0
+"2014_Built 1950 to 1959",S,695,10,0,10,0
+"2014_Built 1940 to 1949",S,696,10,0,10,0
+"2014_Built 1939 or earlier",S,697,10,0,10,0
+"2014_Rooms_1",S,698,10,0,10,0
+"2014_Rooms_2",S,699,10,0,10,0
+"2014_Rooms_3",S,700,10,0,10,0
+"2014_Rooms_4",S,701,10,0,10,0
+"2014_Rooms_5",S,702,10,0,10,0
+"2014_Rooms_6",S,703,10,0,10,0
+"2014_Rooms_7",S,704,10,0,10,0
+"2014_Rooms_8",S,705,10,0,10,0
+"2014_Rooms_9+",S,706,10,0,10,0
+"2014_Median rooms",F,707,10,0,10,1
+"2014_Bedrooms_None",S,708,10,0,10,0
+"2014_Bedrooms_1",S,709,10,0,10,0
+"2014_Bedrooms_2",S,710,10,0,10,0
+"2014_Bedrooms_3",S,711,10,0,10,0
+"2014_Bedrooms_4",S,712,10,0,10,0
+"2014_Bedrooms_5+",S,713,10,0,10,0
+"2014_Owner occupied",S,714,10,0,10,0
+"2014_Renter occupied",S,715,10,0,10,0
+"2014_Owner occupied_Avg HH size",F,716,10,0,10,2
+"2014_Renter occupied_Avg HH size",F,717,10,0,10,2
+"2014_Moved in 2010+",S,718,10,0,10,0
+"2014_Moved in 2000 to 2009",S,719,10,0,10,0
+"2014_Moved in 1990 to 1999",S,720,10,0,10,0
+"2014_Moved in 1980 to 1989",S,721,10,0,10,0
+"2014_Moved in 1970 to 1979",S,722,10,0,10,0
+"2014_Moved in 1969 or earlier",S,723,10,0,10,0
+"2014_Vehicles_None",S,724,10,0,10,0
+"2014_Vehicles_1",S,725,10,0,10,0
+"2014_Vehicles_2",S,726,10,0,10,0
+"2014_Vehicles_3+",S,727,10,0,10,0
+"2014_Heat_Utility gas",S,728,10,0,10,0
+"2014_Heat_Bottled/tank/LP gas",S,729,10,0,10,0
+"2014_Heat_Electricity",S,730,10,0,10,0
+"2014_Heat_Fuel oil/kerosene",S,731,10,0,10,0
+"2014_Heat_Coal/coke",S,732,10,0,10,0
+"2014_Heat_Wood",S,733,10,0,10,0
+"2014_Heat_Solar energy",S,734,10,0,10,0
+"2014_Heat_Other fuel",S,735,10,0,10,0
+"2014_Heat_No fuel used",S,736,10,0,10,0
+"2014_No telephone service",S,737,10,0,10,0
+"2014_Occupants/room_1 or less",S,738,10,0,10,0
+"2014_Occupants/room_1.01-1.5",S,739,10,0,10,0
+"2014_Occupants/room_1.5+",S,740,10,0,10,0
+"2014_Value_<$50K",S,741,10,0,10,0
+"2014_Value_$50K-99,999",S,742,10,0,10,0
+"2014_Value_$100K-149,999",S,743,10,0,10,0
+"2014_Value_$150K-199,999",S,744,10,0,10,0
+"2014_Value_$200K-299,999",S,745,10,0,10,0
+"2014_Value_$300K-499,999",S,746,10,0,10,0
+"2014_Value_$500K-999,999",S,747,10,0,10,0
+"2014_Value_$1,000,000+",S,748,10,0,10,0
+"2014_Median value",I,749,10,0,10,0
+"2014_Housing units w/mortgage",S,750,10,0,10,0
+"2014_HU w/mort_SMOC <$300",S,751,10,0,10,0
+"2014_HU w/mort_SMOC $300-499",S,752,10,0,10,0
+"2014_HU w/mort_SMOC $500-699",S,753,10,0,10,0
+"2014_HU w/mort_SMOC $700-999",S,754,10,0,10,0
+"2014_HU w/mort_SMOC $1000-1499",S,755,10,0,10,0
+"2014_HU w/mort_SMOC $1500-1999",S,756,10,0,10,0
+"2014_HU w/mort_SMOC $2000+",S,757,10,0,10,0
+"2014_HU w/mort_SMOC Median",F,758,10,0,10,1
+"2014_Housing units w/o mortgage",S,759,10,0,10,0
+"2014_HU w/o mort_SMOC <$100",S,760,10,0,10,0
+"2014_HU w/o mort_SMOC $100-199",S,761,10,0,10,0
+"2014_HU w/o mort_SMOC $200-299",S,762,10,0,10,0
+"2014_HU w/o mort_SMOC $300-399",S,763,10,0,10,0
+"2014_HU w/o mort_SMOC $400+",S,764,10,0,10,0
+"2014_HU w/o mort_SMOC Median",F,765,10,0,10,1
+"2014_Housing units w/mortgage&SMOCAPI",S,766,10,0,10,0
+"2014_HU w/mort_SMOCAPI <20%",S,767,10,0,10,0
+"2014_HU w/mort_SMOCAPI 20-24.9%",S,768,10,0,10,0
+"2014_HU w/mort_SMOCAPI 25-29.9%",S,769,10,0,10,0
+"2014_HU w/mort_SMOCAPI 30-34.9%",S,770,10,0,10,0
+"2014_HU w/mort_SMOCAPI 35%+",S,771,10,0,10,0
+"2014_HU w/mort_SMOCAPI Not computed",S,772,10,0,10,0
+"2014_Housing units w/o mortgage&SMOCAPI",S,773,10,0,10,0
+"2014_HU w/o mort_SMOCAPI <10%",S,774,10,0,10,0
+"2014_HU w/o mort_SMOCAPI 10-14.9%",S,775,10,0,10,0
+"2014_HU w/o mort_SMOCAPI 15-19.9%",S,776,10,0,10,0
+"2014_HU w/o mort_SMOCAPI 20-24.9%",S,777,10,0,10,0
+"2014_HU w/o mort_SMOCAPI 25-29.9%",S,778,10,0,10,0
+"2014_HU w/o mort_SMOCAPI 30-34.9%",S,779,10,0,10,0
+"2014_HU w/o mort_SMOCAPI 35%+",S,780,10,0,10,0
+"2014_HU w/o mort_SMOCAPI Not computed",S,781,10,0,10,0
+"2014_Occupied units paying rent",S,782,10,0,10,0
+"2014_Occ HU paying rent_<$200",S,783,10,0,10,0
+"2014_Occ HU paying rent_$200-299",S,784,10,0,10,0
+"2014_Occ HU paying rent_$300-499",S,785,10,0,10,0
+"2014_Occ HU paying rent_$500-749",S,786,10,0,10,0
+"2014_Occ HU paying rent_$750-999",S,787,10,0,10,0
+"2014_Occ HU paying rent_$1,000-1,499",S,788,10,0,10,0
+"2014_Occ HU paying rent_$1500+",S,789,10,0,10,0
+"2014_Occ HU paying rent_Median",S,790,10,0,10,0
+"2014_Occ HU paying rent_No rent",S,791,10,0,10,0
+"2014_Occupied units paying rent&GRAPI",S,792,10,0,10,0
+"2014_Occ HU_GRAPI <15%",S,793,10,0,10,0
+"2014_Occ HU_GRAPI 15-19.9%",S,794,10,0,10,0
+"2014_Occ HU_GRAPI 20-24.9%",S,795,10,0,10,0
+"2014_Occ HU_GRAPI 25-29.9%",S,796,10,0,10,0
+"2014_Occ HU_GRAPI 30-34.9%",S,797,10,0,10,0
+"2014_Occ HU_GRAPI 35%+",S,798,10,0,10,0
+"2014_Occ HU_GRAPI Not computed",S,799,10,0,10,0
