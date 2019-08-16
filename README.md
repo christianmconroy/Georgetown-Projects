@@ -1,2 +1,2 @@
-# Georgetown-Projects
+# Projects
 Collection of Projects 
