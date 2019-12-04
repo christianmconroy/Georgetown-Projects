@@ -1,0 +1,286 @@
+---
+title: "HipHop Beats"
+author: "Christian Conroy"
+date: "September 10, 2019"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+# install.packages('Rcpp')
+# install.packages('vctrs')
+# library(vctrs)
+library(Rcpp)
+require(knitr)
+require(readxl)
+require(ggplot2)
+library(spotifyr)
+library(dplyr)
+library(geniusr)
+library(rvest)
+library(purrr)
+library(tidytext)
+library(scales)
+library(RColorBrewer)
+# install.packages('highcharter')
+library(highcharter)
+
+opts_chunk$set(echo = TRUE)
+options(digits = 3)
+
+opts_knit$set(root.dir ="~/GeorgetownMPPMSFS/McCourtMPP/RFiles/HipHopBeatsR")
+```
+
+# Practice Using RCharlie Radiohead
+
+In short, Spotify has separate API endpoints for tracks, albums, and artists, each of which needs their own identifying “uri” to access. To simplify the process of grabbing an artist’s entire discography, I created the spotifyr package, which you can install from GitHub.
+
+First, you’ll need to set up a dev account with Spotify here. When you have your “client id” and “client secret”, you can authorize your account by setting them to your environment variables.
+
+```{r message = FALSE, warning= FALSE}
+Sys.setenv(SPOTIFY_CLIENT_ID = "31071fea770d41ee8a54044813a7da88")
+Sys.setenv(SPOTIFY_CLIENT_SECRET = "66a996233749491b8ab42cbe6737a63f")
+```
+
+Now, you can pull audio features for Radiohead’s entire discography with just one line.
+
+```{r message = FALSE, warning= FALSE}
+spotify_df <- get_artist_audio_features('radiohead')
+
+str(spotify_df)
+
+```
+
+Also, as this analysis focused on just the band’s studio albums, I eliminated remixes and EPs.
+
+```{r message = FALSE, warning= FALSE}
+non_studio_albums <- c('TKOL RMX 1234567', 'In Rainbows Disk 2', 'Com Lag: 2+2=5', 'I Might Be Wrong', 'OK Computer OKNOTOK 1997 2017')
+spotify_df <- filter(spotify_df, !album_name %in% non_studio_albums)
+```
+
+While I don't plan to get into lyrics, let's go ahead and use the Genius API just to follow along the module. (Plus good NLP practice)
+
+Genius Lyrics API
+While this data proved to be slightly easier to pull, it was still a multi-step process. Similar to with Spotify, I first used the search API call to get the artist_id. Go here to set up a dev account to get an API token.
+
+```{r message = FALSE, warning= FALSE}
+genius_artists <- search_artist('radiohead', n_results = 10,
+access_token = genius_token())
+```
+
+```{r message = FALSE, warning= FALSE}
+songs <- get_artist_songs(genius_artists[1], include_features = FALSE,
+access_token = genius_token())
+```
+
+```{r message = FALSE, warning= FALSE}
+lyric_scraper <- function(url) {
+    scrape_lyrics_url(url) 
+}
+
+genius_df <- map_df(1:length(songs$song_lyrics_url), function(x) {
+    # add in error handling
+    lyrics <- try(lyric_scraper(songs$song_lyrics_url[x])) # try handles error recovery
+    if (class(lyrics) != 'try-error') {
+        # Concetante together
+        lyrics <- paste(lyrics$line, collapse = " ")
+        # strip out non-lyric text and extra spaces
+        lyrics <- str_replace_all(lyrics, '\\[(Verse [[:digit:]]|Pre-Chorus [[:digit:]]|Hook [[:digit:]]|Chorus|Outro|Verse|Refrain|Hook|Bridge|Intro|Instrumental)\\]|[[:digit:]]|[\\.!?\\(\\)\\[\\],]', '')
+        lyrics <- str_replace_all(lyrics, '\\n', ' ')
+        lyrics <- str_replace_all(lyrics, '([A-Z])', ' \\1')
+        lyrics <- str_replace_all(lyrics, ' {2,}', ' ')
+        lyrics <- tolower(str_trim(lyrics))
+    } else {
+        lyrics <- NA
+    }
+    
+    tots <- list(
+        track_name = songs$song_name[x],
+        lyrics = lyrics
+    )
+    
+    return(tots)
+})
+
+str(genius_df)
+```
+
+After bit of name-standardizing between Spotify and Genius, I left joined genius_df onto spotify_df by track_name (The album info will come in handy later).
+
+```{r message = FALSE, warning= FALSE}
+genius_df$track_name[genius_df$track_name == 'Packt Like Sardines in a Crushd Tin Box'] <- 'Packt Like Sardines in a Crushed Tin Box'
+genius_df$track_name[genius_df$track_name == 'Weird Fishes / Arpeggi'] <- 'Weird Fishes/ Arpeggi'
+genius_df$track_name[genius_df$track_name == 'A Punchup at a Wedding'] <- 'A Punch Up at a Wedding'
+genius_df$track_name[genius_df$track_name == 'Dollars and Cents'] <- 'Dollars & Cents'
+genius_df$track_name[genius_df$track_name == 'Bullet Proof...I Wish I Was'] <- 'Bullet Proof ... I Wish I was'
+
+# We join on track name, so just had to fix the small discrepencies between Genius and Spotify
+
+genius_df <- genius_df %>% 
+    mutate(track_name_join = tolower(str_replace(track_name, '[[:punct:]]', ''))) %>% 
+    filter(!duplicated(track_name_join)) %>% 
+    select(-track_name)
+
+track_df <- spotify_df %>%
+    mutate(track_name_join = tolower(str_replace(track_name, '[[:punct:]]', ''))) %>%
+    left_join(genius_df, by = 'track_name_join') %>%
+    select(track_name, valence, duration_ms, lyrics, album_name, album_release_year, album_images)
+
+str(track_df)
+```
+
+### Now on to the analysis!
+
+Quantifying Sentiment
+Using valence alone, calculating the saddest song is pretty straightforward - the song with the lowest valence wins.
+
+```{r message = FALSE, warning= FALSE}
+track_df %>% 
+    select(valence, track_name) %>%
+    arrange(valence) %>% 
+    slice(1:10)
+
+```
+
+Would that it were so simple. “True Love Waits” and “We Suck Young Blood” tie here (roughly), each with a valence of 0.0378, further illustrating the need to factor in lyrics.
+
+To find the most depressing song, I used sentiment analysis to pick out words associated with sadness.
+
+Specifically, I used tidytext and the NRC lexicon, based on a crowd-sourced project by the National Research Council Canada. This lexicon contains an array of emotions (sadness, joy, anger, surprise, etc.) and the words determined to most likely elicit them.
+
+```{r message = FALSE, warning= FALSE}
+spotify_df$analysis_url[2]
+spotify_df$track_preview_url[2]
+spotify_df$external_urls.spotify[2]
+
+```
+
+To quantify sad lyrics, I calculated the share of “sad” words per song, filtering out “stopwords” (e.g. “the,” “and,” “I”).
+
+```{r message = FALSE, warning= FALSE}
+# An issue with how tidytext used to be structured, so I manually create it here. 
+afinn<- get_sentiments(lexicon = "afinn")
+afinn$lexicon <- "afinn"
+colnames(afinn) <- c("word", "sentiment", "lexicon")
+afinn$sentiment <- ifelse(afinn$sentiment >= 0, "positive",
+                              ifelse(afinn$sentiment < 0,
+                                     "negative", NA))
+                          
+bing<- get_sentiments(lexicon = "bing")
+bing$lexicon <- "bing"
+loughran <- get_sentiments(lexicon = "loughran")
+loughran$lexicon <- "loughran"
+nrc<- get_sentiments(lexicon =  "nrc")
+nrc$lexicon <- "nrc"
+
+sentiments <- rbind(afinn, bing, loughran, nrc)
+
+```
+
+```{r message = FALSE, warning= FALSE}
+sad_words <- sentiments %>% 
+    filter(lexicon == 'nrc', sentiment == 'sadness') %>% 
+    select(word) %>% 
+    mutate(sad = T)
+
+sent_df <- track_df %>% 
+    unnest_tokens(word, lyrics) %>% # Bag of words process
+    anti_join(stop_words, by = 'word') %>%
+    left_join(sad_words, by = 'word') %>%
+    group_by(track_name) %>% 
+    summarise(pct_sad = round(sum(sad, na.rm = T) / n(), 4),
+              word_count = n()) %>% 
+    ungroup
+
+sent_df %>% 
+    select(pct_sad, track_name) %>%
+    arrange(-pct_sad) %>% 
+    head(10)
+
+# There might've been an update to the lexicon since he did his analysis, as this is slightly different. 
+```
+
+## Lyrical Density
+To combine lyrical and musical sadness I turned to an analysis by Myles Harrison, a fellow R Blogger, which coincidentally also dealt with Radiohead lyrics. 
+
+He explored the concept of “lyrical density,” which is, according to his definition - “the number of lyrics per song over the track length.” One way to interpret this is how “important” lyrics are to a given song, making it the perfect weighting metric for my analysis. 
+
+Using track duration and word count, I calculated lyrical density for each track. To create the final “gloom index,” I took the average of valence and the percentage of sad words per track, weighted by lyrical density.
+
+Gloom Index = ((1-valence) + pctSad*(1+lyricalDensity))/2
+
+I also rescaled the metric to fit within 1 and 100, so that the saddest song had a score of 1 and the least sad song scored 100.
+
+```{r message = FALSE, warning= FALSE}
+
+track_df <- track_df %>% 
+    left_join(sent_df, by = 'track_name') %>% 
+    mutate_at(c('pct_sad', 'word_count'), funs(ifelse(is.na(.), 0, .))) %>% 
+    mutate(lyrical_density = word_count / duration_ms * 1000,
+           gloom_index = round(rescale(1 - ((1 - valence) + (pct_sad * (1 + lyrical_density))) / 2, to = c(1, 100)), 2))
+```
+
+```{r message = FALSE, warning= FALSE}
+track_df %>%
+    select(gloom_index, track_name) %>%
+	arrange(gloom_index) %>%
+	head(10)
+
+# Interesting that I don't even have True Love Weights and he did. Others similar. Perhaps the new lexicon updated love from being sad?
+```
+
+To see how sadness evolved across all nine albums, I calculated the average gloom index per album and plotted each song by album release date. To spice up the highcharter plot a bit, I created a custom tooltip incorporating the album_img from Spotify.
+
+```{r message = FALSE, warning= FALSE}
+plot_df <- track_df %>% 
+    rowwise %>% 
+    mutate(tooltip = paste0('<a style = "margin-right:', max(max(nchar(track_name), nchar(album_name)) * 7, 55), 'px">', # dynamic sizing
+                            '<img src=', album_images[1], ' height="50" style="float:left;margin-right:5px">',
+                            '<b>Album:</b> ', album_name,
+                            '<br><b>Track:</b> ', track_name)) %>% 
+    ungroup
+
+avg_line <- plot_df %>% 
+    group_by(album_release_year, album_name) %>% 
+    summarise(avg = mean(gloom_index), album_images = album_images[1]) %>% 
+    ungroup %>% 
+    transmute(x = as.numeric(as.factor(album_release_year)), 
+              y = avg,
+              tooltip = paste0('<a style = "margin-right:55px">',
+                               '<img src=', album_images, ' height="50" style="float:left;margin-right:5px">',
+                               '<b>Album:</b> ', album_name,
+                               '<br><b>Average Gloom Index:</b> ', round(avg, 2),
+                               '</a>'))
+plot_track_df <- plot_df %>% 
+    mutate(tooltip = paste0(tooltip, '<br><b>Gloom Index:</b> ', gloom_index, '</a>'),
+           album_number = as.numeric(as.factor(album_release_year))) %>% 
+    ungroup
+
+album_chart <- hchart(plot_track_df, 'scatter', hcaes(x = as.numeric(as.factor(album_release_year)), y = gloom_index, group = album_name)) %>% 
+    hc_add_series(data = avg_line, type = 'line') %>%
+    hc_tooltip(formatter = JS(paste0("function() {return this.point.tooltip;}")), useHTML = T) %>% 
+    hc_colors(c(sample(brewer.pal(n_distinct(track_df$album_name), 'Paired')), 'black')) %>% 
+    hc_xAxis(title = list(text = 'Album'), labels = list(enabled = F)) %>% 
+    hc_yAxis(max = 100, title = list(text = 'Gloom Index')) %>% 
+    hc_title(text = 'Data Driven Depression') %>% 
+    hc_subtitle(text = 'Radiohead song sadness by album') %>% 
+    hc_add_theme(hc_theme_smpl())
+album_chart$x$hc_opts$series[[10]]$name <- 'Album Averages'
+album_chart
+
+# The new data has the album images in sets of threes. So ideally, up front I would've fixed that var to make it just the front album cover. 
+```
+
+```{r message = FALSE, warning= FALSE}
+
+```
+
+```{r message = FALSE, warning= FALSE}
+
+```
+
+```{r message = FALSE, warning= FALSE}
+
+```
+
