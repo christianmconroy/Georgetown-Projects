@@ -1,2 +1,2 @@
 # Projects
-Collection of Georgetown coursework, data challenge, and independent projects
+Collection of grad school projects, data challenges, and other   independent projects
