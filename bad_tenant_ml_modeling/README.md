@@ -7,3 +7,7 @@
 - Almost all likely evictions had pattern of late rent payment and three-quarters paid the highest late fee on at least one occasion
 - Random Forest on an upsampled version of the data offered the best performance as measured by AUC
 - Contract history, age at the start of contract history, and use of cash for payment appeared to be most important in predicting bad tenants
+
+## Exploratory Data Analysis
+### Understanding tenant and contract history
+
