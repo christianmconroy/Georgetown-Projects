@@ -118,4 +118,15 @@
 - Models are primarily compared based on the Area Under the ROC Curve (AUC) metric providing an aggregate measure of performance across classification thresholds
 - AUC is more useful than accuracy as an evaluation measure due to class imbalance 
 
+### Model Results - Full Dataset
+
+| Model\*                          | AUC   | Precision | Recall    | F1 | Accuracy\*\* |
+| -------------------------------- |:-----:| --------- | --------- | ----|-------------|      
+| Logistic Regression              | 59.8% | 68%       | 21% | 32% | 32% | 90.5%       |
+| Decision Tree                    | 59.8% | 68%       | 21% | 32% | 32% | 90.5%       |
+| Random Forest                    | 60.5% | 40%       | 26% | 31% | 31% | 87.9%       |
+| Gradient Boosted Regression Tree | 58%   | 72%       | 17% | 27% | 27% | 90.4%       |
+| Support Vector Machine           | 60%   | 68%       | 21% | 32% | 32% | 90.5%       | 
+*\ The above results are based on evaluating the trained model on a hold-out test set
+*\*\ Accuracy is not a valuable metric here given imbalance with the target variable
 
