@@ -46,3 +46,16 @@
 | Deposit Returned      | 1,988              |
 | Partially Returned    | 117                |
 | Not Returned          | 188                |
+
+### Evictions and Bad Tenants
+
+- 32 tenants appeared likely to have been evicted based on having gaps on:
+  -The amount of rent they paid versus how much they owed based on contract start and end date or 12/31/2017
+  - The number of payments short they were based on how many payments they should have made based on contract start and end date of 12/31/2017
+- Almost all had a pattern of late rent payment and three-quarters paid the highest late fee on at least one occasion
+
+| Likely Eviction Cause | Number of Tenants                                              |
+| -------------------------------------------------------------------------------- |:---:|
+| Late payment more than 3 months                                                  | 31  |
+| Rent lateness hitting or exceeding largest late fee (Half of monthly rent extra) | 24  |
+
