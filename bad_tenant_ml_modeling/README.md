@@ -39,3 +39,10 @@
 - The deposit is always 3 times the amount of the monthly rent
 - For the contracts that have ended, 86.7% received the deposit back while 5.1% received a partial deposit back
 - 8.2% forfeited their deposit
+
+| Deposit Status        | Number of Contracts|
+| --------------------- |:------------------:|
+| Contract Not Ended Yet| 9,270              |
+| Deposit Returned      | 1,988              |
+| Partially Returned    | 117                |
+| Not Returned          | 188                |
