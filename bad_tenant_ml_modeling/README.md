@@ -127,6 +127,7 @@
 | Random Forest                    | 60.5% | 40%       | 26% | 31% | 31% | 87.9%       |
 | Gradient Boosted Regression Tree | 58%   | 72%       | 17% | 27% | 27% | 90.4%       |
 | Support Vector Machine           | 60%   | 68%       | 21% | 32% | 32% | 90.5%       | 
+
 *\ The above results are based on evaluating the trained model on a hold-out test set
 *\*\ Accuracy is not a valuable metric here given imbalance with the target variable
 
