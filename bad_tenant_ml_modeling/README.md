@@ -19,3 +19,6 @@
 - 1,254 tenants held more than one contract
 - No tenant has more than 4 contracts
 
+### Contracts Length and History Data
+
+
