@@ -31,3 +31,11 @@
 - Not all contract history consists of finished contracts as there is no contract end date listed for tenants still within their contract as of 2017-12-31
 - Length of contract history is therefore defined as length from start of first contract to 2017-12-31 for any tenant still within a contract
 
+### Payments and Transactions
+![](https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/num_pay_meth_ten.png)
+
+- 9,839 tenants used only one payment method while 309 used 2
+- Bank transfer was the most used payment method followed by direct debit and then cash
+- The deposit is always 3 times the amount of the monthly rent
+- For the contracts that have ended, 86.7% received the deposit back while 5.1% received a partial deposit back
+- 8.2% forfeited their deposit
