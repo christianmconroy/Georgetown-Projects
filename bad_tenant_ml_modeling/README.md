@@ -70,7 +70,7 @@
 - Aggregated values based on whatever the time period is for the tenant 
 - The labelling window encompasses the about 72-month period between the first contract date and the last transaction payments recorded on 12/31/17
 - Because transactions begin 12/02/2014, it is assumed that earlier payments were paid on time and tenants were charged 3x deposit rate
-- The final dataset has 1,203 bad tenants and 10,266 good tenants
+- The final dataset has 1,203 bad tenants and 10,266 good tenants
 
 | Bad Tenant Indicator                                                                              | Format                                                                                                              |
 | ------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------------------------:|
@@ -81,5 +81,25 @@
 | Maximum late fee percentage                                                                       | Percent                                                                                                            |
 | Latest payment                                                                                    | Days                                                                                                                |
 | Deposit Status                                                                                    | 0 for deposit returned or contract term not yet ended; 0.5 for partial return, and 1 for non-return               |
+
+### The Features
+
+- 8 features serve as input variables for the model
+- The aggregated values are based on whatever the time period is for the tenant 
+- A control variable is included to indicate whether a tenant has concluded contract history or is still within contract as of 12/31/17
+- Percentages are used to control for the length of contract history and payment methods for contracts that began before 12/02/2014
+- The labelling window encompasses the 72-month period between the first contract date and the last transaction payments recorded on 12/31/17
+
+| Feature                           | Format  |
+| --------------------------------- |:-------:|
+| Contract History                  | Days    |
+| Age at Start of Contract History  | Years   |
+| Number of Contracts               | Volume  |
+| Number of Payment Methods         | Percent |
+| Tenant Reached End of Contract    | Boolean |
+| Direct Debit Portion of Payments  | Percent |
+| Cash Portion of Payments          | Percent |
+| Bank Transfer Portion of Payments | Percent |
+
 
 
