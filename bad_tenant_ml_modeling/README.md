@@ -21,8 +21,8 @@
 
 ### Contracts Length and History Data
 <p float="left">
-  <img src="https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/length_contract_hist.png" width="400" />
-  <img src="https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/length_contract_by_tenant.png" width="400" /> 
+  <img src="https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/length_contract_hist.png" width="500" />
+  <img src="https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/length_contract_by_tenant.png" width="500" /> 
 </p>
 
 
