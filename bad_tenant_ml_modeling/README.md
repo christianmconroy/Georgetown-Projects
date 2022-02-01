@@ -3,13 +3,15 @@
 
 ## Executive Summary
 
-- 10,200 tenants, with 1,254 holding more than one contract*
+- 10,200 tenants, with 1,254 holding more than one contract\*
 - Majority of tenants (6,622) have contract history of at least 24 months
 - 86.7% deposits returned while 5.1% partially returned and 8.2% forfeited
 - 32 tenants appeared likely to have been evicted based on gaps in amount of expected rent and number of expected payments
 - Almost all likely evictions had pattern of late rent payment and three-quarters paid the highest late fee on at least one occasion
 - Random Forest on an upsampled version of the data offered the best performance as measured by AUC
 - Contract history, age at the start of contract history, and use of cash for payment appeared to be most important in predicting bad tenants
+
+*\*Does not include transactions without contract data*
 
 ## Exploratory Data Analysis<br><sup> Understanding tenant and contract history</sup>
 
@@ -101,5 +103,19 @@
 | Cash Portion of Payments          | Percent |
 | Bank Transfer Portion of Payments | Percent |
 
+### The Approach
+
+- 5 different supervised learning methods are evaluated
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - Gradient Boosted Regression Tree
+  - Support Vector Machine
+- Due to class imbalance (bad tenants represented only 10.5% of the tenants overall), both upsampled and downsampled versions of the data are evaluated
+- L1 regularization, or lasso, is applied where relevant for feature selection 
+- Feature importance plots are employed to provide explainability for models 
+- Random Search and Random Grid are used for hyperparameter optimization 
+- Models are primarily compared based on the Area Under the ROC Curve (AUC) metric providing an aggregate measure of performance across classification thresholds
+- AUC is more useful than accuracy as an evaluation measure due to class imbalance 
 
 
