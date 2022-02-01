@@ -25,4 +25,9 @@
   <img src="https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/length_contract_by_tenant.png" width="500" /> 
 </p>
 
+- The majority of tenants (6,622) have a contract history of at least 24 months
+- The second largest number of tenants had a history of 12 months or shorter
+- While 3 month contracts were permitted, few tenants selected that option
+- Not all contract history consists of finished contracts as there is no contract end date listed for tenants still within their contract as of 2017-12-31
+- Length of contract history is therefore defined as length from start of first contract to 2017-12-31 for any tenant still within a contract
 
