@@ -63,3 +63,23 @@
 | Rent lateness hitting or exceeding largest late fee (Half of monthly rent extra) | 24  |
 
 ## Developing a Predictive Model for Bad Tenants<br><sup> Methods and Evaluation</sup>
+
+### The Target Variable
+- Target created by setting a 25% threshold on the average of 8 normalized features indicative of bad tenant behavior 
+- 25% threshold used to capture “bad” tenants and not just tenants likely to get evicted
+- Aggregated values based on whatever the time period is for the tenant 
+- The labelling window encompasses the about 72-month period between the first contract date and the last transaction payments recorded on 12/31/17
+- Because transactions begin 12/02/2014, it is assumed that earlier payments were paid on time and tenants were charged 3x deposit rate
+- The final dataset has 1,203 bad tenants and 10,266 good tenants
+
+| Bad Tenant Indicator                                                                              | Format                                                                                                              |
+| ------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------------------------:|
+| Rent amount short  based on expected amount between contract start and end or 12/31/17            | Amount                                                                                                              |
+| Number of rent payments short based on expected amount between contract start and end or 12/31/17 | Volume                                                                                                              |
+| Number of late payments                                                                           | Volume                                                                                                              |
+| Average late fee percentage                                                                       | Percent                                                                                                            |
+| Maximum late fee percentage                                                                       | Percent                                                                                                            |
+| Latest payment                                                                                    | Days                                                                                                                |
+| Deposit Status                                                                                    | 0 for deposit returned or contract term not yet ended; 0.5 for partial return, and 1 for non-return               |
+
+
