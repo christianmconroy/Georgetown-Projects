@@ -10,3 +10,10 @@
 
 ## Exploratory Data Analysis<br><sup> Understanding tenant and contract history</sup>
 ![](https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/num_con_by_ten.png)
+
+- Total of 11,579 contracts spread across the transactions and contracts data
+- 55 contract ids in contracts data without transactions data and 1,980 transactions (55 contract ids) without contract data
+- 10,200 tenants included (does not include transactions without contract data)
+- 1,254 tenants held more than one contract
+- No tenant has more than 4 contracts
+
