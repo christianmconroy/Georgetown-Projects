@@ -59,3 +59,4 @@
 | Late payment more than 3 months                                                  | 31  |
 | Rent lateness hitting or exceeding largest late fee (Half of monthly rent extra) | 24  |
 
+## Developing a Predictive Model for Bad Tenants<br><sup> Methods and Evaluation</sup>
