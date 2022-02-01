@@ -9,4 +9,4 @@
 - Contract history, age at the start of contract history, and use of cash for payment appeared to be most important in predicting bad tenants
 
 ## Exploratory Data Analysis<br><sup> Understanding tenant and contract history</sup>
-!(https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/num_con_by_ten.png)
+![](https://github.com/christianmconroy/Projects/blob/master/bad_tenant_ml_modeling/images/num_con_by_ten.png)
