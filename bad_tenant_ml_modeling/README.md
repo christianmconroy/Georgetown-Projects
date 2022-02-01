@@ -120,7 +120,7 @@
 
 ### Model Results - Full Dataset
 
-| Model*\                          | AUC   | Precision | Recall    | F1 | Accuracy*\*\ |
+| Model*/                          | AUC   | Precision | Recall    | F1 | Accuracy*/*/ |
 | -------------------------------- |:-----:| --------- | --------- | ----|-------------|      
 | Logistic Regression              | 59.8% | 68%       | 21% | 32% | 32% | 90.5%       |
 | Decision Tree                    | 59.8% | 68%       | 21% | 32% | 32% | 90.5%       |
